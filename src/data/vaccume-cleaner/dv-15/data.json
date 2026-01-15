@@ -1,0 +1,48 @@
+{
+  "title": "Vacuum Cleaner DV-15",
+  "images": [
+      "/Product/Vaccume-Cleaner/DV-15/1.png",
+      "/Product/Vaccume-Cleaner/DV-15/2.png",
+      "/Product/Vaccume-Cleaner/DV-15/3.png",
+      "/Product/Vaccume-Cleaner/DV-15/5.png"
+  ],
+  "specifications": [
+[
+  { "label": "Tank Capacity", "value": "15 L" },
+  { "label": "Voltage", "value": "220 V" },
+  { "label": "Motor Power", "value": "1400 W" },
+  { "label": "Type", "value": "Wet & Dry" },
+  { "label": "Airflow", "value": "48 L/S" },
+  { "label": "Vacuum Suction", "value": "210 mbar" }
+],[
+  { "label": "Tank Dia", "value": "345 mm" },
+  { "label": "Height", "value": "570 mm" },
+  { "label": "Accessories Size", "value": "40 mm" },
+  { "label": "Wire Length", "value": "7 m" },
+  { "label": "Weight", "value": "7 kg" },
+  { "label": "Size", "value": "410 x 410 x 600 mm" }
+]
+
+
+
+  ],
+  "youtubeVideoId": "tguspO8z0MY",
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/vacuum_cleaners/DV-15.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The DV-15 is a highly efficient dry as well as <a href=\"/products/vacuum-cleaner/dv-30\" target=\"_blank\" style=\"color: #6f73d6; \">wet & dry vacuum cleaner</a> that is designed to take on the challenging cleaning issues that are encountered in commercial, industrial, and workshop settings. It has an extremely strong motor that can reach 1000W as well as a solid 15-liter stainless steel tank. It provides powerful suction that can eliminate debris, dust, liquids, spills, and other debris easily. When it comes to cleaning the office flooring, the shop floor, or even the residue left by machines, the DV-15 has been built to last for a long time of use every day.Its small dimensions, coupled with the smooth-rolling wheels and an ergonomic design makes it easy to move, simple to use, and efficient to utilize for long periods of duration. The high-efficiency filtering system that is integrated ensures that the air is clean, that is safe for the users and the surrounding.",
+"keyFeatures": [
+  "Dual Function – Wet & Dry Cleaning – Efficiently handles both liquid spills and dry dust, making it ideal for versatile cleaning needs.",
+  "Compact Yet Powerful – Equipped with a 1000W high-suction motor to deliver strong and consistent performance.",
+  "15-Litre Durable Tank – Robust tank capacity ensures longer cleaning time with fewer interruptions.",
+  "Multi-Surface Cleaning – Perfect for cleaning floors, carpets, sofas, office spaces, workshops, and more.",
+  "Portable & Lightweight Design – Easy to move and operate with sturdy wheels and ergonomic handle.",
+  "Low Noise Operation – Designed to work efficiently with minimal noise – perfect for home and commercial use.",
+  "Easy Drainage System – Comes with a water drain plug for hassle-free emptying after wet use.",
+  "Washable & Reusable Filter – Environment-friendly design with easily washable filters for long-term use."
+]
+
+
+
+
+}

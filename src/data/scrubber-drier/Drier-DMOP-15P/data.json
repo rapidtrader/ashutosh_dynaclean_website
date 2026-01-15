@@ -1,0 +1,44 @@
+{
+  "title": "Walk Behind Scrubber Drier DMOP-15P",
+  "images": [
+    "/Product/Auto-Scrubber-Drier/DMOP-15P/1.png",
+    "/Product/Auto-Scrubber-Drier/DMOP-15P/2.png",
+    "/Product/Auto-Scrubber-Drier/DMOP-15P/3.png",
+    "/Product/Auto-Scrubber-Drier/DMOP-15P/4.png"
+  ],
+  "specifications": [
+    [
+      { "label": "Clean Water Tank", "value": "3L" },
+      { "label": "Waste Water Tank", "value": "3.1L" },
+      { "label": "Scrubbing Width", "value": "500mm" },
+      { "label": "Squeegee Width", "value": "560mm" },
+      { "label": "Cleaning Efficiency", "value": "1750m²/h" },
+      { "label": "Battery Capacity", "value": "18Ah/m" },
+      { "label": "Wire Size", "value": "NA" }
+    ],
+    [
+      { "label": "Voltage", "value": "24V" },
+      { "label": "Brush Motor", "value": "250 x 2 W" },
+      { "label": "Suction Motor", "value": "150W" },
+      { "label": "Brush Pressure", "value": "29Kg" },
+      { "label": "Size", "value": "560x370x1140mm" },
+      { "label": "Weight", "value": "38Kg" },
+      { "label": "Working Time", "value": "1-1.5h" }
+    ]
+  ],
+  "youtubeVideoId": "UNMl90B0jfA",
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/walk_scrubber_driers/DMOP-15P.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The Dynaclean Industries Auto Scrubber Drier DMOP-15P is a powerful, flexible, and compact cleaning machine designed to deliver professional cleaning performance in commercial and industrial spaces. Built to handle heavy-duty cleaning tasks, this auto scrubber drier ensures spotless floors with minimal effort and maximum efficiency. The DMOP-15P Auto Scrubber Drier is perfect for areas that demand high cleaning standards such as factories, gyms, malls, offices, and institutions. Its compact design allows smooth maneuverability, while its advanced scrubbing system provides deep cleaning on a wide range of surfaces including tiled, concrete, and epoxy floors. With its durable construction, ergonomic handling, and efficient drying performance, this auto scrubber drier machine helps achieve higher productivity while reducing maintenance costs — making it the ideal cleaning companion for modern facilities.",
+  "keyFeatures": [
+    "Effective Compact Cleaning with a working area coverage rate up to 1750 m2/hour",
+    "Comfortable for the Operator its equipped with two magnetic disc brushes and a handle that rotates 360 degrees.",
+    "Economical Water Consumption which minimizes the amount of water used.",
+    "Effortless and rapid scrubbing and floor care in diverse facilities.",
+    "Multifunctional Cleaning Designed for shopping malls, supermarkets, hospitals, or even office spaces with astonishing cleaning",
+    "Enhanced Productivity with is Fully battery-operated system.",
+    "Dual side magnetic scrubbing system and squeegee providing thorough dirt extraction and drying in a single pass.",
+    "Enhanced Productivity with is Fully battery-operated system with the battery capacity of 100Ah/m."
+  ]
+}

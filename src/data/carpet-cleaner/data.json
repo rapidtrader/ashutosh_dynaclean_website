@@ -1,0 +1,42 @@
+{
+  "title": "Carpet cleaner DSC-30",
+  "images": [
+    "/Product/carpet-cleaner/carpet cleaner.jpeg",
+    "/Product/carpet-cleaner/1.jpeg",
+    "/Product/carpet-cleaner/2.jpeg",
+    "/Product/carpet-cleaner/3.jpeg",
+    "/Product/carpet-cleaner/4.jpeg"
+  ],
+  "specifications": [
+    [
+      { "label": "Tank Capacity", "value": "30L" },
+      { "label": "Voltage", "value": "220V" },
+      { "label": "Motor Power", "value": "1000W" },
+      { "label": "Type", "value": "Wet & Dry" },
+      { "label": "Airflow Rate", "value": "53 L/min" },
+      { "label": "Vacuum Suction", "value": "230 mbar" },
+      { "label": "Tank Diameter", "value": "345mm" }
+    ],
+    [
+      { "label": "Height", "value": "760 mm" },
+      { "label": "Wire Length", "value": "10m" },
+      { "label": "Weight", "value": "17.5kg" },
+      { "label": "Size", "value": "455x410x920mm" },
+      { "label": "Power (Water Pump)", "value": "34W" },
+      { "label": "Accessories Diameter", "value": "38mm" }
+    ]
+  ],
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/carpet_cleaner/DSC-30.pdf",
+  "descriptionTitle": "Overview",
+  "description": "Introducing the Dynaclean Carpet Injection Machine – a high-performance cleaning system designed to deliver professional-grade carpet care. Built with advanced injection-extraction technology, this machine provides powerful suction and deep cleaning that removes embedded dirt, dust, and stains from carpets, upholstery, and fabric surfaces. Its dual-function system injects water and cleaning solution deep into carpet fibers and simultaneously extracts it, leaving surfaces clean, fresh, and almost dry after every use. The Carpet Injection Machine is engineered for intensive cleaning applications in hotels, offices, hospitals, showrooms, and residential areas. With its 30-litre tank capacity and durable stainless-steel construction, it ensures efficient cleaning performance, reduced downtime, and longer operational life.",
+  "keyFeatures": [
+    "Advanced Injection–Extraction Technology – Provides professional-grade deep cleaning for carpets and upholstery.",
+    "Dual Tank System – 30L recovery tank and 10L solution tank ensure extended operation with minimal downtime.",
+    "High Suction Power – 1000W motor delivers strong airflow for quick and effective drying.",
+    "Efficient Water Pump – 34W pump ensures consistent and controlled detergent spraying.",
+    "User-Friendly Design – Humanized handle and mobile wheels for easy movement and operation.",
+    "Durable Construction – Stainless steel components and robust build for long-lasting use.",
+    "Comprehensive Accessories – Includes floor brush, extension rod, spray gun, and multiple nozzles for versatile applications."
+  ]
+}

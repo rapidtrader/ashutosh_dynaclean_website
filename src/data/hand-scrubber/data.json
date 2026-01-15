@@ -1,0 +1,44 @@
+{
+  "title": "Hand Scrubber Polisher HD-15P",
+  "images": [
+    "/Product/hand-scrubber/hand-scrubber.jpeg",
+    "/Product/hand-scrubber/1.jpeg",
+    "/Product/hand-scrubber/2.jpeg",
+    "/Product/hand-scrubber/3.jpeg"
+  ],
+  "specifications": [
+    [
+      { "label": "Brush", "value": "1200RPM" },
+      { "label": "Power", "value": "1200-3000W" },
+      { "label": "Motor Power", "value": "1000W" },
+      { "label": "Wire", "value": "1.5M" },
+      { "label": "Working Time", "value": "Up to 30 minutes" },
+      { "label": "Weight", "value": "5.5kg" }
+    ],
+    [
+      { "label": "Size", "value": "430x150x170mm" },
+      { "label": "Material", "value": "Plastic" },
+      {
+        "label": "Usage/Application",
+        "value": "Staircase, Chair, Sofa Shampooing"
+      },
+      { "label": "Air Flow Rate", "value": "-" },
+      { "label": "Battery", "value": "18x4 Ah" }
+    ]
+  ],
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/hand_scrubber/HD-15.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The Dynaclean HD-15P is a powerful and portable battery-operated hand scrubber designed for efficient cleaning across multiple surfaces. Its ergonomic dual-handle design and 350 RPM brush speed ensure deep, uniform cleaning on staircases, furniture, and hard floors. With a fast-charging lithium battery, this compact scrubber offers up to 30 minutes of continuous cleaning, making it ideal for both residential and industrial use. The HD-15 delivers unmatched performance, durability, and convenience — the ultimate solution for effortless cleaning anytime, anywhere.",
+  "keyFeatures": [
+    "Powerful Performance – 1060W motor delivers deep and efficient cleaning results with 350 RPM brush speed.",
+    "Cordless & Portable – Battery-operated design allows freedom of movement and flexibility during cleaning.",
+    "Fast Charging & Long Runtime – Fully charges in just 45 minutes for up to 30 minutes of continuous use.",
+    "Lightweight & Ergonomic – Weighs only 5.5 kg, ensuring comfort and reducing fatigue during extended use.",
+    "Single-Hand Operation – Can be operated easily with one hand when the extension handle is detached.",
+    "Adjustable Handle – Extendable handle (110 cm – 137 cm) enables cleaning of high and hard-to-reach areas.",
+    "Versatile Cleaning Options – Includes 18 cm brush and 14.5 cm pad holder for diverse cleaning applications.",
+    "Compact & Space-Saving – Easy to transport and store, ideal for both home and professional cleaning tasks.",
+    "User-Friendly Controls – Integrated handle controls for seamless operation even when extended."
+  ]
+}

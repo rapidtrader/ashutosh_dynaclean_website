@@ -1,0 +1,40 @@
+{
+  "title": "Single Disc Scrubber D-15P ",
+  "images": [
+    "/Product/Single-Disc-Scrubber/D-15P/1.png",
+    "/Product/Single-Disc-Scrubber/D-15P/2.png",
+    "/Product/Single-Disc-Scrubber/D-15P/3.png",
+    "/Product/Single-Disc-Scrubber/D-15P/4.png"
+  ],
+  "specifications": [
+    [
+      { "label": "Power", "value": "1.5 Hp" },
+      { "label": "Brush Size", "value": "430mm" },
+      { "label": "Water Tank", "value": "10L" },
+      { "label": "Voltage", "value": "220V" }
+    ],
+    [
+      { "label": "Brush Speed", "value": "175 rpm" },
+      { "label": "Brush Pressure", "value": "40Kg" },
+      { "label": "Weight", "value": "45Kg" },
+      { "label": "Wire Size", "value": "12 m" },
+      { "label": "Size", "value": "560x465x1230 mm" }
+    ]
+  ],
+  "youtubeVideoId": "EbMqT2J50lc",
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/single_disc_scrubbers/D-15P.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The Dynaclean Industries Floor Scrubber Machine D-15P is a powerful and efficient single disc scrubber designed for professional cleaning applications in commercial and industrial spaces. Built with a robust motor and user-friendly controls, this floor scrubber machine ensures deep cleaning performance with minimal effort. Ideal for daily use, the D-15P Floor Scrubber Machine can be operated on various floor types including marble, tile, concrete, and epoxy surfaces. Its ergonomic design and durable build make it perfect for maintaining high-traffic areas such as airports, metro stations, hospitals, offices, and shopping malls. With superior scrubbing action and easy maneuverability, the Dynaclean D-15P Floor Scrubber Machine guarantees clean, shiny, and hygienic floors every time. It’s the perfect combination of performance, reliability, and ease of use — making it an ideal choice for modern cleaning professionals.",
+
+  "keyFeatures": [
+    "Powerful Cleaning – High-performance 1.5 HP motor and 175 RPM brush speed deliver consistent cleaning.",
+    "User-Friendly – Easy to use with adjustable handle, easy water release, and intuitive controls.",
+    "Built-in Water Tank – 10L onboard capacity for continuous and efficient cleaning.",
+    "Extended Reach – 12-meter long power cord eliminates battery hassles; just plug and clean.",
+    "High-Performance Brushes – Equipped with durable brushes for effortless floor maintenance.",
+    "Versatile Application – Best suited for commercial spaces, malls, hospitals, hotels, and industrial cleaning.",
+    "Deep Cleaning – D-15P's 50 KG brush pressure ensures effective removal of deep stains.",
+    "Easy Maintenance – Designed for fast, low-effort maintenance to keep operations running smoothly."
+  ]
+}

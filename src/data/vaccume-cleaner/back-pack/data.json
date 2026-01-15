@@ -1,0 +1,33 @@
+{
+  "title": "Back-Pack Vacuum Cleaner D-BP6",
+  "images": [
+    "/Product/Vaccume-Cleaner/Back-Pack Vacuum Cleaner/1.png",
+    "/Product/Vaccume-Cleaner/Back-Pack Vacuum Cleaner/2.png",
+    "/Product/Vaccume-Cleaner/Back-Pack Vacuum Cleaner/3.png"
+  ],
+  "specifications": [
+    [
+      { "label": "Power", "value": "1060W" },
+      { "label": "Vacuum Level", "value": "24 Kpa" },
+      { "label": "Dust Tank", "value": "6L" },
+      { "label": "Air Flow", "value": "47 L/s" },
+      { "label": "Weight", "value": "5.5Kg" },
+      { "label": "Size", "value": "400x340x730 mm" },
+      { "label": "Wire Length", "value": "15m" }
+    ]
+  ],
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/back_pack_vacuum_cleaner/D-BP6.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The DBP-6 is a sophisticated and powerful, high-performance <a href=\"/products/vacuum-cleaner/dv-80\" target=\"_blank\" style=\"color: #6f73d6; \">backpack vacuum</a>  Cleaner specifically designed for professionals who require powerful cleaning in difficult-to-access areas. At just under 5kg this machine is ultra-light and offers the most accessibility, ergonomic comfort and powerful suction power which makes it the ideal solution to clean tight spaces such as auditoriums, trains and buses and staircases as well as cabins of aircraft.designed for prolonged duration of use The DBP-6 has an padding, breathable harness system for better distribution of weight, as well as an multi-stage filtering system which ensures more clean air and more secure operating. The whisper-quiet use and hands-free layout lets you efficiently clean, even in areas that are noisy.",
+  "keyFeatures": [
+    "Lightweight Design – Weighs less than 5kg, making it perfect for prolonged cleaning without causing user fatigue.",
+    "Powerful Suction Motor – High-efficiency motor delivers strong suction for both fine dust and coarse particles.",
+    "Back-Pack Style Harness – Ergonomically designed waist and shoulder straps with breathable padding ensure user comfort.",
+    "Multi-Layer Filtration System – Advanced filters trap fine dust, allergens, and other particles, improving indoor air quality.",
+    "Hands-Free Operation – Allows for maximum mobility, ideal for vertical and tight cleaning zones.",
+    "Low Noise Output – Quiet operation suitable for sensitive public spaces such as hospitals, theatres, and transport vehicles.",
+    "Long Power Cord & Flexible Hose – Increases cleaning reach without the need to frequently switch power outlets.",
+    "Ideal for Tight Spaces – Perfect for cleaning staircases, cinema halls, under seats, trains, buses, and aircraft."
+  ]
+}

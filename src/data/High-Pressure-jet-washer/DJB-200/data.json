@@ -1,0 +1,46 @@
+{
+  "title": "High Pressure Jet Washer DJB-200",
+  "images": [
+      "/Product/Jet-washer/DJB-200/1.png",
+      "/Product/Jet-washer/DJB-200/2.png",
+      "/Product/Jet-washer/DJB-200/3.png",
+      "/Product/Jet-washer/DJB-200/4.png"
+  ],
+  "specifications": [
+[
+  { "label": "Pressure", "value": "130 Bar" },
+  { "label": "Flow Rate", "value": "11 L/Min" },
+  { "label": "Fuel", "value": "Battery" },
+  { "label": "Power", "value": "1.5 kW" },
+  { "label": "Voltage", "value": "48 V" },
+  { "label": "Speed", "value": "3000 rpm" }],[
+  { "label": "Weight", "value": "65 Kg" },
+  { "label": "Water Tank", "value": "200L" },
+  { "label": "Working Time", "value": "4-5 hours" },
+  { "label": "Product Size", "value": "1200x800x700 mm" },
+  { "label": "Hose Length", "value": "15m" },
+  { "label": "Wire Length", "value": "NA" }
+]
+
+
+
+
+  ],
+  "youtubeVideoId": "sqFWxUdwdgA",
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/high_pressure_jet_washer/DJB-200.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The DJB-200 is a new generation  <a href=\"/products/high-pressure-jet-washer/diesal-DJ-200\" target=\"_blank\" style=\"color: #6f73d6; \">battery-powered high-pressure washer</a>  that is designed to provide strong, portable, and non-emission cleaning anywhere any anytime, wherever. With a powerful motor, powered by rechargeable high-capacity batteries, this washer produces constant pressure and flow of water, which makes it perfect for areas that do not have access to power or fuel.In everything from parking spaces or vehicle wash facilities to maintenance of public facilities, the DJB-200(dj18) gives you total mobility that emits no emissions, minimal noise, and requires minimal maintenance. No matter if you're working in a small urban or rural area, the DJB 200 will ensure effortless cleaning and professional results.",
+ "keyFeatures": [
+  "Cordless, Battery-Operated Design – No need to plug in electricity or fuel, giving you complete freedom of movement.",
+  "Powerful Pressure Output – Effectively eliminates oil, mud, and dirt from vehicles, surfaces, machinery, and buildings.",
+  "Built-In Water Tank of 200 Liters – Operates independently of water sources, making it ideal for off-grid usage.",
+  "Low Noise & Zero Emissions – Perfect for use in commercial, residential, and environmentally sensitive areas.",
+  "Fast Charging & Long Battery Life – Designed to last for a long time on one charge, with a quick recharge feature.",
+  "Up to 130 Bar Pressure Output – Provides steady and strong pressure to remove stubborn grease, dirt, and grime effortlessly.",
+  "Ideal For Use In – Perfect for construction sites, public places, remote locations, vehicle yards, and other eco-sensitive areas requiring high-pressure cleaning and cordless power."
+]
+
+
+
+}

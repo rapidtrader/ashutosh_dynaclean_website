@@ -1,0 +1,47 @@
+{
+  "title": "Walk Behind Scrubber Drier DB-9050P",
+  "images": [
+      "/Product/Auto-Scrubber-Drier/DB-9050P/1.png",
+      "/Product/Auto-Scrubber-Drier/DB-9050P/2.png",
+      "/Product/Auto-Scrubber-Drier/DB-9050P/3.png",
+      "/Product/Auto-Scrubber-Drier/DB-9050P/4.png"
+  ],
+  "specifications": [
+   [
+  { "label": "Clean Water Tank", "value": "50 L" },
+  { "label": "Waste Water Tank", "value": "90 L" },
+  { "label": "Scrubbing Width", "value": "560 mm" },
+  { "label": "Squeegee Width", "value": "800 mm" },
+  { "label": "Cleaning Efficiency", "value": "2000 m²/h" },
+  { "label": "Battery Capacity", "value": "65 Ah/m" },
+  { "label": "Wire Size", "value": "NA" }
+],
+
+   [
+  { "label": "Voltage", "value": "24 V" },
+  { "label": "Brush Motor", "value": "500 W" },
+  { "label": "Suction Motor", "value": "310 W" },
+  { "label": "Brush Pressure", "value": "30 kg" },
+  { "label": "Size", "value": "1280 x 800 x 1000 mm" },
+  { "label": "Weight", "value": "137 kg" },
+  { "label": "Working Time", "value": "3.0 - 4.0 hours" }
+]
+
+  ],
+  "youtubeVideoId": "VuwDveivehc",
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/walk_scrubber_driers/DB-9050P.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The Dynaclean Industries <a href=\"/products/scrubber-drier/DRO-100T\" target=\"_blank\" style=\"color: #6f73d6; \">Scrubber Drier</a> DB-9050P is fully battery-operated auto scrubber drier. This Floor scrubbing machine is ideal for convenience in diverse commercial and industrial places as it has an impressive serving time. The dual water tanks enable greater stamina while simultaneously enabling high power efficiency motors.",
+ "keyFeatures": [
+  "Enhanced Productivity with fully battery-operated scrubber drier cleans the floor in a single pass—up to 2,000 m²/hour.",
+  "Customer-Oriented Configuration with Intelligent control bays feature an easy 1-key start for initiating operation.",
+  "The bumper switch to STOP, ECO mode, and energy saving for enhanced smoother operation.",
+  "This machine's 90L clean water tank and 50L waste tank allow for long-continuous operation.",
+  "Optimized Water Usage by Scrubbing and drying at the same time without interruptions.",
+  "Multifunctional Cleaning, it's capable of servicing various spaces like hospitals and hotels, as well as other large public places like airports.",
+  "Powerful Cleaning Technology comes with a brush motor and suction motor, exceptional scrubbing and vacuum drying.",
+  "Equipped with a durable, industrial-grade scrubbing brush, this floor scrubber machine ensures deep and consistent cleaning."
+]
+
+}

@@ -1,0 +1,95 @@
+{
+  "title": "Ride On Sweeper DRS-250T",
+  "images": [
+    "/Product/Sweeper/DRS-250T/1.webp"
+  ],
+  "specifications": [
+    [
+      {
+        "label": "Water Tank",
+        "value": "150 L"
+      },
+      {
+        "label": "Dust Tank",
+        "value": "250 L"
+      },
+      {
+        "label": "Sweeping Width",
+        "value": "1900 mm"
+      },
+      {
+        "label": "Edge Brush Width",
+        "value": "500*4 mm"
+      },
+      {
+        "label": "Working hours",
+        "value": "3-4 h"
+      },
+      {
+        "label": "Overall weight",
+        "value": "780kg"
+      },
+      {
+        "label": "Main brush width",
+        "value": "740mm"
+      },
+      {
+        "label": "Anti-Smog Spray",
+        "value": "yes"
+      }
+    ],
+    [
+      {
+        "label": "Main brush Motor",
+        "value": "1000 W"
+      },
+      {
+        "label": "Drive Motor Power",
+        "value": "1500 W"
+      },
+      {
+        "label": "Vaccum Motor Power",
+        "value": "1500 W"
+      },
+      {
+        "label": "Number Of Brushes",
+        "value": "5"
+      },
+      {
+        "label": "Cabinet",
+        "value": "1"
+      },
+      {
+        "label": "In-Built Jet Presuure Washer",
+        "value": "100 bar"
+      },
+      {
+        "label": "Hopper Volume",
+        "value": "250 L"
+      },
+      {
+        "label": "Cleaning efficiency",
+        "value": "19000 m/h"
+      },
+      {
+        "label": "Product size",
+        "value": "2210 x 1900 x 1980 mm"
+      },
+      {
+        "label": "Working Time",
+        "value": "4.0 - 5.0 hours"
+      }
+    ]
+  ],
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/ride_on_sweeper/DRS-250T.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The DRS-250T Ride-On Sweeper is an advanced eco-friendly industrial municipal and commercial sweeping ride-on machine. The DRS-250T is capable of sweeping construction sites, roads, airports, warehouses and commercial complexes, all with professional-level accuracy. It is built for maximum operator comfort alongside durability and high-performance components. This machine is ideal for sweeping large areas.",
+  "keyFeatures": [
+    "Extended Runtime - Up to 4 continuous hours of operation for demanding environments.",
+    "Superior Coverage - Four side brushes provide precision and a wide sweeping path, enabling effortless handling of vast areas.",
+    "High-Capacity Hopper - Operational efficiency is increased with the 250L waste tank that minimizes the frequency of unloading.",
+    "Industrial-Grade Build - Enhanced durability for use in factories, warehouses and outdoor use.",
+    "Operator Comfort - Intuitive controls smooth maneuverability, ergonomic seating make ease of work out of long hours."
+  ]
+}

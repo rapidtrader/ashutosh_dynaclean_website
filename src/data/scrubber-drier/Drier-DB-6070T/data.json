@@ -1,0 +1,46 @@
+{
+  "title": "Walk Behind Scrubber Drier DB-6070T",
+  "images": [
+      "/Product/Auto-Scrubber-Drier/DB-6070T/main.webp",
+      "/Product/Auto-Scrubber-Drier/DB-6070T/2.webp",
+      "/Product/Auto-Scrubber-Drier/DB-6070T/3.webp",
+      "/Product/Auto-Scrubber-Drier/DB-6070T/4.png"
+  ],
+  "specifications": [
+   [
+  { "label": "Clean Water Tank", "value": "65 L" },
+  { "label": "Waste Water Tank", "value": "71 L" },
+  { "label": "Scrubbing Width", "value": "530 mm" },
+  { "label": "Squeegee Width", "value": "800 mm" },
+  { "label": "Cleaning Efficiency", "value": "2200 m²/h" },
+  { "label": "Battery Capacity", "value": "65 Ah/m" },
+  { "label": "Wire Size", "value": "NA" }
+],
+
+   [
+  { "label": "Voltage", "value": "24 V" },
+  { "label": "Brush Motor", "value": "550 W" },
+  { "label": "Suction Motor", "value": "500 W" },
+  { "label": "Brush Pressure", "value": "35 kg" },
+  { "label": "Size", "value": "1110 x 800 x 950 mm" },
+  { "label": "Weight", "value": "102 kg" },
+  { "label": "Working Time", "value": "2.5 - 3.0 hours" }
+]
+
+  ],
+  "youtubeVideoId": "B-ElAd_opYA",
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/walk_scrubber_driers/DB-6070T.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The Dynaclean Industries Scrubber Drier Machine DB-6070T is a fully battery-operated auto scrubber designed for maximum cleaning performance and durability. As one of the best scrubber drier machines in India, it is built to meet the demanding cleaning requirements of commercial, industrial, and institutional environments. This scrubber drier machine is perfect for maintaining spotless and hygienic floors in factories, hospitals, metro stations, airports, universities, and large public spaces. Its user-friendly design ensures powerful cleaning results with minimum operational effort, making it ideal for professional cleaning teams. With advanced features and robust construction, the DB-6070T Scrubber Drier Machine guarantees consistent cleaning performance, high productivity, and easy maintenance. Whether you need efficient cleaning for wide floor areas or quick drying performance, this machine delivers superior results every time.",
+ "keyFeatures": [
+    "Enhanced productivity with fully battery-operated cleans up to 2,200 m² per hour.",
+    "It can do the work equal to more than a dozen manual cleaners.",
+    "Customer-oriented configuration that offers easy operations with user-friendly touch controls.",
+    "Manufactured with high-quality brush that cleans the area effectively.",
+    "With multifunctional cleaning, it's best for large area cleaning like offices, hospitals, and parking lots.",
+    "Powerful cleaning technology, with scrubbing and drying tools that increase productivity.",
+    "Optimized water usage: Simplified disassembly of the tank and waste bin.",
+    "Powerful brush and suction equipped with large capacity tanks for efficient cleaning."
+  ]
+}

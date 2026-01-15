@@ -1,0 +1,47 @@
+{
+  "title": "Ride On Sweeper DRS-90T",
+  "images": [
+      "/Product/Sweeper/DRS-90T/1.png",
+      "/Product/Sweeper/DRS-90T/2.png",
+      "/Product/Sweeper/DRS-90T/3.png",
+      "/Product/Sweeper/DRS-90T/4.png",
+      "/Product/Sweeper/DRS-90T/5.png"
+  ],
+  "specifications": [
+    [
+  { "label": "Solution Tank", "value": "90 L" },
+  { "label": "Recovery Tank", "value": "100 L" },
+  { "label": "Sweeping Width", "value": "1250 mm" },
+  { "label": "Main/Side Brush Width", "value": "490 x 300 / 2 x 460 mm" },
+  { "label": "Cleaning Efficiency", "value": "7000 m²/h" },
+  { "label": "Battery Capacity", "value": "65 x 4 Ah" },
+  { "label": "Working Time", "value": "4.0 - 5.0 hours" }
+],
+
+
+  [
+  { "label": "Voltage", "value": "48 V" },
+  { "label": "Brush/Suction Motor", "value": "650/2 x 90 W" },
+  { "label": "Drive Motor", "value": "800 W" },
+  { "label": "Side Brush Motor", "value": "90 x 2 W" },
+  { "label": "Weight", "value": "320 kg" },
+  { "label": "Size", "value": "1395 x 1250 x 1325 mm" }
+]
+  ],
+    "youtubeVideoId": "7VZQcTVyClo",
+  "contactLink": "/contact.html",
+  "catalogLink": "/catalogue/sweepers/DRS-90T.pdf",
+  "descriptionTitle": "Overview",
+  
+  "description": "The DRS-90T Ride On Sweeper is an all-in-one cleaning unit designed for use in industrial, commercial, or outdoor spaces. As a <a href=\"/products/sweeper/ride-on-sweeper-DRS180T\" target=\"_blank\" style=\"color: #6f73d6; \">ride On Sweeper</a>, it is comfortable to use and performs well while being easy to control. The DRS-90T features modern filtration and dust collection systems, which make it easy to operate. Its ability to remove dirt, dust, and debris with ease allows the DRS-90T to clean parking lots, warehouses, and factory floors.",
+
+  "keyFeatures": [
+    "Enhanced Efficiency: The unit’s strong suction power and wide sweeping path allow it to clear large spaces in short periods of time.",
+    "Optimal Dust Control: Clean air and minimal dust return are ensured thanks to the multi-stage filtration system with a powerful vacuum and filter shaker.",
+    "Easy Maintenance: Brush replacement does not require tools, and important components are easy to access, reducing service costs.",
+    "Increased Operating Time: The DRS-90T can be fitted with a battery system in addition to a fuel-efficient engine, providing extended runtime ideal for long shifts.",
+    "Simple Design: The ergonomic user cabin design ensures perfect seating posture and comfort, with clear controls and excellent visibility for fatigue-free operation.",
+    "Sturdy Construction: The unit is perfect for tough working environments, with impact-resistant body panels and a durable steel frame."
+]
+
+}

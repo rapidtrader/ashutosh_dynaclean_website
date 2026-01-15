@@ -1,0 +1,40 @@
+{
+  "title": "Single Disc Scrubber D-20P ",
+  "images": [
+    "/Product/Single-Disc-Scrubber/D-20P/1.png",
+    "/Product/Single-Disc-Scrubber/D-20P/2.png",
+    "/Product/Single-Disc-Scrubber/D-20P/3.png",
+    "/Product/Single-Disc-Scrubber/D-20P/4.png"
+  ],
+  "specifications": [
+    [
+      { "label": "Power", "value": "2.0 Hp" },
+      { "label": "Brush Size", "value": "430mm" },
+      { "label": "Water Tank", "value": "10L" },
+      { "label": "Voltage", "value": "220V" }
+    ],
+    [
+      { "label": "Brush Speed", "value": "175 rpm" },
+      { "label": "Brush Pressure", "value": "48Kg" },
+      { "label": "Weight", "value": "50Kg" },
+      { "label": "Wire Size", "value": "12 m" },
+      { "label": "Size", "value": "560x470x1230 mm" }
+    ]
+  ],
+  "youtubeVideoId": "EbMqT2J50lc",
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/single_disc_scrubbers/D-20P.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The D-20P is an industrial/commercial-grade heavy-duty <a href=\"/products/Single-disc-scrubber/D-25P\" target=\"_blank\" style=\"color: #6f73d6; \">single disc scrubber</a> that can clean, polish and maintain every type of floor surface. The powerful 2.0 HP motor, high levels of brush pressure, and the ease of use allow dependable performance, regardless of the type of floor surface. It's an exceptionally good, high-spec, flexible professional scrubber with power. ",
+
+  "keyFeatures": [
+    "Powerful Cleaning – High-performance cleaning with a 2.0 HP motor and a brush speed of 175 RPM for effective and efficient results.",
+    "User-Friendly Operation – Adjustable handle, with easy access to water releases and control switches for convenient use.",
+    "Built-in Water Tank – 10L onboard water tank for continuous cleaning without interruptions.",
+    "Extended Reach – 12-meter power cord allows for cleaning without being restricted by frequently changing sockets; just plug it in and clean.",
+    "Heavy-Duty Construction – Built for longevity with heavy-duty components and frame.",
+    "High Brush Pressure – 50 KG brush pressure effortlessly lifts even deeply set stains and dirt from surfaces.",
+    "Industrial Reliability – Built for reliability in an industrial capacity, offering durability (tough components) and powerful performance with little effort.",
+    "Versatile Application – Best suited for use in commercial spaces, malls, hospitals, hotels, and industrial cleaning."
+  ]
+}

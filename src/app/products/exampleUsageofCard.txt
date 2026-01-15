@@ -1,0 +1,35 @@
+import Card from "@/components/common/CardComponent";
+import ResponsiveSection from "@/components/Banner/ResponsiveSection";
+
+const Products = () => {
+  const cardData = {
+    images: [
+      "/Home/Products/Gall/products-1.webp",
+      "/Home/Products/Gall/products-1.webp",
+      "/Home/Products/Gall/products-1.webp",
+    ],
+    url: "/some-page",
+    title: "Sample Card Title",
+    description:
+      "This is a sample description that could be longer or shorter depending on the content. The card height will remain the same.",
+  };
+
+  return (
+    <main>
+      <ResponsiveSection
+        imagePath="/Product/ourProduct.jpg" // public directory
+        imageSide="left" // or "right"
+        title="Our Products"
+        description="Experience a new level of cleanliness with our advanced cleaning machine, designed to make every surface spotless with minimal effort. Equipped with cutting-edge technology, it delivers powerful performance for a sparkling clean home or workspace, every time"
+      />
+      <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 m-25">
+        <Card {...cardData} />
+        <Card {...cardData} />
+        <Card {...cardData} />
+        <Card {...cardData} />
+      </div>
+    </main>
+  );
+};
+
+export default Products;

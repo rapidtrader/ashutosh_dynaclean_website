@@ -1,0 +1,45 @@
+{
+  "title": "High Pressure Jet Washer DJE-30",
+  "images": [
+      "/Product/Jet-washer/DJE-30/1.png",
+      "/Product/Jet-washer/DJE-30/2.png",
+      "/Product/Jet-washer/DJE-30/3.png",
+      "/Product/Jet-washer/DJE-30/4.png"
+  ],
+  "specifications": [
+[
+  { "label": "Pressure", "value": "150 Bar" },
+  { "label": "Flow Rate", "value": "15 L/Min" },
+  { "label": "Fuel", "value": "Electric" },
+  { "label": "Power", "value": "3 kW" },
+  { "label": "Voltage", "value": "220 V" },
+  { "label": "Speed", "value": "2880 rpm" }],[
+  { "label": "Weight", "value": "50 Kg" },
+  { "label": "Water Tank", "value": "NA" },
+  { "label": "Working Time", "value": "NA" },
+  { "label": "Product Size", "value": "735x475x480 mm" },
+  { "label": "Hose Length", "value": "15m" },
+  { "label": "Wire Length", "value": "5m" }
+]
+
+
+
+
+  ],
+  "youtubeVideoId": "mFWdPIUNcr4",
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/high_pressure_jet_washer/DJE-30.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The DJE-30 is a sturdy high-pressure <a href=\"/products/high-pressure-jet-washer/electric-DJE-18\" target=\"_blank\" style=\"color: #6f73d6; \">electric jet washer</a> that is designed for professionals who require the highest quality of cleaning with no compromise. It can deliver the capacity of 150 bar of pressure and a hefty 15 liters per minute water flow This machine can cut through a tough mud, grease and industrial dirt easily and operates silently and quietly.It is ideal for both outdoor and indoor usage Ideal for outdoor and indoor use, the DJE-30 is powered by electricity, which makes it an energy-efficient, noise-free, zero-emissions solution suitable for homes, such as hospitals, schools warehouses, commercial buildings. With its sturdy construction, a easy-to-use design and consistently high pressure output the DJE-30 can be your ideal choice for reliable and sustainable cleaning.",
+"keyFeatures": [
+  "Up to 150 Bar High Pressure – Jet action is powerful enough to take on dirt, grime, and oil easily.",
+  "Electric Powered & Eco-Friendly – Clean and emission-free, ideal for those sensitive to noise and pollution.",
+  "15 L/min Water Flow Rate – Large surfaces are covered faster, reducing water consumption and time.",
+  "Low Noise Operation – Ideal for indoor or early morning use, without disturbing others.",
+  "Easy Maintenance – Simple controls, fewer moving parts, and reliable performance.",
+  "Ideal For – Industrial sites, car washing stations, warehouses, schools, hospitals, and many other noise- or emission-sensitive areas."
+]
+
+
+
+}

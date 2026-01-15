@@ -1,0 +1,41 @@
+{
+  "title": "Vacuum Cleaner DV-80",
+  "images": [
+    "/Product/Vaccume-Cleaner/DV-80/1.jpg",
+    "/Product/Vaccume-Cleaner/DV-80/3.png",
+    "/Product/Vaccume-Cleaner/DV-80/5.png",
+    "/Product/Vaccume-Cleaner/DV-80/6.png"
+  ],
+  "specifications": [
+    [
+      { "label": "Tank Capacity", "value": "80 L" },
+      { "label": "Voltage", "value": "220 V" },
+      { "label": "Motor Power", "value": "4500 W" },
+      { "label": "Type", "value": "Wet & Dry" },
+      { "label": "Airflow", "value": "120 L/S" },
+      { "label": "Vacuum Suction", "value": "250 mbar" }
+    ],
+    [
+      { "label": "Tank Diameter", "value": "440 mm" },
+      { "label": "Height", "value": "1050 mm" },
+      { "label": "Wire Length", "value": "7 m" },
+      { "label": "Weight", "value": "32.1 kg" },
+      { "label": "Size", "value": "620 x 540 x 1070 mm" }
+    ]
+  ],
+  "youtubeVideoId": "tguspO8z0MY",
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/vacuum_cleaners/DV-80.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The DV-80 is a powerful industrial-grade <a href=\"/products/vacuum-cleaner/back-pack-DBP6\" target=\"_blank\" style=\"color: #6f73d6; \">dry and wet vacuum cleaner</a> that is designed to take on the toughest cleaning challenges easily. It comes with the massive 4200W a motor system and an large eight-liter tank made of stainless steel that provides an unstoppable suction force and extends use, which is ideal for factories workshops, warehouses as well as construction areas.It is designed to work as well as you do the DV-80 comes with the robust frame, advanced dust filtering and smoothly-glided wheels to ensure effortless mobility. If it's debris, dust or liquid waste, this machine can handle it all. Nonstop.",
+  "keyFeatures": [
+    "80-Litre Durable Tank – Robust tank capacity ensures longer cleaning time with fewer interruptions.",
+    "Multi-Surface Cleaning – Perfect for cleaning floors, carpets, sofas, office spaces, workshops, and more.",
+    "Portable & Lightweight Design – Easy to move and operate with sturdy wheels and ergonomic handle.",
+    "Dual Function – Wet & Dry Cleaning – Efficiently handles both liquid spills and dry dust, making it ideal for versatile cleaning needs.",
+    "Compact Yet Powerful – Equipped with a 4200W high-suction motor to deliver strong and consistent performance.",
+    "Low Noise Operation – Designed to work efficiently with minimal noise – perfect for home and commercial use.",
+    "Easy Drainage System – Comes with a water drain plug for hassle-free emptying after wet use.",
+    "Washable & Reusable Filter – Environment-friendly design with easily washable filters for long-term use."
+  ]
+}

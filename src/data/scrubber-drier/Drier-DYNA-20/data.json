@@ -1,0 +1,51 @@
+{
+  "title": "Walk Behind Scrubber Drier DYNA-20",
+  "images": [
+    "/Product/Auto-Scrubber-Drier/DYNA-20/1.png",
+    "/Product/Auto-Scrubber-Drier/DYNA-20/2.png"
+  ],
+
+  "specifications": [
+    [
+      
+      { "label": "Battery", "value": "32Ah × 2" },
+      { "label": "Cleaning Width", "value": "350 mm" },
+      { "label": "Suction Width", "value": "430 mm" },
+      { "label": "Cleaning Efficiency", "value": "1350 m²/h" },
+      { "label": "Brush Diameter", "value": "350 mm" },
+      { "label": "Noise Level", "value": "≤ 60 dBA" },
+      { "label": "Clean Water Tank Capacity", "value": "15 L" },
+      { "label": "Dirty Water Tank Capacity", "value": "18 L" }
+    ],
+    [
+      { "label": "Voltage", "value": "24 V" },
+      { "label": "Brush Motor Power", "value": "400 W" },
+      { "label": "Suction Motor Power", "value": "500 W" },
+      { "label": "Brush Pressure", "value": "32 kg" },
+      { "label": "Working Time", "value": "3–4 hours" },
+      { "label": "Machine Size", "value": "877 × 456 × 1020 mm" },
+      { "label": "Packing Size", "value": "900 × 580 × 700 mm" },
+      { "label": "Weight", "value": "77 kg" }
+    ]
+  ],
+
+  "youtubeVideoId": "Z_iX3hLixH0",
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/walk_scrubber_driers/DYNA-20.pdf",
+
+  "descriptionTitle": "Overview",
+  "description": "The Dynaclean DYNA-20 is a compact and high-efficiency floor scrubber drier designed for fast, deep, and hygienic cleaning in commercial spaces. Built for tight areas and daily cleaning tasks, it delivers powerful scrubbing, excellent water recovery, and long working hours—making it ideal for hospitals, hotels, offices, retail stores, schools, and more.<br><br>Powered by a 24V system with 32Ah × 2 batteries, the DYNA-20 works continuously for 3–4 hours, ensuring uninterrupted performance. Its 400W brush motor with a 350mm scrubbing width removes stubborn dirt with ease, while the 500W suction motor and 430mm suction width leave the floor completely dry and safe in one pass. With a quiet operation of ≤60 dBA, it fits perfectly in noise-sensitive environments.<br><br>Equipped with a 15L clean water tank, 18L dirty water tank, and 32 kg brush pressure, the DYNA-20 offers powerful cleaning with minimal effort. Delivering 1350 m²/h cleaning efficiency, it boosts productivity and reduces labour costs—making it one of the best compact scrubber driers for modern facility cleaning.<br><br>The DYNA-20 combines durability, ease of use, and reliable performance, making it the ideal choice for businesses looking for a smart and compact floor cleaning solution.",
+
+  "keyFeatures": [
+  "Compact & Efficient Design ideal for tight and congested cleaning spaces",
+  "High Cleaning Efficiency delivering up to 1,350 m²/hour performance",
+  "Long Working Time of 3–4 hours with a powerful 24V battery system (32Ah × 2)",
+  "Powerful 400W Brush Motor for deep and effective scrubbing",
+  "Strong 500W Suction Motor ensuring fast drying and streak-free floors",
+  "Low Noise Operation ≤60 dBA suitable for hospitals, offices, and silent zones",
+  "Durable Dual Tank System with 15L clean water and 18L dirty water capacity",
+  "Enhanced Brush Pressure of 32 kg for tough dirt removal",
+  "User-Friendly Controls for easy handling by any operator",
+  "Sturdy & Compact Build designed for long-term, heavy-duty daily use"
+]
+}

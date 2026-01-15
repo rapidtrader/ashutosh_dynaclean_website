@@ -1,0 +1,49 @@
+{
+  "title": "Municipal Sweeper Truck DTMS-3000",
+  "images": [
+      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-1000/1.png",
+      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-3000/1.png",
+      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-3000/2.png"
+
+  ],
+  "specifications": [
+
+    [
+  { "label": "Chassis", "value": "4.5 Ton" },
+  { "label": "Hopper Capacity", "value": "3 m³" },
+  { "label": "Auxiliary Engine", "value": "76 Hp" },
+  { "label": "Rotary Brush", "value": "2x 500mm" },
+  { "label": "Main Brush", "value": "1550mm" },
+  { "label": "Main Brush Dia", "value": "381mm" },
+  { "label": "Sweeping Width", "value": "2300mm" }],[
+  { "label": "Working Speed", "value": "2.0-15.2 km/h" },
+  { "label": "Water Tank", "value": "300L" },
+  { "label": "Dust Tank", "value": "18000 m²/h" },
+  { "label": "Vacuum Hose", "value": "5m" },
+  { "label": "Hose Dia", "value": "150mm" },
+  { "label": "High Pressure Jet Washer", "value": "Yes" },
+  { "label": "Auxiliary Engine Fuel", "value": "Diesel" },
+  { "label": "Recommended Chassis", "value": "TATA 407" }
+]
+
+
+  ],
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/municipal_sweeper/DTMS-3000.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The DTMS-3000 Road Sweeper Truck is a new diagonal diesel road cleaning machine specifically designed for deep <a href=\"/products/battery-operated-sweeper-truck/DTMS-3000\" target=\"_blank\" style=\"color: #6f73d6; \">municipal cleaning operations</a>. This heavy-duty truck squeegee is equipped with powerful suction, a wide sweeping coverage area, and an effective dust control system for high dust and debris conditions to create a spotless environment. The DTMS-3000 in conjunction with its ergonomic operator cabin is designed for uninterrupted long period of fast clean.The DTMS-3000 is fit for construction sites, highways, and urban roads. It has a large waste hopper and integrated litter picker. Its reliable design along with advanced smart cleaning technology provides durability for public spaces, making it the top choice for municipal bodies in India.",
+"keyFeatures": [
+  "Powerful Performance – Best performance in heavy-duty sweeping operations, as it utilizes high torque from the diesel engines.",
+  "Long Operating Range – Able to run for several hours continuously without frequent refuels.",
+  "Integrated Litter Picker – Enhanced efficiency along edges and corners of curbs for the easy collection of larger forms of litter such as wrappers and bottles.",
+  "High Suction Capacity – Efficiently lifts dust, gravel, leaves, and plastic litter from roads.",
+  "Large Waste Hopper – Less operational pauses bringing increased efficiency by decreasing the need for frequent unloads.",
+  "Best For City Use – Best suited for major roads, urban roads, and large industrial cities.",
+  "High-Capacity Water & Dust Tanks – 100L water and 1000L dust collection for extended operation.",
+  "Strong Water Spraying System – Improves cleaning quality by reducing airborne dust while cleaning.",
+  "Tough Conditions Are No Problem – Functions properly in any weather or terrain."
+]
+
+
+
+}

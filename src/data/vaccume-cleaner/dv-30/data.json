@@ -1,0 +1,48 @@
+{
+  "title": "Vacuum Cleaner DV-30",
+  "images": [
+      "/Product/Vaccume-Cleaner/DV-30/1.png",
+      "/Product/Vaccume-Cleaner/DV-30/3.png",
+      "/Product/Vaccume-Cleaner/DV-30/5.png",
+      "/Product/Vaccume-Cleaner/DV-30/6.png"
+  ],
+  "specifications": [
+[
+  { "label": "Tank Capacity", "value": "30 L" },
+  { "label": "Voltage", "value": "220 V" },
+  { "label": "Motor Power", "value": "1500 W" },
+  { "label": "Type", "value": "Wet & Dry" },
+  { "label": "Airflow", "value": "53 L/S" },
+  { "label": "Vacuum Suction", "value": "230 mbar" }
+],[
+  { "label": "Tank Diameter", "value": "345 mm" },
+  { "label": "Height", "value": "760 mm" },
+  { "label": "Wire Length", "value": "7 m" },
+  { "label": "Weight", "value": "12 kg" },
+  { "label": "Size", "value": "410 x 410 x 780 mm" }
+]
+
+
+
+  ],
+  "youtubeVideoId": "tguspO8z0MY",
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/vacuum_cleaners/DV-30.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The DV-30 is an extremely efficient dry and wet vacuum cleaner designed to tackle the <a href=\"/products/vacuum-cleaner/dv-15\" target=\"_blank\" style=\"color: #6f73d6; \">tough cleaning </a> challenges encountered in industrial, commercial, and workshop settings. It is equipped with a powerful motor of 1400W along with a sturdy 30-liter stainless-steel tank It provides powerful suction to eliminate dust, debris, liquid, and spills with ease. If it's cleaning the workplace floor, a shop, or the residue of machinery, the DV-30 has been designed to last for years of service, day after day.Its compact dimensions, along with smooth-rolling wheels and ergonomic design, make it simple for users to transport, simple to use, and efficient to use for a long time. The high-efficiency filtering system integrated assures clean air flow, which is secure for users as well as the environment.",
+
+  "keyFeatures": [
+    "30-Litre Durable Tank – Robust tank capacity ensures longer cleaning time with fewer interruptions.",
+    "Multi-Surface Cleaning – Perfect for cleaning floors, carpets, sofas, office spaces, workshops, and more.",
+    "Portable & Lightweight Design – Easy to move and operate with sturdy wheels and ergonomic handle.",
+    "Low Noise Operation – Designed to work efficiently with minimal noise – perfect for home and commercial use.",
+    "Easy Drainage System – Comes with a water drain plug for hassle-free emptying after wet use.",
+    "Washable & Reusable Filter – Environment-friendly design with easily washable filters for long-term use.",
+    "Dual Function – Wet & Dry Cleaning – Efficiently handles both liquid spills and dry dust, making it ideal for versatile cleaning needs.",
+    "Compact Yet Powerful – Equipped with a 1400W high-suction motor to deliver strong and consistent performance."
+  ]
+
+
+
+
+}

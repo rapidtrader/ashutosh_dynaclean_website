@@ -1,0 +1,106 @@
+RewriteEngine On
+RewriteBase /
+
+# Redirect specific old HTML pages to new Next.js routes
+
+# Example: Redirect about.html to /about
+RewriteRule ^about\.html$ /about [R=301,L]
+
+# Example: Redirect careers.html to /careers
+RewriteRule ^careers\.html$ /careers [R=301,L]
+
+# Example: Redirect contact.html to /contact
+RewriteRule ^contact\.html$ /contact [R=301,L]
+
+# Example: Redirect faq.html to /faq
+RewriteRule ^faq\.html$ /faq [R=301,L]
+
+# Example: Redirect privacy-policy.html to /privacy-policy
+RewriteRule ^privacy-policy\.html$ /privacy-policy [R=301,L]
+
+# Example: Redirect products.html to /products
+RewriteRule ^products\.html$ /products [R=301,L]
+
+# Example: Redirect service-support.html to /service-support
+RewriteRule ^service-support\.html$ /service-support [R=301,L]
+
+# --- Product Categories ---
+RewriteRule ^products-battery-operated-sweeper-truck\.html$ /products/battery-operated-sweeper-truck [R=301,L]
+RewriteRule ^products-escalator-cleaner\.html$ /products/escalator-cleaner [R=301,L]
+RewriteRule ^products-high-pressure-jet-washer\.html$ /products/high-pressure-jet-washer [R=301,L]
+RewriteRule ^products-municipal-diesel-sweeper-truck\.html$ /products/municipal-diesel-sweeper-truck [R=301,L]
+RewriteRule ^products-scooter-mop\.html$ /products/scooter-mop [R=301,L]
+RewriteRule ^products-scrubber-drier\.html$ /products/scrubber-drier [R=301,L]
+RewriteRule ^products-Single-disc-scrubber\.html$ /products/Single-disc-scrubber [R=301,L]
+RewriteRule ^products-steam-cleaner\.html$ /products/steam-cleaner [R=301,L]
+RewriteRule ^products-sweeper\.html$ /products/sweeper [R=301,L]
+RewriteRule ^products-vacuum-cleaner\.html$ /products/vacuum-cleaner [R=301,L]
+
+
+# --- Specific Product Pages ---
+# (You will need to add MANY more of these based on your Next.js build output)
+# Example: products/battery-operated-sweeper-truck/DRS-600.html to /products/battery-operated-sweeper-truck/DRS-600
+RewriteRule ^products/battery-operated-sweeper-truck/DRS-600\.html$ /products/battery-operated-sweeper-truck/DRS-600 [R=301,L]
+RewriteRule ^products/battery-operated-sweeper-truck/DTMS-1000\.html$ /products/battery-operated-sweeper-truck/DTMS-1000 [R=301,L]
+RewriteRule ^products/battery-operated-sweeper-truck/DTMS-2000\.html$ /products/battery-operated-sweeper-truck/DTMS-2000 [R=301,L]
+RewriteRule ^products/battery-operated-sweeper-truck/DTMS-3000\.html$ /products/battery-operated-sweeper-truck/DTMS-3000 [R=301,L]
+RewriteRule ^products/battery-operated-sweeper-truck/DTMS-4000\.html$ /products/battery-operated-sweeper-truck/DTMS-4000 [R=301,L]
+RewriteRule ^products/battery-operated-sweeper-truck/DTMS-5000\.html$ /products/battery-operated-sweeper-truck/DTMS-5000 [R=301,L]
+RewriteRule ^products/battery-operated-sweeper-truck/DTMS-6000\.html$ /products/battery-operated-sweeper-truck/DTMS-6000 [R=301,L]
+
+# Escalator Cleaner
+RewriteRule ^products/escalator-cleaner/D-510ES\.html$ /products/escalator-cleaner/D-510ES [R=301,L]
+
+# High-Pressure Jet Washer
+RewriteRule ^products/high-pressure-jet-washer/battery-DJB-200\.html$ /products/high-pressure-jet-washer/battery-DJB-200 [R=301,L]
+RewriteRule ^products/high-pressure-jet-washer/diesal-DJ-200\.html$ /products/high-pressure-jet-washer/diesal-DJ-200 [R=301,L]
+RewriteRule ^products/high-pressure-jet-washer/electric-DJE-18\.html$ /products/high-pressure-jet-washer/electric-DJE-18 [R=301,L]
+RewriteRule ^products/high-pressure-jet-washer/electric-DJE-30\.html$ /products/high-pressure-jet-washer/electric-DJE-30 [R=301,L]
+
+# Municipal Diesel Sweeper Truck
+RewriteRule ^products/municipal-diesel-sweeper-truck/DTMS-1000\.html$ /products/municipal-diesel-sweeper-truck/DTMS-1000 [R=301,L]
+RewriteRule ^products/municipal-diesel-sweeper-truck/DTMS-2000\.html$ /products/municipal-diesel-sweeper-truck/DTMS-2000 [R=301,L]
+RewriteRule ^products/municipal-diesel-sweeper-truck/DTMS-3000\.html$ /products/municipal-diesel-sweeper-truck/DTMS-3000 [R=301,L]
+RewriteRule ^products/municipal-diesel-sweeper-truck/DTMS-4000\.html$ /products/municipal-diesel-sweeper-truck/DTMS-4000 [R=301,L]
+RewriteRule ^products/municipal-diesel-sweeper-truck/DTMS-5000\.html$ /products/municipal-diesel-sweeper-truck/DTMS-5000 [R=301,L]
+RewriteRule ^products/municipal-diesel-sweeper-truck/DTMS-6000\.html$ /products/municipal-diesel-sweeper-truck/DTMS-6000 [R=301,L]
+
+# Scooter Mop
+RewriteRule ^products/scooter-mop/DMS-115P\.html$ /products/scooter-mop/DMS-115P [R=301,L]
+
+# Scrubber Drier
+RewriteRule ^products/scrubber-drier/DB-6070T\.html$ /products/scrubber-drier/DB-6070T [R=301,L]
+RewriteRule ^products/scrubber-drier/DB-9050P\.html$ /products/scrubber-drier/DB-9050P [R=301,L]
+RewriteRule ^products/scrubber-drier/DMOP-15P\.html$ /products/scrubber-drier/DMOP-15P [R=301,L]
+RewriteRule ^products/scrubber-drier/DRO-100P\.html$ /products/scrubber-drier/DRO-100P [R=301,L]
+RewriteRule ^products/scrubber-drier/DRO-100T\.html$ /products/scrubber-drier/DRO-100T [R=301,L]
+RewriteRule ^products/scrubber-drier/DRO-200T\.html$ /products/scrubber-drier/DRO-200T [R=301,L]
+RewriteRule ^products/scrubber-drier/DRO-8085\.html$ /products/scrubber-drier/DRO-8085 [R=301,L]
+RewriteRule ^products/scrubber-drier/DYNA-40\.html$ /products/scrubber-drier/DYNA-40 [R=301,L]
+
+# Single-disc Scrubber
+RewriteRule ^products/Single-disc-scrubber/D-15P\.html$ /products/Single-disc-scrubber/D-15P [R=301,L]
+RewriteRule ^products/Single-disc-scrubber/D-20P\.html$ /products/Single-disc-scrubber/D-20P [R=301,L]
+RewriteRule ^products/Single-disc-scrubber/D-25P\.html$ /products/Single-disc-scrubber/D-25P [R=301,L]
+
+# Steam Cleaner
+RewriteRule ^products/steam-cleaner/D-Steam2\.html$ /products/steam-cleaner/D-Steam2 [R=301,L]
+
+# Sweeper
+RewriteRule ^products/sweeper/manual-sweeper-DS255\.html$ /products/sweeper/manual-sweeper-DS255 [R=301,L]
+RewriteRule ^products/sweeper/manual-sweeper-DSE55\.html$ /products/sweeper/manual-sweeper-DSE55 [R=301,L]
+RewriteRule ^products/sweeper/ride-on-sweeper-DRS180T\.html$ /products/sweeper/ride-on-sweeper-DRS180T [R=301,L]
+RewriteRule ^products/sweeper/ride-on-sweeper-DRS90T\.html$ /products/sweeper/ride-on-sweeper-DRS90T [R=301,L]
+
+# Vacuum Cleaner
+RewriteRule ^products/vacuum-cleaner/back-pack-DBP6\.html$ /products/vacuum-cleaner/back-pack-DBP6 [R=301,L]
+RewriteRule ^products/vacuum-cleaner/dv-15\.html$ /products/vacuum-cleaner/dv-15 [R=301,L]
+RewriteRule ^products/vacuum-cleaner/dv-30\.html$ /products/vacuum-cleaner/dv-30 [R=301,L]
+RewriteRule ^products/vacuum-cleaner/dv-60\.html$ /products/vacuum-cleaner/dv-60 [R=301,L]
+RewriteRule ^products/vacuum-cleaner/dv-80\.html$ /products/vacuum-cleaner/dv-80 [R=301,L]
+
+
+
+<FilesMatch "DRO-200T\.pdf$">
+  Header add Link "<https://dynacleanindustries.com/products/scrubber-drier/DRO-200T>; rel=\"canonical\""
+</FilesMatch>

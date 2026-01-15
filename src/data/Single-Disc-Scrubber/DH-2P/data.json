@@ -1,0 +1,40 @@
+{
+  "title": "Single Disc Scrubber DH-2P",
+  "images": ["/Product/Single-Disc-Scrubber/DH-2P/1.jpeg"],
+
+  "specifications": [
+    [
+      { "label": "Power", "value": "2 HP" },
+      { "label": "Brush Size", "value": "3 × 300 mm" },
+      { "label": "Water Tank (Clean)", "value": "10 L" },
+      { "label": "Voltage", "value": "240 V" },
+      { "label": "Brush Speed", "value": "360 Rpm" }
+    ],
+    [
+      { "label": "Brush Pressure", "value": "90 kg" },
+      { "label": "Weight", "value": "105 kg" },
+      { "label": "Cable / Wire Length", "value": "12 m" },
+      { "label": "Machine Size (L × W × H)", "value": "585 × 680 × 1,245 mm" }
+    ]
+  ],
+
+  "youtubeVideoId": "",
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/single_disc_scrubbers/DH-2P.pdf",
+
+  "descriptionTitle": "Overview",
+  "description": "The Dynaclean DH-2P is a powerful single-disc scrubber engineered for heavy commercial use and demanding floor maintenance tasks. Built for facilities requiring aggressive scrubbing performance, the DH-2P combines a robust 2 HP motor with a triple-disc configuration (3 × 300 mm) to deliver exceptional soil removal on concrete, tiles, stone, and industrial flooring.<br><br>Equipped with a 10 L water tank and a high brush pressure of 90 kg, the DH-2P ensures deep cleaning, fast dirt breakup, and effective removal of grease, grime, and surface buildup. Its heavy-duty 105 kg construction provides consistent floor contact for maximum scrubbing efficiency.<br><br>Designed to operate from a standard 240 V supply and fitted with a 15 m industrial-grade cable, the DH-2P allows wide-area coverage with fewer interruptions. Reliable, durable, and performance-driven, it is ideal for commercial complexes, industrial units, malls, workshops, hospitals, hotels, and large facility maintenance applications.",
+
+  "keyFeatures": [
+    "Heavy-Duty 2 HP Motor provides strong torque for deep and aggressive scrubbing",
+    "Triple Disc System (3 × 300 mm) ensures wide coverage and superior dirt removal",
+    "High Brush Pressure of 90 kg delivers exceptional deep-cleaning performance",
+    "Large 10 L Water Tank enables uninterrupted cleaning for extended durations",
+    "Industrial-Grade Build (105 kg) ensures stability, durability, and long service life",
+    "15 m Heavy-Duty Cable offers excellent reach for large cleaning areas",
+    "Suitable for demanding commercial and industrial cleaning applications",
+    "Ideal for malls, workshops, factories, hotels, hospitals, and high-traffic floor care",
+    "Consistent and uniform floor contact ensures fast removal of grime and hardened dirt",
+    "Engineered for reliability, reduced operator fatigue, and long-term daily use"
+  ]
+}

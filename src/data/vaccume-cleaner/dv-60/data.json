@@ -1,0 +1,43 @@
+{
+  "title": "Vacuum Cleaner DV-60",
+  "images": [
+    "/Product/Vaccume-Cleaner/DV-60/1.jpg",
+    "/Product/Vaccume-Cleaner/DV-60/3.png",
+    "/Product/Vaccume-Cleaner/DV-60/5.png",
+    "/Product/Vaccume-Cleaner/DV-60/6.png"
+  ],
+  "specifications": [
+    [
+      { "label": "Tank Capacity", "value": "60 L" },
+      { "label": "Voltage", "value": "220 V" },
+      { "label": "Motor Power", "value": "3000 W" },
+      { "label": "Type", "value": "Wet & Dry" },
+      { "label": "Airflow", "value": "106 L/S" },
+      { "label": "Vacuum Suction", "value": "250 mbar" }
+    ],
+    [
+      { "label": "Tank Diameter", "value": "440 mm" },
+      { "label": "Height", "value": "1000 mm" },
+      { "label": "Accessories Size", "value": "40 mm" },
+      { "label": "Wire Length", "value": "7 m" },
+      { "label": "Weight", "value": "24.5 kg" },
+      { "label": "Size", "value": "410 x 550 x 1050 mm" }
+    ]
+  ],
+  "youtubeVideoId": "tguspO8z0MY",
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/vacuum_cleaners/DV-60.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The DV-60 <a href=\"/products/vacuum-cleaner/dv-80\" target=\"_blank\" style=\"color: #6f73d6; \">Vacuum Cleaner</a>  is a Sturdy, high-capacity dry and wet cleaning machine designed for high-end performance in the industrial sector. With  motors of 2800W, which provide strong suction to take on everything from dust particles to liquid spills easily. The massive 60-liter stainless steel tank guarantees fewer interruptions in cleaning and more time-consuming cleaning cycles, making it the perfect solution for warehouses, factories, workshops, and large commercial areas.Created for durability and effectiveness, the DV-60 comes with robust wheels and an advanced filter system as well as the sleek design to ensure easy movement and operation. If you're working with a the tough industrial grime or commercial clean-up, DV-60 will be the perfect machine for strength, capacity, and dependability.",
+
+  "keyFeatures": [
+    "Dual Function – Wet & Dry Cleaning – Efficiently handles both liquid spills and dry dust, making it ideal for versatile cleaning needs.",
+    "Compact Yet Powerful – Equipped with a 2800W high-suction motor to deliver strong and consistent performance.",
+    "60-Litre Durable Tank – Robust tank capacity ensures longer cleaning time with fewer interruptions.",
+    "Multi-Surface Cleaning – Perfect for cleaning floors, carpets, sofas, office spaces, workshops, and more.",
+    "Portable & Lightweight Design – Easy to move and operate with sturdy wheels and ergonomic handle.",
+    "Low Noise Operation – Designed to work efficiently with minimal noise – perfect for home and commercial use.",
+    "Easy Drainage System – Comes with a water drain plug for hassle-free emptying after wet use.",
+    "Washable & Reusable Filter – Environment-friendly design with easily washable filters for long-term use."
+  ]
+}

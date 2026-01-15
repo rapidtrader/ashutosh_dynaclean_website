@@ -1,0 +1,35 @@
+{
+  "title": "Scooter Mop DMS-115P",
+  "images": ["/Product/Scooter-mop/1.png", "/Product/Scooter-mop/2.png"],
+  "specifications": [
+    [
+      { "label": "Cleaning Width", "value": "900mm" },
+      { "label": "Wheel Size", "value": "250mm" },
+      { "label": "Gradability", "value": "20°" },
+      { "label": "Voltage", "value": "48V" },
+      { "label": "Motor Power", "value": "350W" }
+    ],
+    [
+      { "label": "Battery", "value": "18X4 Ah" },
+      { "label": "Working Time", "value": "3-4 hours" },
+      { "label": "Weight", "value": "65Kg" },
+      { "label": "Size", "value": "1220x620x980 mm" }
+    ]
+  ],
+  "youtubeVideoId": "BQDs6M1p_dI",
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/scooter_mop/DMS-115P.pdf",
+  "descriptionTitle": "Overview",
+  "description": "Designed to assist in swift and easy cleaning of expansive floor areas, the DMS-115P is a <a href=\"/products/steam-cleaner/D-Steam2\" target=\"_blank\" style=\"color: #6f73d6; \">moping scooter</a> that combines features of a scooter and a mop, allowing users to ride on it. Being compact so it can be used in tight spaces and allows smooth movement, making it suitable for daily use in offices, hospitals, supermarkets, airports and factories. It is equipped with smart controls and a dual mop system that allows thorough cleaning with less effort, making it an ideal productivity booster, while still maintaining flexibility, durability, and a powerful performance.",
+
+  "keyFeatures": [
+    "Smart Control System with bright multifunction screen sits up front, letting the operator control speed, hit reverse, and set the brakes.",
+    "Powerful Long-Lasting Battery with working time of 3-4 hour in a single plug-in.",
+    "Advanced Ride-On Design the whole cleaning process stays comfortable.",
+    "Durable, Large cleaning width: 900mm does the factory flooring as if dirt were never there.",
+    "Compact Yet Sturdy Build 65 Kg of weight, moves easily through a standard double doorway yet never feels delicate.",
+    "Adjustable Dual Mop Configuration swap the front and rear pads in seconds so the machine can clean uneven workshop floor without skipping a beat.",
+    "Wide Cleaning Path a 900mm cleaning width eats up square meters before the operator can decide what to tackle next.",
+    "Versatile Usage Across Industries Offices, gyms, hospitals, and diners all welcome the same machine; it swaps roles as naturally as the staff do."
+  ]
+}

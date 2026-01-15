@@ -1,0 +1,47 @@
+{
+  "title": "Ride on Scrubber Drier DRO-8085",
+  "images": [
+      "/Product/Auto-Scrubber-Drier/DRO-8085/1.png",
+      "/Product/Auto-Scrubber-Drier/DRO-8085/2.png",
+      "/Product/Auto-Scrubber-Drier/DRO-8085/3.png",
+      "/Product/Auto-Scrubber-Drier/DRO-8085/4.png"
+  ],
+  "specifications": [
+[
+  { "label": "Clean Water Tank ", "value": "80L" },
+  { "label": "Waste Water Tank ", "value": "85L" },
+  { "label": "Scrubbing Width", "value": "530mm" },
+  { "label": "Squeegee Width", "value": "850mm" },
+  { "label": "Cleaning Efficiency", "value": "3600m²/h" },
+  { "label": "Battery Capacity/Wire Size", "value": "75Ah" },
+  { "label": "Voltage", "value": "24V" }
+],[
+  { "label": "Brush Power Motor", "value": "500W" },
+  { "label": "Suction Motor Power", "value": "500W" },
+  { "label": "Drive Motor", "value": "500W" },
+  { "label": "Overall Size", "value": "1265mm x 600mm x 1030mm" },
+  { "label": "Weight", "value": "180kg" },
+  { "label": "Working Time", "value": "3.0 - 4.0 hours" }
+]
+
+  ],
+  "youtubeVideoId": "nQHW1UX6iok",
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/ride_on_scrubber_driers/DRO-8085.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The Dynaclean Industries Ride On Scrubber Drier DRO-8085 is a high-performance cleaning machine engineered for large-scale commercial and industrial environments. Designed with innovation and operator comfort in mind, this ride on scrubber drier delivers exceptional cleaning efficiency, durability, and reliability for modern cleaning applications.Ideal for malls, airports, hospitals, metro and train stations, the DRO-8085 Ride On Scrubber Drier ensures spotless and hygienic floors with minimal manual effort. Every aspect of its design focuses on safety, ease of use, and productivity — making it perfect for high-traffic public spaces that demand consistent cleaning performance.Built with a rugged body, powerful suction, and advanced scrubbing system, this ride on scrubber drier machine provides thorough cleaning and fast drying on every pass. Its user-friendly controls and ergonomic seating make long cleaning sessions effortless and efficient.",
+"keyFeatures": [
+  "Floor cleaning machine DRO-8085 gives the efficiency to clean at a rate of 10000m2/h",
+  "DRO-8085 is a fully battery-operated scrubber drier making it perfect for large, open areas without access to power access.",
+  "Tank Capacity of this Floor scrubber machine has 80L of clean water capacity, 85L waste tank.",
+  "Comfort and Easy Operation with safe stable performance with scrubber easy to use.",
+  "DRO-8085 is built for daily heavy-duty use delivering exceptional performance with its 530 mm scrubbing width",
+  "Flexible Uses this scrubber drier Works effectively in hospitals, airports, and such as parking and train stations.",
+  "Enhanced Advanced Cleaning Features with Silent Operation cleaning system and deep scrubbing and rapid drying capabilities.",
+  "Durable and Low-Maintenance with impact-resistant 10mm thick body, and high-quality components"
+]
+
+
+
+
+}

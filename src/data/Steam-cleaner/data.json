@@ -1,0 +1,31 @@
+{
+  "title": "Steam Cleaner D-Steam2",
+  "images": ["/Product/steam-cleaner/1.png", "/Product/steam-cleaner/2.png"],
+  "specifications": [
+    [
+      { "label": "Power", "value": "2000W" },
+      { "label": "Voltage", "value": "220V" },
+      { "label": "Water Tank", "value": "2.4L" }
+    ],
+    [
+      { "label": "Pressure", "value": "4 Bar" },
+      { "label": "Weight", "value": "5.5Kg" },
+      { "label": "Size", "value": "590x380x390 mm" }
+    ]
+  ],
+  "youtubeVideoId": "zwFZMshdD2A",
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/steam_cleaner/D-STEAM2.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The Steam cleaner D-STEAM2 is a state-of-the-art multi-purpose dry <a href=\"/products/scooter-mop/DMS-115P\" target=\"_blank\" style=\"color: #6f73d6; \">steam cleaner</a> that is environment friendly and portable to carry around. The eco-cleaner generates intense steam that totally disinfects different parts of buildings like hotels and hospitals, lifting and eliminating any slime, dirt, or harmful contaminants with ease. This makes the cleaner perfect for use in sensitive areas where utmost cleanliness is vital. It's effortless for anyone to utilize Steam cleaner D-STEAM2.",
+
+  "keyFeatures": [
+    "High Pressure Steam Power – Cleans grease, grime, and stubborn stains effectively without the use of chemicals.",
+    "Eco-Friendly & Chemical-Free – Utilizes only water as a resource, making it both safe and environmentally friendly.",
+    "Rapid Heating System – Provides steam promptly, reducing downtime and allowing for more continuous cleaning.",
+    "Easy to Use & Durable – Features intuitive controls and solid construction for safe, wear-resistant, and long-lasting operation.",
+    "Portable & Lightweight – Weighs only 5.5 kg, enabling easy movement during various cleaning tasks.",
+    "Increased Tank Volume – A 2.4 L tank allows for longer operation times without the need for frequent refills.",
+    "Wide Industry Usage – Applicable for bathroom sanitization, glass & window cleaning, kitchen degreasing, and car interiors."
+  ]
+}

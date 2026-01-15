@@ -1,0 +1,43 @@
+{
+  "title": "High Pressure Jet Washer DJE-18",
+  "images": [
+      "/Product/Jet-washer/DJE-18/1.png",
+      "/Product/Jet-washer/DJE-18/2.png",
+      "/Product/Jet-washer/DJE-18/3.png",
+      "/Product/Jet-washer/DJE-18/4.png"
+  ],
+  "specifications": [
+[
+  { "label": "Pressure", "value": "120 Bar" },
+  { "label": "Flow Rate", "value": "10 L/Min" },
+  { "label": "Fuel", "value": "Electric" },
+  { "label": "Power", "value": "1.8 kW" },
+  { "label": "Voltage", "value": "220 V" },
+  { "label": "Speed", "value": "1440 rpm" }],[
+  { "label": "Weight", "value": "24.5 Kg" },
+  { "label": "Water Tank", "value": "NA" },
+  { "label": "Working Time", "value": "4-5 hours" },
+  { "label": "Product Size", "value": "670x415x375 mm" },
+  { "label": "Hose Length", "value": "12m" },
+  { "label": "Wire Length", "value": "3m" }
+]
+
+
+
+  ],
+  "youtubeVideoId": "fhyBc_Cpbuc",
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/high_pressure_jet_washer/DJE-18.pdf",
+  "descriptionTitle": "Overview",
+  "description": "Take a look at the  <a href=\"/products/high-pressure-jet-washer/electric-DJE-30\" target=\"_blank\" style=\"color: #6f73d6; \">DJE-18 Dynaclean's </a> small but powerful electric high-pressure cleaner, created to remove dirt and grease with a high degree of precision and power. With a powerful 1.8 horsepower motor which produces an impressive 120 bar force and a powerful 10 litres per minute flow that makes it the ideal eco-friendly option for commercial, industrial, and even residential cleaning.Do not settle for the squeaky, polluting sound of a gas cleaner.The DJE-18 offers low-noise and emission-free performance that lets you clean anyplace, at any time, without any compromise. The durable, portable design allows you to carry it wherever demanding cleaning tasks call for, including factory floors, automobile fleets to machinery, and outdoor surfaces.",
+ "keyFeatures": [
+  "Eco-Friendly & Energy Efficient – Clean smarter with zero emissions and minimal energy consumption.",
+  "Heavy-Duty Power – Delivers 120-bar pressure to cut through the toughest dirt with ease.",
+  "Portable & User-Friendly – Lightweight and compact design allows easy mobility during operation.",
+  "Multi-Functional Spray Control – Adjusts from gentle rinse to powerful pressure for versatile cleaning.",
+  "Low Maintenance, High Performance – Electric-powered system ensures fewer breakdowns and reduced operating costs."
+]
+
+
+
+}
