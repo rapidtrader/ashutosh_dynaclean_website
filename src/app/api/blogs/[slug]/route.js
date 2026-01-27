@@ -12,13 +12,14 @@ export async function GET(request, { params }) {
     }
 
     const db = await getDbConnection();
+    // api work
 
     // Fetch the single blog post by its slug
     const [blogRows] = await db.query(
       `SELECT id, title, slug, image_path, created_at, content
        FROM blogs
        WHERE slug = ?`,
-      [slug]
+      [slug],
     );
 
     db.end();
@@ -28,7 +29,7 @@ export async function GET(request, { params }) {
     }
 
     const blog = blogRows[0];
-    
+
     // Construct the full image URL
     if (blog && blog.image_path) {
       blog.image_path = `${process.env.NEXT_PUBLIC_API_URL}${blog.image_path}`;
@@ -39,7 +40,7 @@ export async function GET(request, { params }) {
     console.error("Error fetching blog post:", error);
     return NextResponse.json(
       { message: "Internal server error." },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start -p 3002",
     "lint": "next lint"
@@ -13,11 +13,11 @@
     "clsx": "^2.1.1",
     "formidable": "^3.5.4",
     "mysql2": "^3.14.3",
-    "next": "^16.1.2",
-    "nodemailer": "^7.0.3",
+    "next": "15.2.8",
+    "nodemailer": "^6.9.13",
     "prop-types": "^15.8.1",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
+    "react": "19.1.4",
+    "react-dom": "19.1.4",
     "react-icons": "^5.5.0",
     "react-spring": "^10.0.1",
     "swiper": "^11.2.8"
