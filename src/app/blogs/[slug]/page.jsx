@@ -142,7 +142,7 @@ const BlogPostPage = () => {
             {blog.image_path && (
               <div className="relative w-full aspect-video mb-8 rounded-2xl overflow-hidden border border-slate-100 shadow-md shadow-slate-200 bg-slate-50">
                 <Image
-                  href={blog.image_path}
+                  src={blog.image_path}
                   alt={blog.title}
                   fill
                   className="object-contain"
@@ -192,7 +192,7 @@ const BlogPostPage = () => {
                         {item.image_path && (
                           <div className="relative h-12 w-12 flex-shrink-0 rounded-lg overflow-hidden bg-slate-100 border border-slate-100">
                             <Image
-                              href={item.image_path}
+                              src={item.image_path}
                               alt={item.title}
                               fill
                               className="object-cover group-hover:scale-105 transition-transform"

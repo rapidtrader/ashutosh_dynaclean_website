@@ -30,7 +30,7 @@ const BlogCard = ({ blog }) => {
       <Link href={`/blogs/${blog?.slug}`} className="block">
         <div className="relative h-48 w-full">
           <Image
-            href={blog?.image_path}
+            src={blog?.image_path}
             alt={blog?.title}
             layout="fill"
             objectFit="cover"
