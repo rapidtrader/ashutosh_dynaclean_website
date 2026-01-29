@@ -142,7 +142,7 @@ const BlogPostPage = () => {
             {blog.image_path && (
               <div className="relative w-full aspect-video mb-8 rounded-2xl overflow-hidden border border-slate-100 shadow-md shadow-slate-200 bg-slate-50">
                 <Image
-                  src={blog.image_path}
+                  href={blog.image_path}
                   alt={blog.title}
                   fill
                   className="object-contain"
@@ -192,7 +192,7 @@ const BlogPostPage = () => {
                         {item.image_path && (
                           <div className="relative h-12 w-12 flex-shrink-0 rounded-lg overflow-hidden bg-slate-100 border border-slate-100">
                             <Image
-                              src={item.image_path}
+                              href={item.image_path}
                               alt={item.title}
                               fill
                               className="object-cover group-hover:scale-105 transition-transform"
@@ -234,7 +234,9 @@ const BlogPostPage = () => {
           text-decoration-thickness: 2px;
           font-weight: 500;
           position: relative;
-          transition: color 150ms ease, background-color 150ms ease;
+          transition:
+            color 150ms ease,
+            background-color 150ms ease;
         }
         .blog-content a::after {
           content: "";
@@ -247,7 +249,9 @@ const BlogPostPage = () => {
           opacity: 0;
           transform: scaleX(0.8);
           transform-origin: center;
-          transition: opacity 150ms ease, transform 150ms ease;
+          transition:
+            opacity 150ms ease,
+            transform 150ms ease;
         }
         .blog-content a:hover::after {
           opacity: 1;

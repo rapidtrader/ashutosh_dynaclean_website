@@ -27,11 +27,11 @@ const BlogCard = ({ blog }) => {
 
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105">
-      <Link href={`/blogs/${blog.slug}`} className="block">
+      <Link href={`/blogs/${blog?.slug}`} className="block">
         <div className="relative h-48 w-full">
           <Image
-            src={blog.image_path}
-            alt={blog.title}
+            href={blog?.image_path}
+            alt={blog?.title}
             layout="fill"
             objectFit="cover"
             className="group-hover:opacity-80 transition-opacity"
@@ -39,10 +39,10 @@ const BlogCard = ({ blog }) => {
         </div>
         <div className="p-6">
           <h2 className="text-xl font-semibold text-gray-800 mb-2 truncate">
-            {blog.title}
+            {blog?.title}
           </h2>
           <p className="text-sm text-gray-500 mb-4">
-            {new Date(blog.created_at).toLocaleDateString()}
+            {new Date(blog?.created_at).toLocaleDateString()}
           </p>
           <p className="text-gray-600 line-clamp-3 mb-4">
             {/* Display the plain text snippet */}
