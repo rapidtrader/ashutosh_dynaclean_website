@@ -46,6 +46,7 @@ const BlogCard = ({ blog }) => {
               src={blog.image_path}
               alt={blog?.title}
               fill
+              unoptimized
               className="object-cover group-hover:opacity-80 transition-opacity"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               onError={() => setImageError(true)}

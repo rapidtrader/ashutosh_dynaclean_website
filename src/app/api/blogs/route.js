@@ -33,16 +33,25 @@ export async function GET(request) {
     db.end();
 
     // Construct the full image URL for each blog post
+    const apiBase = (process.env.NEXT_PUBLIC_API_URL || '').replace(/\/$/, '');
     const blogsWithFullUrl = blogsRows.map(blog => {
       let fullImagePath = blog.image_path;
+      if (!fullImagePath) return { ...blog, image_path: fullImagePath };
       // Fix malformed URLs (e.g. app.dynacleanindustries.com + https://res.cloudinary.com concatenated)
-      if (fullImagePath && fullImagePath.includes('https://res.cloudinary.com')) {
+      if (fullImagePath.includes('https://res.cloudinary.com')) {
         const cloudinaryMatch = fullImagePath.match(/https:\/\/res\.cloudinary\.com[^\s"']+/);
         if (cloudinaryMatch) fullImagePath = cloudinaryMatch[0];
       }
-      // Only prepend API URL for relative paths; use as-is for full URLs (e.g. Cloudinary)
-      else if (fullImagePath && !fullImagePath.startsWith('http://') && !fullImagePath.startsWith('https://')) {
-        fullImagePath = `${process.env.NEXT_PUBLIC_API_URL}${fullImagePath}`;
+      // Replace localhost URLs with production API URL (DB may have localhost from dev)
+      else if (fullImagePath.includes('localhost') || fullImagePath.includes('127.0.0.1')) {
+        try {
+          const url = new URL(fullImagePath);
+          fullImagePath = apiBase ? `${apiBase}${url.pathname}` : fullImagePath;
+        } catch (_) {}
+      }
+      // Prepend API URL for relative paths
+      else if (!fullImagePath.startsWith('http://') && !fullImagePath.startsWith('https://')) {
+        fullImagePath = apiBase ? `${apiBase}${fullImagePath.startsWith('/') ? '' : '/'}${fullImagePath}` : fullImagePath;
       }
       return {
         ...blog,
