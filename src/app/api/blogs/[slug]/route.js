@@ -30,9 +30,10 @@ export async function GET(request, { params }) {
 
     const blog = blogRows[0];
 
-    // Construct the full image URL
+    // Construct the full image URL - only prepend API URL for relative paths; use as-is for full URLs (e.g. Cloudinary)
     if (blog && blog.image_path) {
-      blog.image_path = `${process.env.NEXT_PUBLIC_API_URL}${blog.image_path}`;
+      const isFullUrl = blog.image_path.startsWith('http://') || blog.image_path.startsWith('https://');
+      blog.image_path = isFullUrl ? blog.image_path : `${process.env.NEXT_PUBLIC_API_URL}${blog.image_path}`;
     }
 
     return NextResponse.json({ blog });

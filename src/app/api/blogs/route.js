@@ -34,8 +34,10 @@ export async function GET(request) {
 
     // Construct the full image URL for each blog post
     const blogsWithFullUrl = blogsRows.map(blog => {
-      // Prepend the full domain to the image path
-      const fullImagePath = `${process.env.NEXT_PUBLIC_API_URL}${blog.image_path}`;
+      // Only prepend API URL for relative paths; use as-is for full URLs (e.g. Cloudinary)
+      const fullImagePath = blog.image_path?.startsWith('http://') || blog.image_path?.startsWith('https://')
+        ? blog.image_path
+        : `${process.env.NEXT_PUBLIC_API_URL}${blog.image_path}`;
       return {
         ...blog,
         image_path: fullImagePath,
