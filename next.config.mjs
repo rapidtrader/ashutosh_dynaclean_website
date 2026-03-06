@@ -25,6 +25,7 @@ const nextConfig = {
       'dynacleanindustries.com',
       'localhost',
       'app.dynacleanindustries.com',
+    
     ],
   },
 

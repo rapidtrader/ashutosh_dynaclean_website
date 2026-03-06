@@ -6,6 +6,7 @@ import Header from "@/components/common/Header";
 import Footer from "@/components/common/Footer";
 import WhatsAppChatButton from "@/components/common/WhatsAppChatButton";
 import CallNowButton from "@/components/common/CallNowButton";
+import ChunkLoadErrorHandler from "@/components/common/ChunkLoadErrorHandler";
 // import TawkToChatWidget from "@/components/common/TawkToChatWidget";
 import ChatbaseWidget from "@/components/common/ChatbaseWidget";
 import Script from "next/script";
@@ -105,6 +106,7 @@ export default function RootLayout({ children }) {
 
     
 
+        <ChunkLoadErrorHandler />
         <Header />
         {children}
         <CallNowButton />

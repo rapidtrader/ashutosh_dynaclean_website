@@ -30,10 +30,15 @@ export async function GET(request, { params }) {
 
     const blog = blogRows[0];
 
-    // Construct the full image URL - only prepend API URL for relative paths; use as-is for full URLs (e.g. Cloudinary)
+    // Construct the full image URL
     if (blog && blog.image_path) {
-      const isFullUrl = blog.image_path.startsWith('http://') || blog.image_path.startsWith('https://');
-      blog.image_path = isFullUrl ? blog.image_path : `${process.env.NEXT_PUBLIC_API_URL}${blog.image_path}`;
+      // Fix malformed URLs (e.g. app.dynacleanindustries.com + https://res.cloudinary.com concatenated)
+      if (blog.image_path.includes('https://res.cloudinary.com')) {
+        const cloudinaryMatch = blog.image_path.match(/https:\/\/res\.cloudinary\.com[^\s"']+/);
+        if (cloudinaryMatch) blog.image_path = cloudinaryMatch[0];
+      } else if (!blog.image_path.startsWith('http://') && !blog.image_path.startsWith('https://')) {
+        blog.image_path = `${process.env.NEXT_PUBLIC_API_URL}${blog.image_path}`;
+      }
     }
 
     return NextResponse.json({ blog });
