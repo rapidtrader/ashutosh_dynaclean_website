@@ -42,11 +42,9 @@ const Scrubber = () => {
   const shortDescription4 = getShortDescription(data250.description, 27);
   const cardData = {
     images: [
-      "/Product/Sweeper/DRS-90T/1.png",
-      "/Product/Sweeper/DRS-90T/2.png",
-      "/Product/Sweeper/DRS-90T/3.png",
-      "/Product/Sweeper/DRS-90T/4.png",
-      "/Product/Sweeper/DRS-90T/5.png",
+      "/Product/Sweeper/DRS-90T/3.jpeg",
+      "/Product/Sweeper/DRS-90T/4.jpeg",
+
     ],
     url: "/products/sweeper/ride-on-sweeper-DRS90T",
     title: data90T.title,
@@ -55,10 +53,12 @@ const Scrubber = () => {
 
   const cardData1 = {
     images: [
-      "/Product/Sweeper/DRS-180T/1.png",
-      "/Product/Sweeper/DRS-180T/2.png",
-      "/Product/Sweeper/DRS-180T/3.png",
-      "/Product/Sweeper/DRS-180T/4.png",
+
+     
+      "/Product/Sweeper/DRS-180T/8.jpeg",
+      "/Product/Sweeper/DRS-180T/6.png",
+      "/Product/Sweeper/DRS-180T/7.jpeg",
+
     ],
     url: "/products/sweeper/ride-on-sweeper-DRS180T",
     title: data180T.title,

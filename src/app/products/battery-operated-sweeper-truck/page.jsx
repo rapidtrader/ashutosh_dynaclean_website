@@ -73,9 +73,8 @@ const MuncipleDesalTruck = () => {
 
   const cardData3 = {
     images: [
-      "/Product/Bettery-Operated-truck/DTMS-4000 Ev/1.png",
-      "/Product/Bettery-Operated-truck/DTMS-4000 Ev/2.png",
-      "/Product/Bettery-Operated-truck/DTMS-4000 Ev/3.png",
+          
+      "/Product/Bettery-Operated-truck/DTMS-4000 Ev/5.jpeg",
       "/Product/Bettery-Operated-truck/DTMS-4000 Ev/4.png",
     ],
     url: "/products/battery-operated-sweeper-truck/DTMS-4000",
@@ -84,9 +83,7 @@ const MuncipleDesalTruck = () => {
   };
   const cardData4 = {
     images: [
-      "/Product/Bettery-Operated-truck/DTMS-5000 Ev/1.png",
-      "/Product/Bettery-Operated-truck/DTMS-5000 Ev/2.png",
-      "/Product/Bettery-Operated-truck/DTMS-5000 Ev/3.png",
+      "/Product/Bettery-Operated-truck/DTMS-5000 Ev/6.jpeg",
       "/Product/Bettery-Operated-truck/DTMS-5000 Ev/4.png",
     ],
     url: "/products/battery-operated-sweeper-truck/DTMS-5000",
@@ -95,10 +92,9 @@ const MuncipleDesalTruck = () => {
   };
   const cardData5 = {
     images: [
-      "/Product/Bettery-Operated-truck/DTMS-6000 Ev/1.png",
-      "/Product/Bettery-Operated-truck/DTMS-6000 Ev/2.png",
-      "/Product/Bettery-Operated-truck/DTMS-6000 Ev/2.png",
-      "/Product/Bettery-Operated-truck/DTMS-6000 Ev/3.png",
+    
+      "/Product/Bettery-Operated-truck/DTMS-6000 Ev/5.jpeg",
+      "/Product/Bettery-Operated-truck/DTMS-6000 Ev/4.png"
     ],
     url: "/products/battery-operated-sweeper-truck/DTMS-6000",
     title: data6000.title,

@@ -50,7 +50,7 @@ export default function Home() {
     <main>
       {/* <CodeOfConductSection /> */}
       <ResponsiveSection
-        imagePath="/About/Main.webp" // public directory
+        imagePath="/About/about.jpeg" // public directory
         imageSide="left" // or "right"
         title="About Us"
         description="Dynaclean Industries is a reliable supplier of the best quality of cleaning machines, production of products sweepers, sweeper trucks, scrubbers, ride-on scrubbers, vacuum cleaners, escalator cleaners, scooter mops, jet washers, and so on. Dynaclean is an authorized dealer for airports, railways, metro stations, and other government and private sectors. Our machines are working well in industrial areas, hospitals, and municipal use, providing effective cleaning outcomes. We vow timely after-sales support to enable hassle-free operations for all our Clients. Through 50+ experienced employees in our production staff, we are vow to delivering excellence in quality, innovation, and customer satisfaction."
@@ -69,7 +69,7 @@ export default function Home() {
       />
 
       <ImageTextBlock
-        image="/About/Us1.webp"
+        image="/About/aboutssss.jpeg"
         heading="Our Story"
         description="Dynaclean Industries begins with a lucid dream — to provide quality cleaning Machines and solutions for a cleaner and greener India.
 

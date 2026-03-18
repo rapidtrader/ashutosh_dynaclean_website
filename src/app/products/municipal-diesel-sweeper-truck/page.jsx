@@ -66,9 +66,7 @@ const MuncipleDesalTruck = () => {
 
   const cardData2 = {
     images: [
-      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-3000/2.png",
-      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-3000/1.png",
-      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-1000/1.png",
+      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-3000/3.jpeg",
     ],
     url: "/products/municipal-diesel-sweeper-truck/DTMS-3000",
     title: data3000.title,
@@ -97,9 +95,8 @@ const MuncipleDesalTruck = () => {
   };
   const cardData5 = {
     images: [
-      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-6000/1.png",
-      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-1000/1.png",
-      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-6000/2.png",
+     
+      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-6000/3.jpeg",
     ],
     url: "/products/municipal-diesel-sweeper-truck/DTMS-6000",
     title: data6000.title,
