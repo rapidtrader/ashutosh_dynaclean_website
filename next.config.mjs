@@ -2,8 +2,8 @@
 
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://s.ytimg.com https://www.youtube.com https://www.chatbase.co;
-  connect-src 'self' http://localhost:3000 http://localhost:3001 https://app.dynacleanindustries.com https://www.chatbase.co;
+  script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://s.ytimg.com https://www.youtube.com https://www.chatbase.co https://googleads.g.doubleclick.net https://www.googleadservices.com;
+  connect-src 'self' http://localhost:3000 http://localhost:3001 https://app.dynacleanindustries.com https://www.chatbase.co https://www.google.com https://www.google-analytics.com https://www.googletagmanager.com https://googleads.g.doubleclick.net https://www.googleadservices.com;
   img-src * blob: data:;
   style-src 'self' 'unsafe-inline';
   frame-src https://www.youtube.com https://www.chatbase.co;
@@ -25,6 +25,7 @@ const nextConfig = {
       'dynacleanindustries.com',
       'localhost',
       'app.dynacleanindustries.com',
+      'res.cloudinary.com',
     ],
   },
 

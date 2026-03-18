@@ -33,9 +33,26 @@ export async function GET(request) {
     db.end();
 
     // Construct the full image URL for each blog post
+    const apiBase = (process.env.NEXT_PUBLIC_API_URL || '').replace(/\/$/, '');
     const blogsWithFullUrl = blogsRows.map(blog => {
-      // Prepend the full domain to the image path
-      const fullImagePath = `${process.env.NEXT_PUBLIC_API_URL}${blog.image_path}`;
+      let fullImagePath = blog.image_path;
+      if (!fullImagePath) return { ...blog, image_path: fullImagePath };
+      // Fix malformed URLs (e.g. app.dynacleanindustries.com + https://res.cloudinary.com concatenated)
+      if (fullImagePath.includes('https://res.cloudinary.com')) {
+        const cloudinaryMatch = fullImagePath.match(/https:\/\/res\.cloudinary\.com[^\s"']+/);
+        if (cloudinaryMatch) fullImagePath = cloudinaryMatch[0];
+      }
+      // Replace localhost URLs with production API URL (DB may have localhost from dev)
+      else if (fullImagePath.includes('localhost') || fullImagePath.includes('127.0.0.1')) {
+        try {
+          const url = new URL(fullImagePath);
+          fullImagePath = apiBase ? `${apiBase}${url.pathname}` : fullImagePath;
+        } catch (_) {}
+      }
+      // Prepend API URL for relative paths
+      else if (!fullImagePath.startsWith('http://') && !fullImagePath.startsWith('https://')) {
+        fullImagePath = apiBase ? `${apiBase}${fullImagePath.startsWith('/') ? '' : '/'}${fullImagePath}` : fullImagePath;
+      }
       return {
         ...blog,
         image_path: fullImagePath,

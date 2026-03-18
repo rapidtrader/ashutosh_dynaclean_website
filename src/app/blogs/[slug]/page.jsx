@@ -145,6 +145,7 @@ const BlogPostPage = () => {
                   src={blog.image_path}
                   alt={blog.title}
                   fill
+                  unoptimized
                   className="object-contain"
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 70vw, 60vw"
                   priority
@@ -195,6 +196,7 @@ const BlogPostPage = () => {
                               src={item.image_path}
                               alt={item.title}
                               fill
+                              unoptimized
                               className="object-cover group-hover:scale-105 transition-transform"
                             />
                           </div>
