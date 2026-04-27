@@ -1,7 +1,9 @@
 {
   "title": "Ride On Sweeper DRS-250T",
   "images": [
-    "/Product/Sweeper/DRS-250T/1.webp"
+    "/Product/Sweeper/DRS-250T/1.webp",
+    "/Product/Sweeper/DRS-250T/1.png",
+    "/Product/Sweeper/DRS-250T/2.png"
   ],
   "specifications": [
     [
@@ -81,6 +83,7 @@
       }
     ]
   ],
+  "youtubeVideoId": "tSxiB7G5NOs",
   "contactLink": "/contact",
   "catalogLink": "/catalogue/ride_on_sweeper/DRS-250T.pdf",
   "descriptionTitle": "Overview",

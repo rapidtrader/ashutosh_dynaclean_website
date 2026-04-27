@@ -1,6 +1,7 @@
 import ResponsiveSection from "@/components/Banner/ResponsiveSection";
 import Card from "@/components/common/CardComponent";
 import data from "@/data/hand-scrubber/data";
+import dataHD115 from "@/data/hand-scrubber/HD-115/data";
 
 const Scrubber = () => {
   const getShortDescription = (description, wordLimit) => {
@@ -11,6 +12,7 @@ const Scrubber = () => {
     return shortDescription;
   };
   const shortDescription = getShortDescription(data.description, 27);
+  const shortDescriptionHD115 = getShortDescription(dataHD115.description, 27);
   const cardData = {
     images: [
       "/Product/hand-scrubber/hand-scrubber.jpeg",
@@ -21,6 +23,21 @@ const Scrubber = () => {
     url: "/products/hand-scrubber/HD-15",
     title: data.title,
     description: shortDescription,
+  };
+
+  const cardDataHD115 = {
+    images: [
+      "/Product/hand-scrubber/HD-115/hd-115%204.png",
+      "/Product/hand-scrubber/HD-115/hd-115%202.png",
+      "/Product/hand-scrubber/HD-115/hd-115%203.png",
+      "/Product/hand-scrubber/HD-115/hd-115%201.png",
+      "/Product/hand-scrubber/HD-115/hd-115%205.png",
+      "/Product/hand-scrubber/HD-115/hd-115%206.png",
+      "/Product/hand-scrubber/HD-115/hd-115%207.png",
+    ],
+    url: "/products/hand-scrubber/HD-115",
+    title: dataHD115.title,
+    description: shortDescriptionHD115,
   };
 
   return (
@@ -34,6 +51,7 @@ const Scrubber = () => {
 
       <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center m-4 md:mt-4 md:mb-20">
         <Card {...cardData} />
+        <Card {...cardDataHD115} />
       </div>
     </main>
   );

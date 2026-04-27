@@ -36,7 +36,7 @@ const Banner = ({ numberOfSlides, urls }) => {
       case "/Home/Banner/4.webp":
         altText =
           "Sweeper Sweeper Machine battery Sweeper Floor Sweeper Floor cleaning machine Manual sweeper Road Sweeper Road Sweeper Truck Road Sweeper Machine Sweeper Truck Municipal Sweeper Truck Diesel Operated Sweeper truck";
-        href = "products/battery-operated-sweeper-truck/DRS-600";
+        href = "products/battery-operated-sweeper-truck/600";
         break;
       default:
         break;

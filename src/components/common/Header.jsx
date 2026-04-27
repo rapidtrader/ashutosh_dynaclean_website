@@ -166,7 +166,7 @@ export default function Header() {
                     "Electric Road Sweeper Truck",
                     "/products/battery-operated-sweeper-truck",
                   ],
-                  ["Hand Scrubber", "/products/hand-scrubber/HD-15"],
+                  ["Hand Scrubber", "/products/hand-scrubber"],
                   ["Carpet Cleaner", "/products/carpet-cleaner/DSC-30"],
                 ],
               ],

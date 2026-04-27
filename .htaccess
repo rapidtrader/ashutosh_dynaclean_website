@@ -39,8 +39,8 @@ RewriteRule ^products-vacuum-cleaner\.html$ /products/vacuum-cleaner [R=301,L]
 
 # --- Specific Product Pages ---
 # (You will need to add MANY more of these based on your Next.js build output)
-# Example: products/battery-operated-sweeper-truck/DRS-600.html to /products/battery-operated-sweeper-truck/DRS-600
-RewriteRule ^products/battery-operated-sweeper-truck/DRS-600\.html$ /products/battery-operated-sweeper-truck/DRS-600 [R=301,L]
+# Example: products/battery-operated-sweeper-truck/DRS-600.html to /products/battery-operated-sweeper-truck/600
+RewriteRule ^products/battery-operated-sweeper-truck/DRS-600\.html$ /products/battery-operated-sweeper-truck/600 [R=301,L]
 RewriteRule ^products/battery-operated-sweeper-truck/DTMS-1000\.html$ /products/battery-operated-sweeper-truck/DTMS-1000 [R=301,L]
 RewriteRule ^products/battery-operated-sweeper-truck/DTMS-2000\.html$ /products/battery-operated-sweeper-truck/DTMS-2000 [R=301,L]
 RewriteRule ^products/battery-operated-sweeper-truck/DTMS-3000\.html$ /products/battery-operated-sweeper-truck/DTMS-3000 [R=301,L]

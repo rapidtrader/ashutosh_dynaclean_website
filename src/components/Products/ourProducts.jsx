@@ -54,7 +54,7 @@ const products = [
   {
     name: "Hand Scrubber",
     image: "/Product/hand-scrubber/hand-scrubber.jpeg",
-    link: "/products/hand-scrubber/HD-15",
+    link: "/products/hand-scrubber",
   },
   {
     name: "CarpetCleaner",

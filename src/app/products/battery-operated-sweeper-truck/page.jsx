@@ -6,7 +6,8 @@ import data3000 from "@/data/Electric-Sweeper-Truck/DTMS-3000/data";
 import data4000 from "@/data/Electric-Sweeper-Truck/DTMS-4000/data";
 import data5000 from "@/data/Electric-Sweeper-Truck/DTMS-5000/data";
 import data6000 from "@/data/Electric-Sweeper-Truck/DTMS-6000/data";
-import data600 from "@/data/Electric-Sweeper-Truck/DRS-600DT/data";
+import data600 from "@/data/Electric-Sweeper-Truck/600/data";
+import data600DT from "@/data/Electric-Sweeper-Truck/DRS-600DT/data";
 
 export const metadata = {
   title: "Battery-Operated-Sweeper-truck | Dynaclean Industries",
@@ -44,6 +45,7 @@ const MuncipleDesalTruck = () => {
   const shortDescription4 = getShortDescription(data5000.description, 27);
   const shortDescription5 = getShortDescription(data6000.description, 27);
   const shortDescription600 = getShortDescription(data600.description, 27);
+  const shortDescription600DT = getShortDescription(data600DT.description, 27);
   const cardData = {
     images: [
       "/Product/Bettery-Operated-truck/DTMS-1000 Ev/1.png",
@@ -103,14 +105,30 @@ const MuncipleDesalTruck = () => {
 
   const cardData6 = {
     images: [
+      "/Product/Bettery-Operated-truck/600/1.png",
+      "/Product/Bettery-Operated-truck/600/8.png",
+      "/Product/Bettery-Operated-truck/600/2.png",
+      "/Product/Bettery-Operated-truck/600/3.png",
+      "/Product/Bettery-Operated-truck/600/4.png",
+      "/Product/Bettery-Operated-truck/600/5.png",
+      "/Product/Bettery-Operated-truck/600/6.png",
+      "/Product/Bettery-Operated-truck/600/7.png",
+    ],
+    url: "/products/battery-operated-sweeper-truck/600",
+    title: data600.title,
+    description: shortDescription600,
+  };
+
+  const cardData7 = {
+    images: [
       "/Product/Bettery-Operated-truck/600DT/4.png",
       "/Product/Bettery-Operated-truck/600DT/1.png",
       "/Product/Bettery-Operated-truck/600DT/2.png",
       "/Product/Bettery-Operated-truck/600DT/3.png",
     ],
     url: "/products/battery-operated-sweeper-truck/DRS-600DT",
-    title: data600.title,
-    description: shortDescription600,
+    title: data600DT.title,
+    description: shortDescription600DT,
   };
 
   return (
@@ -130,6 +148,7 @@ const MuncipleDesalTruck = () => {
         <Card {...cardData4} />
         <Card {...cardData5} />
         <Card {...cardData6} />
+        <Card {...cardData7} />
       </div>
     </main>
   );

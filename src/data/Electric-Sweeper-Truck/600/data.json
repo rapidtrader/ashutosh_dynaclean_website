@@ -1,28 +1,33 @@
 {
-  "title": "Self Propelled Sweeper Truck DRS-600DT",
+  "title": "Self Propelled Sweeper Truck 600",
   "images": [
-    "/Product/Bettery-Operated-truck/600DT/4.png",
-    "/Product/Bettery-Operated-truck/600DT/2.png",
-    "/Product/Bettery-Operated-truck/600DT/3.png",
-    "/Product/Bettery-Operated-truck/600DT/1.png"
+    
+    "/Product/Bettery-Operated-truck/600/8.png",
+    "/Product/Bettery-Operated-truck/600/1.png",
+    "/Product/Bettery-Operated-truck/600/2.png",
+    "/Product/Bettery-Operated-truck/600/3.png",
+    "/Product/Bettery-Operated-truck/600/4.png",
+    "/Product/Bettery-Operated-truck/600/5.png",
+    "/Product/Bettery-Operated-truck/600/6.png",
+    "/Product/Bettery-Operated-truck/600/7.png"
   ],
   "specifications": [
     [
-      { "label": "Water Tank", "value": "600L" },
+      { "label": "Water Tank", "value": "300L" },
       { "label": "Dumping Height", "value": "Manual" },
-      { "label": "Dust Tank", "value": "600L" },
+      { "label": "Dust Tank", "value": "300L" },
       { "label": "Dumping Type", "value": "Manual" },
       { "label": "Cabin", "value": "2 Persons" },
       { "label": "Sweeping Width", "value": "2400mm" },
       { "label": "Control System", "value": "Easy Control" },
       { "label": "Cleaning Efficiency (Maximum)", "value": "24000m/hour" },
-      { "label": "Battery Capacity", "value": "30kWh" },
+      { "label": "Battery Capacity", "value": "30Ah" },
       { "label": "Number of Brushes", "value": "4" },
       { "label": "Charging Time", "value": "6-8 hours" },
-      { "label": "Drive Motor Power", "value": "3000kW" }
+      { "label": "Drive Motor Power", "value": "3000W" }
     ],
     [
-      { "label": "Working Time", "value": "8-10 hours" },
+      { "label": "Working Time", "value": "7-8 hours" },
       { "label": "Vacuum Motor Power", "value": "3000kW" },
       { "label": "Maximum Sweeping Speed", "value": "10 km/h" },
       { "label": "Safety Features", "value": "Alarm, front & rear warning lights" },
@@ -30,15 +35,15 @@
       { "label": "Charging Cost (Approx.)", "value": "300 Rupees/day" },
       { "label": "Maximum Distance Covered (8 Hours)", "value": "80 km" },
       { "label": "In-Built Jet Pressure Washer", "value": "130 Bar" },
-      { "label": "Anti-Smog Water Spray System", "value": "Yes" },
-      { "label": "Litter Picker", "value": "Yes" }
+      { "label": "Anti-Smog Water Spray System", "value": "Yes" }
+      
     ]
   ],
-  "youtubeVideoId": "QoMkfBXLyEQ",
+  "youtubeVideoId": "USsqapcEh3w",
   "contactLink": "/contact",
   "catalogLink": "/catalogue/battery_operated_sweeper_trucks/DRS-600DT.pdf",
   "descriptionTitle": "Overview",
-  "description": "The DRS-600DT <a href=\"/products/battery-operated-sweeper-truck/DTMS-1000\" target=\"_blank\" style=\"color: #6f73d6; \">Battery Operated Sweeper Truck</a> is a modern battery-operated road cleaner designed for smart cities, industrial hubs, and municipal cleaning projects. This <a href=\"/products/municipal-diesel-sweeper-truck/DTMS-1000\" target=\"_blank\" style=\"color: #6f73d6; \">Self Propelled Sweeper Truck</a> is powered by advanced battery technology and is designed to achieve high operational efficiency, low cost, and a sustainable future.",
+  "description": "The 600 <a href=\"/products/battery-operated-sweeper-truck/DTMS-1000\" target=\"_blank\" style=\"color: #6f73d6; \">Battery Operated Sweeper Truck</a> is a modern battery-operated road cleaner designed for smart cities, industrial hubs, and municipal cleaning projects. This <a href=\"/products/municipal-diesel-sweeper-truck/DTMS-1000\" target=\"_blank\" style=\"color: #6f73d6; \">Self Propelled Sweeper Truck</a> is powered by advanced battery technology and is designed to achieve high operational efficiency, low cost, and a sustainable future.",
   "keyFeatures": [
     "Eco-Friendly Design – Operates on battery power, resulting in zero emissions. Ideal for clean and green cities aiming to reduce carbon footprint.",
     "Cost Reduction – Fuel and maintenance costs of this <a href=\"/products/battery-operated-sweeper-truck/DTMS-6000\" target=\"_blank\" style=\"color: #6f73d6; \">Battery Operated Sweeper Truck</a> are up to 90% lower compared to diesel sweepers, providing significant savings.",
@@ -51,6 +56,6 @@
     "Built-in Water Spray System – Reduces airborne dust, improving air quality and enhancing the cleanliness of the environment.",
     "Long Operating Hours – Maintains up to ten hours of operation on a single charge, offering sustained power from a durable lithium battery, all with low maintenance needs."
   ],
-  "why_choose_us": "With the DRS-600DT <a href=\"/products/battery-operated-sweeper-truck/DTMS-3000\" target=\"_blank\" style=\"color: #6f73d6; \">Self Propelled Sweeper Truck</a>, you have one of the most powerful, efficient, and environmentally friendly cleaning machines on the market that does not compromise performance. Its unmatched power and efficiency, combined with sustainable operation, makes the machine a sound investment for municipalities and industrial facilities.",
-  "choose_title": "Why Choose Self Propelled Sweeper Truck DRS-600DT?"
+  "why_choose_us": "With the 600 <a href=\"/products/battery-operated-sweeper-truck/DTMS-3000\" target=\"_blank\" style=\"color: #6f73d6; \">Self Propelled Sweeper Truck</a>, you have one of the most powerful, efficient, and environmentally friendly cleaning machines on the market that does not compromise performance. Its unmatched power and efficiency, combined with sustainable operation, makes the machine a sound investment for municipalities and industrial facilities.",
+  "choose_title": "Why Choose Self Propelled Sweeper Truck 600?"
 }

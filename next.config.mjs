@@ -191,15 +191,24 @@ const nextConfig = {
 
 
       // Specific Product Pages
-      // Example: products/battery-operated-sweeper-truck/DRS-600.html to /products/battery-operated-sweeper-truck/DRS-600
       {
         source: '/Battery-Operated-Truck-DRS-600.html',
-        destination: '/products/battery-operated-sweeper-truck/DRS-600',
+        destination: '/products/battery-operated-sweeper-truck/600',
         permanent: true,
       },
       {
         source: '/Battery-Operated-Sweeper-Truck-DRS-600-DT.html',
-        destination: '/products/battery-operated-sweeper-truck/DRS-600-DT',
+        destination: '/products/battery-operated-sweeper-truck/DRS-600DT',
+        permanent: true,
+      },
+      {
+        source: '/products/battery-operated-sweeper-truck/DRS-600',
+        destination: '/products/battery-operated-sweeper-truck/600',
+        permanent: true,
+      },
+      {
+        source: '/products/battery-operated-sweeper-truck/DRS-600-DT',
+        destination: '/products/battery-operated-sweeper-truck/DRS-600DT',
         permanent: true,
       },
       // Municipal Sweeper Truck - Specific Models (these are under municipal-diesel-sweeper-truck category)
