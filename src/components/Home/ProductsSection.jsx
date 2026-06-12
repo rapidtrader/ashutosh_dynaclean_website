@@ -10,12 +10,12 @@ const products = [
   },
   {
     name: "Walk Behind Sweeper",
-    image: "/Home/Products/Gall/products-2.webp",
+    image: "/Home/Products/Gall/products-2.png",
     link: "/products/sweeper/manual-sweeper-DSE55",
   },
   {
     name: "Ride On Sweeper",
-    image: "/Home/Products/Gall/product-3.jpeg",
+    image: "/Product/Sweeper/DRS-90T/3.jpeg",
     link: "/products/sweeper/ride-on-sweeper-DRS90T",
   },
   {
@@ -25,13 +25,13 @@ const products = [
   },
   {
     name: "Ride On Scrubber Drier",
-    image: "/Home/Products/Gall/products-5.png",
+    image: "/Home/Products/Gall/products-5.webp",
     link: "/products/scrubber-drier/DRO-100P",
   },
   {
     name: "Scooter Mop",
-    image: "/Home/Products/Gall/products-6.png",
-    link: "products/scooter-mop/DMS-115P",
+    image: "/Home/Products/Gall/products-6.webp",
+    link: "/products/scooter-mop/DMS-115P",
   },
 ];
 
