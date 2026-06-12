@@ -138,7 +138,7 @@ const MuncipleDesalTruck = () => {
   return (
     <main>
       <ResponsiveSection
-        imagePath="/Product/Bettery-Operated-truck/Bettery-Operated-truck.png" // public directory
+        imagePath="/Product/Bettery-Operated-truck/DTMS-1000 Ev/1.png" // public directory
         imageSide="left" // or "right"
         title="Electric Road Sweeper Truck"
         description="Experience a new level of cleanliness with our advanced cleaning machine, designed to make every surface spotless with minimal effort. Equipped with cutting-edge technology, it delivers powerful performance for a sparkling clean home or workspace, every time"

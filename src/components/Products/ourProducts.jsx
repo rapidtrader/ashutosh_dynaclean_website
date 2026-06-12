@@ -13,7 +13,7 @@ const products = [
   },
   {
     name: "Sweeper Machine",
-    image: "/Product/Sweeper/Sweeper.png",
+    image: "/Product/Sweeper/DRS-90T/3.jpeg",
     link: "/products/sweeper",
   },
   {
@@ -23,12 +23,12 @@ const products = [
   },
   {
     name: "Diesel Road Sweeper Truck",
-    image: "/Product/Munciple-Deisal-sweeper-Truck/DTMS-1000/2.png",
+    image: "/Product/Munciple-Deisal-sweeper-Truck/DTMS-5000/main.png",
     link: "/products/municipal-diesel-sweeper-truck",
   },
   {
     name: "Electric Road Sweeper Truck",
-    image: "/Product/Bettery-Operated-truck/Bettery-Operated-truck.png",
+    image: "/Product/Bettery-Operated-truck/DTMS-1000 Ev/1.png",
     link: "/products/battery-operated-sweeper-truck",
   },
   {
@@ -76,17 +76,19 @@ const ProductsSection = () => {
           {products.map((product, index) => (
             <div
               key={index}
-              className="group overflow-hidden rounded shadow-md hover:shadow-lg transition-shadow duration-300"
+              className="group overflow-hidden rounded shadow-md hover:shadow-lg transition-shadow duration-300 h-full flex flex-col"
             >
-              <a href={product.link}>
-                <div className="overflow-hidden">
+              <a href={product.link} className="flex flex-col h-full">
+                <div className="overflow-hidden flex-grow">
                   <img
                     src={product.image}
                     alt={product.name}
-                    className="w-full  object-cover transform transition duration-300 group-hover:brightness-110"
+                    className={`w-full object-cover transform transition duration-300 group-hover:brightness-110 ${
+                      product.name === "Diesel Road Sweeper Truck" ? "mt-24" : ""
+                    }`}
                   />
                 </div>
-                <div className="  text-center py-4">
+                <div className="text-center py-4 mt-auto">
                   <span className="block text-lg font-medium text-black">
                     {product.name}
                   </span>
