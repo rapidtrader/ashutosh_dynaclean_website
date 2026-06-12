@@ -20,7 +20,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/sweeper",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Sweeper/DRS-180T/1.png",
+        url: "https://dynacleanindustries.com/Product/Sweeper/DRS-90T/3.jpeg",
         alt: "Sweeper Machine",
       },
     ],
@@ -67,6 +67,7 @@ const Scrubber = () => {
 
   const cardData2 = {
     images: [
+      "/Product/Sweeper/DS2-55/main.png",
       "/Product/Sweeper/DS2-55/1.png",
       "/Product/Sweeper/DS2-55/2.png",
       "/Product/Sweeper/DS2-55/3.png",
@@ -98,7 +99,7 @@ const Scrubber = () => {
   return (
     <main>
       <ResponsiveSection
-        imagePath="/Product/Sweeper/Sweeper.png"
+        imagePath="/Product/Sweeper/DRS-90T/3.jpeg"
         imageSide="left" // or "right"
         title="Sweeper Machine"
         description="Dynaclean Industries Pvt. Ltd. manufactures and supplies high-performance sweeper machine every sweeper machine designed for effective dust and debris removal all industrial and commercial sectors. walk behind manual sweeper machine module DS255 , known for its lightweight and user-friendly operation, and the DSE55 Electric Sweeper, which provides best cleaning with minimal effort.

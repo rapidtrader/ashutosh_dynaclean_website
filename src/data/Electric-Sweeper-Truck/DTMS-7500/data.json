@@ -1,0 +1,55 @@
+{
+  "title": "Electric Sweeper Truck DTMS – 7500 EV",
+  "images": [
+    "/Product/Bettery-Operated-truck/DTMS-7500 Ev/a.png"
+  ],
+  "specifications": [
+    [
+      { "label": "Dust Tank", "value": "7800L" },
+      { "label": "Water Tank", "value": "1500L" },
+      { "label": "Sweeping Width", "value": "3500mm" },
+      { "label": "Cleaning Efficiency (Maximum)", "value": "45000 m²/hour" },
+      { "label": "Number of Brushes", "value": "4" },
+          { "label": "Drive Motor Power", "value": "250 kW" },
+          { "label": "Vacuum Motor Power", "value": "24 kW" },
+     
+      { "label": "Chasis Capacity", "value": "9.3 Ton" },
+      { "label": "Maximum Sweeping Speed", "value": "10 km/h" },
+      { "label": "Maximum Drive Speed", "value": "75 km/h" },
+      { "label": "Maximum Distance Covered (8 Hours)", "value": "80 km" },
+      { "label": "Dumping Height", "value": "1.2 meter" }
+   
+      
+    ],
+    [
+      { "label": "Dumping Type", "value": "Hydraulic" },
+      { "label": "Cabin", "value": "2 Persons-AC" },
+      { "label": "Control System", "value": "Smart-Touch" },
+      { "label": "Battery Capacity", "value": "230 kWh" },
+      { "label": "Charging Time", "value": "6-8 hours" },
+      { "label": "Running Time", "value": "8-12 hours" },
+      { "label": "Charging Cost (Approx.)", "value": "1,500 Rupees/day" },
+      { "label": "In-Built Jet Pressure Washer", "value": "150 bar" },
+      { "label": "Anti-Smog Water Spray System", "value": "Yes" },
+      { "label": "Litter-Picker", "value": "Yes" },
+      { "label": "In-Built Ai Integration", "value": "Yes" },
+      { "label": "In-Built 360 Degree Camera", "value": "Yes" },
+          { "label": "Recommended Chassis", "value": "Tata ultra E9" }
+    ]
+  ],
+  "youtubeVideoId": "",
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/battery_operated_road_sweeper/DTMS7500EV.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The DTMS-7500EV Electric Sweeper Truck by Dynaclean is their best choice in dealing with elaborate and eco-friendly road cleaning. This truck uses dual technology in construction, hence it requires no fuel, and only runs on batteries. It is ideal for municipalities, industrial areas, airports, and smart campuses, as it works perfectly while making minimal noise. The DTMS-7500EV has also admirable battery longevity. Its powerful vacuum system, cleaver dust filtration, and wide sweeping path set a new standard in the electric road sweeper segment.",
+  "keyFeatures": [
+    "Anti-Smog Water Spray System – Controls dust and improves air quality during sweeping.",
+    "In-Built Jet Pressure Washer (150 Bar) – Multi-purpose use for deep cleaning roads, sidewalks, and public spaces.",
+    "Plant Washing System – Cleans roadside plants and keeps the environment green.",
+    "High-Capacity Water & Dust Tanks – 1500L water and 7500L dust collection for extended operation.",
+    "Spacious & Comfortable Cabin – Accommodates two operators for efficient cleaning management.",
+    "Zero Emissions & Eco-Friendly – Reduces air pollution with a fully electric operation.",
+    "Ergonomic & User-Friendly Design – Easy-to-use controls for effortless operation.",
+    "Large Sweeping Width (3400 mm) – Ensures faster and more effective cleaning in less time."
+  ]
+}

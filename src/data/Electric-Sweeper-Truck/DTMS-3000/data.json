@@ -1,27 +1,30 @@
 {
   "title": "Electric Sweeper Truck DTMS – 3000 EV",
   "images": [
-    "/Product/Bettery-Operated-truck/DTMS-3000 Ev/1.jpg",
-    "/Product/Bettery-Operated-truck/DTMS-3000 Ev/2.jpeg",
-    "/Product/Bettery-Operated-truck/DTMS-3000 Ev/3.jpeg"
+    "/Product/Bettery-Operated-truck/DTMS-3000 Ev/1.png",
+    "/Product/Bettery-Operated-truck/DTMS-3000 Ev/2.png",
+    "/Product/Bettery-Operated-truck/DTMS-3000 Ev/3.png",
+    "/Product/Bettery-Operated-truck/DTMS-3000 Ev/4.png"
+    
   ],
   "specifications": [
     [
-      {
-        "label": "Water Tank",
-        "value": "900L"
-      },
-      {
+       {
         "label": "Dust Tank",
         "value": "3000L"
       },
       {
+        "label": "Water Tank",
+        "value": "900L"
+      },
+     
+      {
         "label": "Sweeping Width",
-        "value": "3000mm"
+        "value": "2800mm"
       },
       {
         "label": "Cleaning Efficiency (Maximum)",
-        "value": "30000 m²/hour"
+        "value": "28000 m²/hour"
       },
       {
         "label": "Number of Brushes",
@@ -29,7 +32,7 @@
       },
       {
         "label": "Drive Motor Power",
-        "value": "20 kW"
+        "value": "60 kW"
       },
       {
         "label": "Vacuum Motor Power",
@@ -41,7 +44,7 @@
       },
       {
         "label": "Maximum Drive Speed",
-        "value": "25 km/h"
+        "value": "70 km/h"
       },
       {
         "label": "Maximum Distance Covered (8 Hours)",
@@ -51,7 +54,7 @@
     [
       {
         "label": "Dumping Height",
-        "value": "1 meter"
+        "value": "1.1 meter"
       },
       {
         "label": "Dumping Type",
@@ -63,11 +66,11 @@
       },
       {
         "label": "Control System",
-        "value": "Easy Control"
+        "value": "Smaer-Touch"
       },
       {
         "label": "Battery Capacity",
-        "value": "45 kWh"
+        "value": "80 kWh"
       },
       {
         "label": "Charging Time",
@@ -77,10 +80,7 @@
         "label": "Running Time",
         "value": "8-10 hours"
       },
-      {
-        "label": "Safety Features",
-        "value": "Alarm, Front & Rear Warning Lights, Radar Safety System"
-      },
+     
       {
         "label": "Charging Cost (Approx.)",
         "value": "500 Rupees/day"
@@ -92,10 +92,14 @@
       {
         "label": "Anti-Smog Water Spray System",
         "value": "Yes"
+      },
+      {
+        "label": "Litter-Picker",
+        "value": "Yes"
       }
     ]
   ],
-  "youtubeVideoId": "6gzMakmzqTs",
+  "youtubeVideoId": "Bm3PcMvFZAI",
   "contactLink": "/contact",
   "catalogLink": "/catalogue/battery_operated_road_sweeper/DTMS-3000.pdf",
   "descriptionTitle": "Overview",

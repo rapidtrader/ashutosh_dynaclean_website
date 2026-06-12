@@ -75,7 +75,7 @@ const OurServices = () => {
         <div className="w-full lg:w-1/2 flex justify-center">
           <div className="h-[30rem] md:h-[52rem] rounded-md overflow-hidden">
             <img
-              src="/Home/ourService/service.webp"
+              src="/Home/ourService/service.png"
               alt="Our Services"
               className="object-cover object-[71%_50%] mt-14 w-full h-full"
               loading="lazy"

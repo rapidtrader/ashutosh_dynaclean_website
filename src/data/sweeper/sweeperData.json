@@ -5,27 +5,31 @@
       "/Product/Sweeper/DRS-90T/4.jpeg"
   ],
   "specifications": [
-    [
-  { "label": "Solution Tank", "value": "90 L" },
-  { "label": "Recovery Tank", "value": "100 L" },
+     [
+  { "label": "Clean Water Tank", "value": "30 L" },
+  { "label": "Waste Water Tank", "value": "100 L" },
   { "label": "Sweeping Width", "value": "1250 mm" },
-  { "label": "Main/Side Brush Width", "value": "490 x 300 / 2 x 460 mm" },
+  { "label": "Main Brush Width", "value": "530 mm" },
+  { "label": "Side Brush Width", "value": "2 x 460 mm" },
   { "label": "Cleaning Efficiency", "value": "7000 m²/h" },
   { "label": "Battery Capacity", "value": "65 x 4 Ah" },
-  { "label": "Working Time", "value": "4.0 - 5.0 hours" }
+  { "label": "Working Time", "value": "3.0 - 4.0 hours" }
 ],
 
 
   [
   { "label": "Voltage", "value": "48 V" },
-  { "label": "Brush/Suction Motor", "value": "650/2 x 90 W" },
-  { "label": "Drive Motor", "value": "800 W" },
+   { "label": "Main Brush Motor", "value": "700 W" },
+
+  
+  { "label": "Suction Motor", "value": "2 x 100 W" },
+  { "label": "Drive Motor", "value": "1000 W" },
   { "label": "Side Brush Motor", "value": "90 x 2 W" },
   { "label": "Weight", "value": "320 kg" },
   { "label": "Size", "value": "1395 x 1250 x 1325 mm" }
 ]
   ],
-    "youtubeVideoId": "7VZQcTVyClo",
+    "youtubeVideoId": "B-N-yD2w-1c",
   "contactLink": "/contact.html",
   "catalogLink": "/catalogue/sweepers/DRS90T.pdf",
   "descriptionTitle": "Overview",

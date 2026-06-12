@@ -7,25 +7,24 @@
       "/Product/Auto-Scrubber-Drier/DB-9050P/4.png"
   ],
   "specifications": [
-   [
-  { "label": "Clean Water Tank", "value": "50 L" },
-  { "label": "Waste Water Tank", "value": "90 L" },
-  { "label": "Scrubbing Width", "value": "560 mm" },
-  { "label": "Squeegee Width", "value": "800 mm" },
-  { "label": "Cleaning Efficiency", "value": "2000 m²/h" },
-  { "label": "Battery Capacity", "value": "65 Ah/m" },
-  { "label": "Wire Size", "value": "NA" }
-],
-
-   [
-  { "label": "Voltage", "value": "24 V" },
-  { "label": "Brush Motor", "value": "500 W" },
-  { "label": "Suction Motor", "value": "310 W" },
-  { "label": "Brush Pressure", "value": "30 kg" },
-  { "label": "Size", "value": "1280 x 800 x 1000 mm" },
-  { "label": "Weight", "value": "137 kg" },
-  { "label": "Working Time", "value": "3.0 - 4.0 hours" }
-]
+  [
+      { "label": "Clean Water Tank Capacity", "value": "50 L" },
+      { "label": "Waste Water Tank Capacity", "value": "90 L" },
+      { "label": "Squeegee Width", "value": "800 mm " },
+      { "label": "Scrubbing Width", "value": "560 mm" },
+      { "label": "Cleaning Efficiency", "value": "2000 m²/h" },
+      { "label": "Battery Capacity", "value": "65" },
+      { "label": "Wire Size", "value": "NA" }
+    ],
+    [
+      { "label": "Voltage", "value": "24 V" },
+      { "label": "Brush Motor Power", "value": "500 W" },
+      { "label": "Suction Motor Power", "value": "310 W" },
+      { "label": "Brush Pressure", "value": "42 kg" },
+      { "label": " Size", "value": "128 × 80 × 100 cm" },
+      { "label": "Weight", "value": "137 kg"},
+      { "label": "Working Time", "value": "3-4 hours" }
+    ]
 
   ],
   "youtubeVideoId": "VuwDveivehc",

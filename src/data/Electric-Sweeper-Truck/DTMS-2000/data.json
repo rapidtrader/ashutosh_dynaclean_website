@@ -1,16 +1,22 @@
 {
-  "title": "Electric Sweeper Truck DTMS – 2000 EV",
+  "title": "Electric Sweeper Truck DRS – 2000 EV",
   "images": [
-      "/Product/Bettery-Operated-truck/DTMS-2000 Ev/1.png",
-      "/Product/Bettery-Operated-truck/DTMS-2000 Ev/2.png"
+      "/Product/Bettery-Operated-truck/DTMS-2000 Ev/a (1).png",
+      "/Product/Bettery-Operated-truck/DTMS-2000 Ev/a (2).png",
+      "/Product/Bettery-Operated-truck/DTMS-2000 Ev/a (3).png",
+      "/Product/Bettery-Operated-truck/DTMS-2000 Ev/a (4).png",
+      "/Product/Bettery-Operated-truck/DTMS-2000 Ev/a (5).png", 
+      "/Product/Bettery-Operated-truck/DTMS-2000 Ev/a (6).png"
+          
   ],
   "specifications": [
 
 
     [
+       { "label": "Dust Tank", "value": "2000L" },
   { "label": "Water Tank", "value": "900L" },
-  { "label": "Dust Tank", "value": "2000L" },
-  { "label": "Sweeping Width", "value": "2400mm" },
+ 
+  { "label": "Sweeping Width", "value": "2000mm" },
   { "label": "Cleaning Efficiency (Maximum)", "value": "24000 m²/hour" },
   { "label": "Number of Brushes", "value": "4" },
   { "label": "Drive Motor Power", "value": "10 kW" },
@@ -21,14 +27,14 @@
   { "label": "Dumping Height", "value": "1 meter" },
   { "label": "Dumping Type", "value": "Hydraulic" },
   { "label": "Cabin", "value": "2 Persons" },
-  { "label": "Control System", "value": "Easy Control" },
-  { "label": "Battery Capacity", "value": "36 kWh" },
+  { "label": "Control System", "value": "Smart-Touch" },
+  { "label": "Battery Capacity", "value": "40 kWh" },
   { "label": "Charging Time", "value": "6-8 hours" },
   { "label": "Running Time", "value": "8-10 hours" },
-  { "label": "Safety Features", "value": "Alarm, Front & Rear Warning Lights, Radar Safety System" },
   { "label": "Charging Cost (Approx.)", "value": "450 Rupees/day" },
   { "label": "In-Built Jet Pressure Washer", "value": "130 bar" },
-  { "label": "Anti-Smog Water Spray System", "value": "Yes" }
+  { "label": "Anti-Smog Water Spray System", "value": "Yes" },
+  { "label": "Litter-Picker", "value": "Yes" }
 ]
 
 
@@ -38,7 +44,7 @@
 
 
   ],
-  "youtubeVideoId": "6gzMakmzqTs",
+  "youtubeVideoId": "",
   "contactLink": "/contact",
   "catalogLink": "/catalogue/battery_operated_road_sweeper/DTMS-2000.pdf",
   "descriptionTitle": "Overview",

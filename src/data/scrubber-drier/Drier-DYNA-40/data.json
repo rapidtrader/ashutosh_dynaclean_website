@@ -1,27 +1,31 @@
 {
   "title": "Walk Behind Scrubber Drier DYNA-40",
   "images": [
+    "/Product/Auto-Scrubber-Drier/DYNA-40/DYNA-40.png",
       "/Product/Auto-Scrubber-Drier/DYNA-40/1.png",
-      "/Product/Auto-Scrubber-Drier/DYNA-40/2.png",
-      "/Product/Auto-Scrubber-Drier/DYNA-40/3.png"
+      "/Product/Auto-Scrubber-Drier/DYNA-40/2.png"
+ 
+      
   ],
   "specifications": [
-[
-  { "label": "Clean Water Tank", "value": "35 L" },
-  { "label": "Waste Water Tank ", "value": "40 L" },
-  { "label": "Scrubbing Width", "value": "460 mm" },
-  { "label": "Squeegee Width", "value": "780 mm" },
-  { "label": "Cleaning Efficiency", "value": "1800 m²/h" },
-  { "label": "Wire Size", "value": "15 m" },
-  { "label": "Voltage", "value": "220 V" }
-],[
-  { "label": "Brush Motor", "value": "1100 W" },
-  { "label": "Suction Motor", "value": "550 W" },
-  { "label": "Brush Pressure", "value": "40 Kg" },
-  { "label": "Size", "value": "970 x 540 x 970 mm" },
-  { "label": "Weight", "value": "95 kg" },
-  { "label": "Working Time", "value": "N/A" }
-]
+ [
+      { "label": "Clean Water Tank Capacity", "value": "40 L" },
+      { "label": "Waste Water Tank Capacity", "value": "40 L" },
+      { "label": "Squeegee Width", "value": "780 mm " },
+      { "label": "Scrubbing Width", "value": "460 mm" },
+      { "label": "Cleaning Efficiency", "value": "1800 m²/h" },
+      { "label": "Battery Capacity", "value": "NA" },
+      { "label": "Wire Size", "value": "12 m" }
+    ],
+    [
+      { "label": "Voltage", "value": "220 V" },
+      { "label": "Brush Motor Power", "value": "1100 W" },
+      { "label": "Suction Motor Power", "value": "550 W" },
+      { "label": "Brush Pressure", "value": "40 kg" },
+      { "label": " Size", "value": "98 × 98 × 56 cm" },
+      { "label": "Weight", "value": "74 kg" },
+      { "label": "Working Time", "value": "NA" }
+    ]
   ],
   "youtubeVideoId": "VuwDveivehc",
   "contactLink": "/contact",

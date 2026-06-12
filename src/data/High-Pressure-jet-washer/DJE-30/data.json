@@ -13,13 +13,13 @@
   { "label": "Fuel", "value": "Electric" },
   { "label": "Power", "value": "3 kW" },
   { "label": "Voltage", "value": "220 V" },
-  { "label": "Speed", "value": "2880 rpm" }],[
-  { "label": "Weight", "value": "50 Kg" },
+  { "label": "Speed", "value": "1450 rpm" }],[
+  { "label": "Weight", "value": "42 Kg" },
   { "label": "Water Tank", "value": "NA" },
   { "label": "Working Time", "value": "NA" },
-  { "label": "Product Size", "value": "735x475x480 mm" },
-  { "label": "Hose Length", "value": "15m" },
-  { "label": "Wire Length", "value": "5m" }
+  { "label": "Product Size", "value": "76x63x39 cm" },
+  { "label": "Hose Length", "value": "10m" },
+  { "label": "Wire Length", "value": "3m" }
 ]
 
 

@@ -1,19 +1,16 @@
 {
   "title": "Manual Sweeper DS2-55 ",
   "images": [
-    "/Product/Sweeper/DS2-55/1.png",
+    "/Product/Sweeper/DS2-55/main.png",
     "/Product/Sweeper/DS2-55/2.png",
-    "/Product/Sweeper/DS2-55/3.png",
+    "/Product/Sweeper/DS2-55/1.png",
     "/Product/Sweeper/DS2-55/4.png"
   ],
   "specifications": [
     [
+      
       {
-        "label": "Clean Water Tank",
-        "value": "NA"
-      },
-      {
-        "label": "Waste Water Tank",
+        "label": "Dust Tank",
         "value": "55 L"
       },
       {
@@ -31,42 +28,17 @@
       {
         "label": "Cleaning Efficiency",
         "value": "3860 m²/h"
-      },
-      {
-        "label": "Battery Capacity",
-        "value": "NA"
-      },
-      {
-        "label": "Working Time",
-        "value": "NA"
-      }
-    ],
-    [
-      {
-        "label": "Voltage",
-        "value": "NA"
-      },
-      {
-        "label": "Brush Motor",
-        "value": "NA"
-      },
-      {
-        "label": "Suction Motor",
-        "value": "NA"
-      },
-      {
-        "label": "Drive Motor",
-        "value": "NA"
-      },
-      {
+      }, {
         "label": "Weight",
-        "value": "27.5 kg"
+        "value": "22 kg"
       },
       {
         "label": "Size",
-        "value": "1300 x 920 x 1035 mm"
+        "value": "90x 77 x 42 cm"
       }
+     
     ]
+  
   ],
   "youtubeVideoId": "6CX5tk5D0SA",
   "contactLink": "/contact",

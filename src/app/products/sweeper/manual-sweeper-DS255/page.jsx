@@ -16,7 +16,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/sweeper/manual-sweeper-ds2-55",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Sweeper/DS2-55/1.png", // Update this with actual image path
+        url: "https://dynacleanindustries.com/Product/Sweeper/DS2-55/main.png",
         alt: "Manual Sweeper DS2-55",
       },
     ],

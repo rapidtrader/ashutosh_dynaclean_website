@@ -65,6 +65,7 @@ const MuncipleDesalTruck = () => {
 
   const cardData2 = {
     images: [
+      "/Product/Vaccume-Cleaner/DV-30/pehli.png",
       "/Product/Vaccume-Cleaner/DV-30/1.png",
       "/Product/Vaccume-Cleaner/DV-30/3.png",
       "/Product/Vaccume-Cleaner/DV-30/5.png",
@@ -111,7 +112,7 @@ each vacuum cleaners perfect both dry dust and wet waste, making them ideal for 
 
       <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center m-4 md:mt-4 md:mb-20">
         <Card {...cardData} />
-        <Card {...cardData1} />
+        {/* <Card {...cardData1} /> */}
         <Card {...cardData2} />
         <Card {...cardData3} />
         <Card {...cardData4} />

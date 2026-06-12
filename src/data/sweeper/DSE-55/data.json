@@ -8,22 +8,25 @@
   ],
   "specifications": [
    [
-  { "label": "Clean Water Tank", "value": "15 L" },
-  { "label": "Waste Water Tank", "value": "55 L" },
+  { "label": "Water Tank", "value": "15 L" },
+  { "label": "Dust Tank", "value": "55 L" },
   { "label": "Sweeping Width", "value": "850 mm" },
   { "label": "Main Brush Width", "value": "700 mm" },
   { "label": "Side Brush Width", "value": "2 x 350 mm" },
   { "label": "Cleaning Efficiency", "value": "5200 m²/h" },
-  { "label": "Battery Capacity", "value": "12" },
-  { "label": "Working Time", "value": "3.0 - 4.0 hours" }
+  { "label": "Battery Capacity", "value": "12" }
+ 
 ],
 
    [  
-  { "label": "Voltage", "value": "NA" },
-  { "label": "Brush/Suction Motor", "value": "120/100 W" },
-  { "label": "Drive Motor", "value": "NA" },
-  { "label": "Weight", "value": "90 kg" },
-  { "label": "Size", "value": "1300 x 850 x 1050 mm" }
+     { "label": "Working Time", "value": "3.0 - 4.0 hours" },
+  { "label": "Voltage", "value": "12 V" },
+ 
+  { "label": "Main Brush Motor", "value": "120 W" },
+  { "label": "Suction Motor", "value": "100 W" },
+ 
+  { "label": "Weight", "value": "107 kg" },
+  { "label": "Size", "value": "70 x 46 x 45 cm" }
 ]
 
 

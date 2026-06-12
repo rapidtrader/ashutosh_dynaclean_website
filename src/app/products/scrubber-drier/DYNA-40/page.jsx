@@ -16,7 +16,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/scrubber-drier/DYNA-40",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Auto-Scrubber-Drier/DYNA-40/1.png",
+        url: "https://dynacleanindustries.com/Product/Auto-Scrubber-Drier/DYNA-40/DYNA-40.png",
         alt: "Auto Scrubber Drier DYNA-40",
       },
     ],

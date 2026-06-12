@@ -10,10 +10,10 @@
     [
       {
         "label": "Clean Water Tank",
-        "value": "160 L"
+        "value": "90 L"
       },
       {
-        "label": "Waste Water Tank",
+        "label": "Dust Water Tank",
         "value": "180 L"
       },
       {
@@ -22,7 +22,7 @@
       },
       {
         "label": "Main Brush Width",
-        "value": "790 x 300 mm"
+        "value": "790 mm"
       },
       {
         "label": "Side Brush Width",
@@ -47,8 +47,12 @@
         "value": "48 V"
       },
       {
-        "label": "Brush/Suction Motor",
-        "value": "600/2 x 90 W"
+        "label": "Main Brush Motor",
+        "value": "850 W"
+      },
+      {
+        "label": "Suction Motor",
+        "value": "2 x 100 W"
       },
       {
         "label": "Drive Motor",
@@ -60,15 +64,15 @@
       },
       {
         "label": "Weight",
-        "value": "570 kg"
+        "value": "577 kg"
       },
       {
         "label": "Size",
-        "value": "1920 x 1550 x 1350 mm"
+        "value": "1860 x 1450 x 1220 mm"
       }
     ]
   ],
-  "youtubeVideoId": "I9TjZhxPAQ0",
+  "youtubeVideoId": "JOh8l3_iZxw",
   "contactLink": "/contact",
   "catalogLink": "/catalogue/sweepers/DRS180T.pdf",
   "descriptionTitle": "Overview",

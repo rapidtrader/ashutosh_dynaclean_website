@@ -1,22 +1,27 @@
 {
-  "title": "Electric Sweeper Truck DTMS – 1000 EV",
+  "title": "Electric Sweeper Truck DRS – 1000 EV",
   "images": [
-    "/Product/Bettery-Operated-truck/DTMS-1000 Ev/1.png",
-    "/Product/Bettery-Operated-truck/DTMS-1000 Ev/2.png"
+    "/Product/Bettery-Operated-truck/DTMS-1000 Ev/a (1).png",
+    "/Product/Bettery-Operated-truck/DTMS-1000 Ev/a (2).png",
+    "/Product/Bettery-Operated-truck/DTMS-1000 Ev/a (3).png",
+    "/Product/Bettery-Operated-truck/DTMS-1000 Ev/a (4).png",
+    "/Product/Bettery-Operated-truck/DTMS-1000 Ev/a (5).png",
+    "/Product/Bettery-Operated-truck/DTMS-1000 Ev/a (6).png"
   ],
   "specifications": [
     [
-      {
-        "label": "Water Tank",
-        "value": "900L"
-      },
-      {
+       {
         "label": "Dust Tank",
         "value": "1000L"
       },
       {
+        "label": "Water Tank",
+        "value": "900L"
+      },
+     
+      {
         "label": "Sweeping Width",
-        "value": "2400mm"
+        "value": "2000mm"
       },
       {
         "label": "Cleaning Efficiency (Maximum)",
@@ -62,11 +67,11 @@
       },
       {
         "label": "Control System",
-        "value": "Easy Control"
+        "value": "Smart-Touch"
       },
       {
         "label": "Battery Capacity",
-        "value": "30 kWh"
+        "value": "36 kWh"
       },
       {
         "label": "Charging Time",
@@ -74,15 +79,12 @@
       },
       {
         "label": "Running Time",
-        "value": "8-10 hours"
+        "value": "8-9 hours"
       },
-      {
-        "label": "Safety Features",
-        "value": "Alarm, Front & Rear Warning Lights, Radar Safety System"
-      },
+     
       {
         "label": "Charging Cost (Approx.)",
-        "value": "300 Rupees/day"
+        "value": "400 Rupees/day"
       },
       {
         "label": "In-Built Jet Pressure Washer",
@@ -91,10 +93,14 @@
       {
         "label": "Anti-Smog Water Spray System",
         "value": "Yes"
+      },
+      {
+        "label": "Litter Picker",
+        "value": "Yes"
       }
     ]
   ],
-  "youtubeVideoId": "yHwTRrMraTU",
+  "youtubeVideoId": "",
   "contactLink": "/contact",
   "catalogLink": "/catalogue/battery_operated_road_sweeper/DTMS-1000.pdf",
   "descriptionTitle": "Overview",

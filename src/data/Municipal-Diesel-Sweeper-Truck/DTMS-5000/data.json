@@ -1,28 +1,31 @@
 {
   "title": "Municipal Sweeper Truck DTMS-5000",
   "images": [
-      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-1000/1.png",
-      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-5000/1.png",
-      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-5000/2.png"
+   
+      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-5000/main.png"
 
   ],
   "specifications": [
 [
-  { "label": "Chassis", "value": "16 Ton" },
+  { "label": "Chassis", "value": "12 Ton" },
   { "label": "Hopper Capacity", "value": "5 m³" },
-  { "label": "Auxiliary Engine", "value": "100 Hp" },
-  { "label": "Rotary Brush", "value": "2x 500mm" },
-  { "label": "Main Brush", "value": "1900mm" },
-  { "label": "Main Brush Dia", "value": "381mm" },
-  { "label": "Sweeping Width", "value": "3000mm" }],[
-  { "label": "Working Speed", "value": "2.0-15.4 km/h" },
-  { "label": "Water Tank", "value": "500L" },
-  { "label": "Dust Tank", "value": "26000 m²/h" },
+  { "label": "Auxiliary Engine", "value": "110 Hp" },
+  { "label": "Rotary Brush", "value": "4x 600mm" },
+  { "label": "Suction Width", "value": "1200mm" },
+    { "label": "Sweeping Width", "value": "3000mm" }
+
+
+
+]
+  ,[
+  { "label": "Working Speed", "value": "0-10 km/h" },
+  { "label": "Water Tank", "value": "1500L" },
+  { "label": "Dust Tank", "value": "5000 L" },
+  { "label": "Cleaning Capacity", "value": "30000 M2/h" },
   { "label": "Vacuum Hose", "value": "5m" },
-  { "label": "Hose Dia", "value": "150mm" },
-  { "label": "High Pressure Jet Washer", "value": "Yes" },
-  { "label": "Auxiliary Engine Fuel", "value": "Diesel (Turbo)" },
-  { "label": "Recommended Chassis", "value": "TATA ULTRA" }
+   { "label": "Hose Dia", "value": "150mm" },
+  { "label": "Auxiliary Engine Fuel", "value": "Diesel " },
+  { "label": "Recommended Chassis", "value": "TATA 1212" }
 ]
 
 

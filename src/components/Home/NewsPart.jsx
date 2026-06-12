@@ -44,7 +44,7 @@ const NewsSection = () => {
             className="relative w-full lg:w-[32rem] h-64 rounded-lg shadow-lg overflow-hidden"
           >
             <img
-              src="/Home/Thumbnail/thumbnail2.webp"
+              src="/Home/Thumbnail/2.png"
               alt="Dynaclean Launch Video"
               className="w-full h-full object-cover"
               loading="lazy"
@@ -62,7 +62,7 @@ const NewsSection = () => {
 
           {/* Static Image */}
           <img
-            src="/Home/News/main.webp"
+            src="/Home/News/4.jpeg"
             alt="News Highlight"
             className="w-[28rem] h-auto mx-auto rounded-lg shadow-md"
             loading="lazy"
@@ -87,7 +87,7 @@ const NewsSection = () => {
             className="relative w-3/4 md:w-[16rem] h-40 md:h-48 rounded-lg shadow-lg overflow-hidden"
           >
             <img
-              src="/Home/Thumbnail/thumbnail2.webp"
+              src="/Home/Thumbnail/2.png"
               alt="Dynaclean Mobile Video"
               className="w-full h-full object-cover"
               loading="lazy"
@@ -159,7 +159,7 @@ const NewsSection = () => {
             className="relative w-full lg:w-[32rem] h-64 rounded-lg shadow-lg overflow-hidden"
           >
             <img
-              src="/Home/Thumbnail/thumbnail3.webp"
+              src="/Home/Thumbnail/1.jpeg"
               alt="NDMC Video"
               className="w-full h-full object-cover"
               loading="lazy"
@@ -194,7 +194,7 @@ const NewsSection = () => {
             className="relative w-3/4 md:w-[16rem] h-40 md:h-48 rounded-lg shadow-lg overflow-hidden"
           >
             <img
-              src="/Home/Thumbnail/thumbnail3.webp"
+              src="/Home/Thumbnail/1.jpeg"
               alt="NDMC Mobile Video"
               className="w-full h-full object-cover"
               loading="lazy"

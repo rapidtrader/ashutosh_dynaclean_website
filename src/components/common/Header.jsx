@@ -274,7 +274,7 @@ export default function Header() {
             {/* Catalog Download */}
             <li className="mt-2 md:mt-0 md:ml-4">
               <a
-                href="/Home/Catalog/new-one.pdf"
+                href="/Home/Catalog/All-Product_Catalogue-2026.pdf"
                 target="_blank"
                 onClick={handleMenuLinkClick}
                 className="inline-block"

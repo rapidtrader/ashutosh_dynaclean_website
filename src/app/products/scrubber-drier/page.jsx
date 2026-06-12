@@ -125,6 +125,7 @@ const Scrubber = () => {
   };
   const cardData6 = {
     images: [
+      "/Product/Auto-Scrubber-Drier/DYNA-40/DYNA-40.png",
       "/Product/Auto-Scrubber-Drier/DYNA-40/1.png",
       "/Product/Auto-Scrubber-Drier/DYNA-40/2.png",
       "/Product/Auto-Scrubber-Drier/DYNA-40/3.png",

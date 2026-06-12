@@ -9,21 +9,15 @@
   "specifications": [
     [
       { "label": "Brush", "value": "1200RPM" },
-      { "label": "Power", "value": "1200-3000W" },
+      { "label": "Power", "value": "1060 W" },
       { "label": "Motor Power", "value": "1000W" },
-      { "label": "Wire", "value": "1.5M" },
-      { "label": "Working Time", "value": "Up to 30 minutes" },
-      { "label": "Weight", "value": "5.5kg" }
+      { "label": "Wire", "value": "10 M" }
     ],
     [
       { "label": "Size", "value": "430x150x170mm" },
-      { "label": "Material", "value": "Plastic" },
-      {
-        "label": "Usage/Application",
-        "value": "Staircase, Chair, Sofa Shampooing"
-      },
-      { "label": "Air Flow Rate", "value": "-" },
-      { "label": "Battery", "value": "18x4 Ah" }
+
+      { "label": "Body Material", "value": "Plastic" },
+      { "label": "Weight", "value": "5kg" }
     ]
   ],
   "contactLink": "/contact",

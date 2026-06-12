@@ -15,7 +15,7 @@ const products = [
   },
   {
     name: "Ride On Sweeper",
-    image: "/Home/Products/Gall/product-3.webp",
+    image: "/Home/Products/Gall/product-3.jpeg",
     link: "/products/sweeper/ride-on-sweeper-DRS90T",
   },
   {
@@ -25,12 +25,12 @@ const products = [
   },
   {
     name: "Ride On Scrubber Drier",
-    image: "/Home/Products/Gall/products-5.webp",
+    image: "/Home/Products/Gall/products-5.png",
     link: "/products/scrubber-drier/DRO-100P",
   },
   {
     name: "Scooter Mop",
-    image: "/Home/Products/Gall/products-6.webp",
+    image: "/Home/Products/Gall/products-6.png",
     link: "products/scooter-mop/DMS-115P",
   },
 ];

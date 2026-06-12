@@ -13,14 +13,14 @@
       { "label": "Motor Power", "value": "4500 W" },
       { "label": "Type", "value": "Wet & Dry" },
       { "label": "Airflow", "value": "120 L/S" },
-      { "label": "Vacuum Suction", "value": "250 mbar" }
+      { "label": "Vacuum Suction", "value": "280 mbar" }
     ],
     [
       { "label": "Tank Diameter", "value": "440 mm" },
       { "label": "Height", "value": "1050 mm" },
       { "label": "Wire Length", "value": "7 m" },
       { "label": "Weight", "value": "32.1 kg" },
-      { "label": "Size", "value": "620 x 540 x 1070 mm" }
+      { "label": "Size", "value": "96 x 68 x 62 cm" }
     ]
   ],
   "youtubeVideoId": "tguspO8z0MY",

@@ -19,11 +19,10 @@
     ],
     [
       { "label": "Height", "value": "760 mm" },
-      { "label": "Wire Length", "value": "10m" },
+      { "label": "Wire Length", "value": "7m" },
       { "label": "Weight", "value": "17.5kg" },
-      { "label": "Size", "value": "455x410x920mm" },
-      { "label": "Power (Water Pump)", "value": "34W" },
-      { "label": "Accessories Diameter", "value": "38mm" }
+      { "label": "Size", "value": "455x410x920mm" } 
+      
     ]
   ],
   "contactLink": "/contact",

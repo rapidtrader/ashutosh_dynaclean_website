@@ -1,7 +1,6 @@
 {
   "title": "Self Propelled Sweeper Truck 600",
   "images": [
-    
     "/Product/Bettery-Operated-truck/600/8.png",
     "/Product/Bettery-Operated-truck/600/1.png",
     "/Product/Bettery-Operated-truck/600/2.png",
@@ -13,30 +12,34 @@
   ],
   "specifications": [
     [
-      { "label": "Water Tank", "value": "300L" },
-      { "label": "Dumping Height", "value": "Manual" },
       { "label": "Dust Tank", "value": "300L" },
-      { "label": "Dumping Type", "value": "Manual" },
-      { "label": "Cabin", "value": "2 Persons" },
+      { "label": "Water Tank", "value": "300L" },
       { "label": "Sweeping Width", "value": "2400mm" },
-      { "label": "Control System", "value": "Easy Control" },
-      { "label": "Cleaning Efficiency (Maximum)", "value": "24000m/hour" },
-      { "label": "Battery Capacity", "value": "30Ah" },
+      { "label": "Cleaning Efficiency (Maximum)", "value": "23000m2/hour" },
       { "label": "Number of Brushes", "value": "4" },
-      { "label": "Charging Time", "value": "6-8 hours" },
-      { "label": "Drive Motor Power", "value": "3000W" }
+      { "label": "Main Brush Motor", "value": "800 W" },
+      { "label": "Dry Motor Power", "value": "3000 W" },
+    
+  { "label": "Maximum Sweeping Speed", "value": "10 km/h" }
+    
+
+   
     ],
-    [
-      { "label": "Working Time", "value": "7-8 hours" },
-      { "label": "Vacuum Motor Power", "value": "3000kW" },
-      { "label": "Maximum Sweeping Speed", "value": "10 km/h" },
-      { "label": "Safety Features", "value": "Alarm, front & rear warning lights" },
-      { "label": "Maximum Drive Speed", "value": "25 km/h" },
-      { "label": "Charging Cost (Approx.)", "value": "300 Rupees/day" },
-      { "label": "Maximum Distance Covered (8 Hours)", "value": "80 km" },
-      { "label": "In-Built Jet Pressure Washer", "value": "130 Bar" },
-      { "label": "Anti-Smog Water Spray System", "value": "Yes" }
-      
+    [ 
+       { "label": "Maximum Drive Speed", "value": "25 km/h" },
+       { "label": "Maximum Distance Covered (8 Hours)", "value": "80 km" },
+     
+      { "label": "Cabin", "value": "2 Persons" },
+ { "label": "Battery Capacity", "value": "15 kWh" },
+  { "label": "Charging Time", "value": "6-8 hours" },
+ { "label": "Working Time", "value": "7-8 hours" },
+ { "label": "In-Built Jet Pressure Washer", "value": "130 Bar" },
+  { "label": "Anti-Smog Water Spray System", "value": "Yes" },
+
+      { "label": "Dumping Type", "value": "Manual" }
+     
+     
+     
     ]
   ],
   "youtubeVideoId": "USsqapcEh3w",

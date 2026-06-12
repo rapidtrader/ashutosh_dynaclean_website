@@ -11,22 +11,23 @@
   ],
   "specifications": [
     [
-      { "label": "Brush", "value": "450RPM" },
-      { "label": "Power", "value": "1200-3000W" },
-      { "label": "Motor Power", "value": "500W" },
-      { "label": "Wire", "value": "1.5M" },
-      { "label": "Working Time", "value": "Up to 30 minutes" },
-      { "label": "Weight", "value": "6kg" }
+         { "label": "Brush Speed", "value": "0-2000RPM" },
+          { "label": "Body Material", "value": "Stainless Steel" },
+            { "label": "Motor Power", "value": "500W" },
+             { "label": "Wire Length", "value": "10M" },
+               { "label": "Voltage", "value": "220 V" }
+                
+
+    
     ],
     [
-      { "label": "Size", "value": "180x200mm" },
-      { "label": "Material", "value": "Metal" },
-      {
-        "label": "Usage/Application",
-        "value": "Metal Floor,Tiles IndustrialFloor"
-      },
-      { "label": "Air Flow Rate", "value": "-" },
-      { "label": "Battery", "value": "18x4 Ah" }
+      { "label": "Brush Diameter", "value": "180 mm" },
+                   { "label": "Speed Control Mode", "value": "6 Nos" },
+                     { "label": "Weight", "value": "8-6kg" },
+                      { "label": "Size", "value": "390x150x340 mm" }
+
+     
+     
     ]
   ],
   "youtubeVideoId": "XiE8_fL5tWI",

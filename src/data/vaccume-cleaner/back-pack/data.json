@@ -6,14 +6,23 @@
     "/Product/Vaccume-Cleaner/Back-Pack Vacuum Cleaner/3.png"
   ],
   "specifications": [
+     [
+      { "label": "Tank Capacity", "value": "6 L" },
+      { "label": "Voltage", "value": "220 V" },
+      { "label": "Motor Power", "value": "1000 W" },
+      { "label": "Type", "value": "Wet & Dry" },
+      { "label": "Airflow", "value": "47 L/S" },
+      { "label": "Vacuum Suction", "value": "190 mbar" }
+    ],
     [
-      { "label": "Power", "value": "1060W" },
-      { "label": "Vacuum Level", "value": "24 Kpa" },
-      { "label": "Dust Tank", "value": "6L" },
-      { "label": "Air Flow", "value": "47 L/s" },
-      { "label": "Weight", "value": "5.5Kg" },
-      { "label": "Size", "value": "400x340x730 mm" },
-      { "label": "Wire Length", "value": "15m" }
+      
+      { "label": "Tank Diameter", "value": "36 mm" },
+      { "label": "Height", "value": "730 mm" },
+      { "label": "Wire Length", "value": "15 m" },
+      { "label": "Weight", "value": "5.5 kg" },
+      { "label": "Size", "value": "40 x 34 x 73 cm" }
+      
+      
     ]
   ],
   "contactLink": "/contact",

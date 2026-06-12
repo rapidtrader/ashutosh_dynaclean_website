@@ -2,32 +2,40 @@
   "title": "Electric Sweeper Truck DTMS – 6000 EV",
   "images": [
     
-      "/Product/Bettery-Operated-truck/DTMS-6000 Ev/5.jpeg",
-      "/Product/Bettery-Operated-truck/DTMS-6000 Ev/4.png"
+      "/Product/Bettery-Operated-truck/DTMS-6000 Ev/a.png"
+   
   ],
   "specifications": [
 [
+    { "label": "Dust Tank", "value": "6500L" },
   { "label": "Water Tank", "value": "1500L" },
-  { "label": "Dust Tank", "value": "6000L" },
+
   { "label": "Sweeping Width", "value": "3500mm" },
-  { "label": "Cleaning Efficiency (Maximum)", "value": "45000 m²/hour" },
+  { "label": "Cleaning Efficiency (Maximum)", "value": "35000 m²/hour" },
   { "label": "Number of Brushes", "value": "4" },
-  { "label": "Drive Motor Power", "value": "25 kW" },
-  { "label": "Vacuum Motor Power", "value": "15 kW" },
+  { "label": "Drive Motor Power", "value": "250 kW" },
+  { "label": "Vacuum Motor Power", "value": "24 kW" },
+  { "label": "Chasis Capacity", "value": "9 Ton" },
+
+
+
   { "label": "Maximum Sweeping Speed", "value": "10 km/h" },
-  { "label": "Maximum Drive Speed", "value": "25 km/h" },
+  { "label": "Maximum Drive Speed", "value": "75 km/h" },
   { "label": "Maximum Distance Covered (8 Hours)", "value": "80 km" },
-  { "label": "Dumping Height", "value": "1 meter" }],[
+  { "label": "Dumping Height", "value": "1.2 meter" }],[
   { "label": "Dumping Type", "value": "Hydraulic" },
   { "label": "Cabin", "value": "2 Persons-AC" },
-  { "label": "Control System", "value": "Easy Control" },
-  { "label": "Battery Capacity", "value": "80 kWh" },
+  { "label": "Control System", "value": "Smart Touch" },
+  { "label": "Battery Capacity", "value": "200.50 kWh" },
   { "label": "Charging Time", "value": "6-8 hours" },
-  { "label": "Running Time", "value": "8-10 hours" },
-  { "label": "Safety Features", "value": "Alarm, Front & Rear Warning Lights, Radar Safety System" },
-  { "label": "Charging Cost (Approx.)", "value": "1,000 Rupees/day" },
+  { "label": "Running Time", "value": "8-12 hours" },
+  { "label": "Charging Cost (Approx.)", "value": "1,500 Rupees/day" },
   { "label": "In-Built Jet Pressure Washer", "value": "150 bar" },
-  { "label": "Anti-Smog Water Spray System", "value": "Yes" }
+  { "label": "Anti-Smog Water Spray System", "value": "Yes" },
+    { "label": "Litter-Picker", "value": "Yes" },
+    { "label": "In-Built Ai Integration", "value": "Yes" },
+       { "label": "In-Built 360 Degree Camera", "value": "Yes" },
+        { "label": "Recommended Chassis", "value": "Tata ultra E9" }
 ]
 
 
@@ -35,7 +43,7 @@
 
 
   ],
-  "youtubeVideoId": "6gzMakmzqTs",
+  "youtubeVideoId": "",
   "contactLink": "/contact",
   "catalogLink": "/catalogue/battery_operated_road_sweeper/DTMS6000EV.pdf",
   "descriptionTitle": "Overview",

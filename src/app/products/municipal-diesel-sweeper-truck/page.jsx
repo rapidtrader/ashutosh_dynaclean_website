@@ -85,7 +85,7 @@ const MuncipleDesalTruck = () => {
   };
   const cardData4 = {
     images: [
-      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-5000/1.png",
+      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-5000/main.png",
       "/Product/Munciple-Deisal-sweeper-Truck/DTMS-1000/1.png",
       "/Product/Munciple-Deisal-sweeper-Truck/DTMS-5000/2.png",
     ],
@@ -96,7 +96,7 @@ const MuncipleDesalTruck = () => {
   const cardData5 = {
     images: [
      
-      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-6000/3.jpeg",
+      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-6000/main.png",
     ],
     url: "/products/municipal-diesel-sweeper-truck/DTMS-6000",
     title: data6000.title,
@@ -115,10 +115,10 @@ Constructed to be durable and efficient The sweeper truck is perfect for long-te
       />
 
       <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center m-4 md:mt-4 md:mb-20">
-        <Card {...cardData} />
+        {/* <Card {...cardData} />
         <Card {...cardData1} />
         <Card {...cardData2} />
-        <Card {...cardData3} />
+        <Card {...cardData3} /> */}
         <Card {...cardData4} />
         <Card {...cardData5} />
       </div>

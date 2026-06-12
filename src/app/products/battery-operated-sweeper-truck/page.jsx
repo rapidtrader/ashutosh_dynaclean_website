@@ -6,6 +6,7 @@ import data3000 from "@/data/Electric-Sweeper-Truck/DTMS-3000/data";
 import data4000 from "@/data/Electric-Sweeper-Truck/DTMS-4000/data";
 import data5000 from "@/data/Electric-Sweeper-Truck/DTMS-5000/data";
 import data6000 from "@/data/Electric-Sweeper-Truck/DTMS-6000/data";
+import data7500 from "@/data/Electric-Sweeper-Truck/DTMS-7500/data";
 import data600 from "@/data/Electric-Sweeper-Truck/600/data";
 import data600DT from "@/data/Electric-Sweeper-Truck/DRS-600DT/data";
 
@@ -44,11 +45,12 @@ const MuncipleDesalTruck = () => {
   const shortDescription3 = getShortDescription(data4000.description, 27);
   const shortDescription4 = getShortDescription(data5000.description, 27);
   const shortDescription5 = getShortDescription(data6000.description, 27);
+  const shortDescription7500 = getShortDescription(data7500.description, 27);
   const shortDescription600 = getShortDescription(data600.description, 27);
   const shortDescription600DT = getShortDescription(data600DT.description, 27);
   const cardData = {
     images: [
-      "/Product/Bettery-Operated-truck/DTMS-1000 Ev/1.png",
+      "/Product/Bettery-Operated-truck/DTMS-1000 Ev/a (1).png",
       "/Product/Bettery-Operated-truck/DTMS-1000 Ev/2.png",
     ],
     url: "/products/battery-operated-sweeper-truck/DTMS-1000",
@@ -58,8 +60,8 @@ const MuncipleDesalTruck = () => {
 
   const cardData1 = {
     images: [
-      "/Product/Bettery-Operated-truck/DTMS-2000 Ev/1.png",
-      "/Product/Bettery-Operated-truck/DTMS-2000 Ev/2.png",
+      "/Product/Bettery-Operated-truck/DTMS-2000 Ev/a (1).png",
+      "/Product/Bettery-Operated-truck/DTMS-2000 Ev/a (2).png",
     ],
     url: "/products/battery-operated-sweeper-truck/DTMS-2000",
     title: data2000.title,
@@ -67,7 +69,7 @@ const MuncipleDesalTruck = () => {
   };
 
   const cardData2 = {
-    images: ["/Product/Bettery-Operated-truck/DTMS-3000 Ev/1.jpg"],
+    images: ["/Product/Bettery-Operated-truck/DTMS-3000 Ev/1.png"],
     url: "/products/battery-operated-sweeper-truck/DTMS-3000",
     title: data3000.title,
     description: shortDescription2,
@@ -93,11 +95,7 @@ const MuncipleDesalTruck = () => {
     description: shortDescription4,
   };
   const cardData5 = {
-    images: [
-    
-      "/Product/Bettery-Operated-truck/DTMS-6000 Ev/5.jpeg",
-      "/Product/Bettery-Operated-truck/DTMS-6000 Ev/4.png"
-    ],
+    images: ["/Product/Bettery-Operated-truck/DTMS-6000 Ev/a.png"],
     url: "/products/battery-operated-sweeper-truck/DTMS-6000",
     title: data6000.title,
     description: shortDescription5,
@@ -105,7 +103,6 @@ const MuncipleDesalTruck = () => {
 
   const cardData6 = {
     images: [
-      "/Product/Bettery-Operated-truck/600/1.png",
       "/Product/Bettery-Operated-truck/600/8.png",
       "/Product/Bettery-Operated-truck/600/2.png",
       "/Product/Bettery-Operated-truck/600/3.png",
@@ -131,6 +128,13 @@ const MuncipleDesalTruck = () => {
     description: shortDescription600DT,
   };
 
+  const cardData8 = {
+    images: ["/Product/Bettery-Operated-truck/DTMS-7500 Ev/a.png"],
+    url: "/products/battery-operated-sweeper-truck/DTMS-7500",
+    title: data7500.title,
+    description: shortDescription7500,
+  };
+
   return (
     <main>
       <ResponsiveSection
@@ -144,9 +148,10 @@ const MuncipleDesalTruck = () => {
         <Card {...cardData} />
         <Card {...cardData1} />
         <Card {...cardData2} />
-        <Card {...cardData3} />
-        <Card {...cardData4} />
+        {/* <Card {...cardData3} />
+        <Card {...cardData4} /> */}
         <Card {...cardData5} />
+        <Card {...cardData8} />
         <Card {...cardData6} />
         <Card {...cardData7} />
       </div>

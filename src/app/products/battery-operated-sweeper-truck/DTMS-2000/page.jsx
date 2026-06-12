@@ -3,14 +3,14 @@ import data from "@/data/Electric-Sweeper-Truck/DTMS-2000/data"; // Direct impor
 import ImageGallery from "@/components/Products/ImageGallery";
 
 export const metadata = {
-  title: "Electric Sweeper Truck DTMS – 2000 EV",
+  title: "Electric Sweeper Truck DRS – 2000 EV",
   description:
     "The battery-operated Sweeper Truck DTMS-2000 is capable road sweeper and carrying out smart city operations. This road sweeper machine is designed for cleaning of urban areas.",
   keywords:
     "Battery-operated Road Sweeper, Road Sweeper Truck, Road Sweeper Machine, Sweeper Truck, Battery-operated Sweeper Truck, Dynaclean Sweeper Truck",
   openGraph: {
     type: "website",
-    title: "Electric Sweeper Truck DTMS – 2000 EV",
+    title: "Electric Sweeper Truck DRS – 2000 EV",
     description:
       "The battery-operated Sweeper Truck DTMS-2000 is capable road sweeper and carrying out smart city operations. This road sweeper machine is designed for cleaning of urban areas.",
     url: "https://dynacleanindustries.com/products/battery-operated-sweeper-truck/DTMS-3000",

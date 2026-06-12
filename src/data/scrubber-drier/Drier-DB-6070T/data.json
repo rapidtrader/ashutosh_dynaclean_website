@@ -7,25 +7,25 @@
       "/Product/Auto-Scrubber-Drier/DB-6070T/4.png"
   ],
   "specifications": [
-   [
-  { "label": "Clean Water Tank", "value": "65 L" },
-  { "label": "Waste Water Tank", "value": "71 L" },
-  { "label": "Scrubbing Width", "value": "530 mm" },
-  { "label": "Squeegee Width", "value": "800 mm" },
-  { "label": "Cleaning Efficiency", "value": "2200 m²/h" },
-  { "label": "Battery Capacity", "value": "65 Ah/m" },
-  { "label": "Wire Size", "value": "NA" }
-],
+  [
+      { "label": "Clean Water Tank Capacity", "value": "65 L" },
+      { "label": "Waste Water Tank Capacity", "value": "71 L" },
+      { "label": "Squeegee Width", "value": "800 mm " },
+      { "label": "Scrubbing Width", "value": "530 mm" },
+      { "label": "Cleaning Efficiency", "value": "2200 m²/h" },
+      { "label": "Battery Capacity", "value": "65" },
+      { "label": "Wire Size", "value": "NA" }
+    ],
+    [
+      { "label": "Voltage", "value": "24 V" },
+      { "label": "Brush Motor Power", "value": "550 W" },
+      { "label": "Suction Motor Power", "value": "500 W" },
+      { "label": "Brush Pressure", "value": "48 kg" },
+      { "label": " Size", "value": "141 × 119 × 66 cm" },
+      { "label": "Weight", "value": "171 kg"},
+      { "label": "Working Time", "value": "2-3 hours" }
+    ]
 
-   [
-  { "label": "Voltage", "value": "24 V" },
-  { "label": "Brush Motor", "value": "550 W" },
-  { "label": "Suction Motor", "value": "500 W" },
-  { "label": "Brush Pressure", "value": "35 kg" },
-  { "label": "Size", "value": "1110 x 800 x 950 mm" },
-  { "label": "Weight", "value": "102 kg" },
-  { "label": "Working Time", "value": "2.5 - 3.0 hours" }
-]
 
   ],
   "youtubeVideoId": "B-ElAd_opYA",

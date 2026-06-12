@@ -6,10 +6,10 @@
   ],
   "specifications": [
    [
-  { "label": "Clean Water Tank", "value": "90 L" },
+  { "label": "Clean Water Tank", "value": "30 L" },
   { "label": "Waste Water Tank", "value": "100 L" },
   { "label": "Sweeping Width", "value": "1250 mm" },
-  { "label": "Main Brush Width", "value": "490 x 300 mm" },
+  { "label": "Main Brush Width", "value": "530 mm" },
   { "label": "Side Brush Width", "value": "2 x 460 mm" },
   { "label": "Cleaning Efficiency", "value": "7000 m²/h" },
   { "label": "Battery Capacity", "value": "65 x 4 Ah" },
@@ -19,8 +19,11 @@
 
   [
   { "label": "Voltage", "value": "48 V" },
-  { "label": "Brush/Suction Motor", "value": "650/2 x 90 W" },
-  { "label": "Drive Motor", "value": "800 W" },
+   { "label": "Main Brush Motor", "value": "700 W" },
+
+  
+  { "label": "Suction Motor", "value": "2 x 100 W" },
+  { "label": "Drive Motor", "value": "1000 W" },
   { "label": "Side Brush Motor", "value": "90 x 2 W" },
   { "label": "Weight", "value": "320 kg" },
   { "label": "Size", "value": "1395 x 1250 x 1325 mm" }
@@ -28,7 +31,7 @@
 
 
   ],
-  "youtubeVideoId": "B-ElAd_opYA",
+  "youtubeVideoId": "B-N-yD2w-1c",
   "contactLink": "/contact",
   "catalogLink": "/catalogue/sweepers/DRS-90T.pdf",
   "descriptionTitle": "Overview",
