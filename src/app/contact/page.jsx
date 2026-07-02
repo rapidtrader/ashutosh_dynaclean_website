@@ -48,10 +48,10 @@ export default function Contact() {
               <FaPhone className="text-blue-600 text-base flex-shrink-0" />
               <div className="flex-1 min-w-0">
                 <p className="text-xs text-gray-500">HR</p>
-                <p className="text-sm font-semibold text-gray-900">9289001127</p>
+                <p className="text-sm font-semibold text-gray-900">9311958309</p>
               </div>
               <a
-                href="tel:9289001127"
+                href="tel:9311958309"
                 className="flex-shrink-0 px-2 xs:px-3 py-1 bg-blue-600 text-white rounded text-xs font-semibold hover:bg-blue-700 transition-colors whitespace-nowrap"
               >
                 Call Now
