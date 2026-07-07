@@ -297,11 +297,11 @@ export default function Footer() {
                 </div>
 
                 {/* Footer Images */}
-                <div className="flex flex-col md:flex-col gap-2 items-start md:items-end w-full md:w-auto md:ml-auto md:flex-shrink-0 md:pr-4">
+                <div className="flex flex-col gap-2 items-start md:items-end w-full md:w-auto md:ml-auto md:flex-shrink-0">
                   <img
                     src="/footer image/trial2.jpg"
                     alt="Trial"
-                    className="w-full md:w-[28rem] h-auto object-contain rounded"
+                    className="w-48 md:w-56 lg:w-64 2xl:w-96 h-auto object-contain rounded"
                   />
                 </div>
               </div>
