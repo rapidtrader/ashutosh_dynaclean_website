@@ -9,6 +9,7 @@ export default function ResponsiveSection({
   imageSide = "left",
   title,
   description,
+  descriptionHTML,
 }) {
   const isImageLeft = imageSide === "left";
 
@@ -46,7 +47,14 @@ export default function ResponsiveSection({
         )}
       >
         <h1 className="text-5xl mb-4">{title}</h1>
-        <p className="text-gray-700 text-lg text-justify">{description}</p>
+        {descriptionHTML ? (
+          <div 
+            className="text-gray-700 text-lg text-justify"
+            dangerouslySetInnerHTML={{ __html: descriptionHTML }}
+          />
+        ) : (
+          <p className="text-gray-700 text-lg text-justify">{description}</p>
+        )}
       </div>
     </section>
   );
@@ -56,5 +64,6 @@ ResponsiveSection.propTypes = {
   imagePath: PropTypes.string.isRequired,
   imageSide: PropTypes.oneOf(["left", "right"]),
   title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  description: PropTypes.string,
+  descriptionHTML: PropTypes.string,
 };

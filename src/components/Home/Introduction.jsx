@@ -55,15 +55,10 @@ const DynacleanIndustries = () => {
           {/* Text Section */}
           <div className="flex-1 text-gray-900 text-justify leading-relaxed">
             <p>
-              Dynaclean Industries Pvt. Ltd, Founded in 2016, is one of the
-              greatest manufacturers and suppliers of revolutionary cleaning
-              machines and solutions in India. We deal in scrubbers, ride-on
-              sweepers, vacuum cleaners, road sweeper trucks, jet pressure
-              machines, escalator cleaners, sponge mops, and sofa and carpet
-              cleaners. We have a strong foothold in eco-friendly, efficient,
-              innovative cleaning technology in major sectors such as Airports,
-              Metro-rail stations, Hospitals, Industrial plants, Railways,
-              Highways, Municipalities, etc.
+          Dynaclean Industries, Founded in 2016, is one of the greatest manufacturers and suppliers of revolutionary cleaning machines and cleaning solutions in India and proudly recognized as <strong>the First manufacturer of Electric Sweeper Truck in India</strong>. We deal in scrubber driers, ride-on sweepers, vacuum cleaners, road sweeper trucks, EV sweeper trucks, jet pressure machines, jet pressure washer, escalator cleaners, scooter mops, sofa cleaner and carpet cleaners. We have a strong foothold in eco-friendly, efficient, innovative cleaning technology in major sectors such as Airports, Metro stations, Hospitals, Industrial plants, Power plants, Railway stations, Highways, Municipalities, schools, hostels and colleges etc.
+
+
+
             </p>
 
             <p className="mt-4">

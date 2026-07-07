@@ -51,9 +51,13 @@ export default function Home() {
         imagePath="/ServiceSuport/Srivece.webp" // public directory
         imageSide="left" // or "right"
         title="Service Support"
-        description="At Dynaclean , we don’t just sell machines — we build long-term partnerships through exceptional service support. From the moment your cleaning equipments is delivered, our expert service team is by your side with professional installation, trainning, and repairing maintenance. Whether it’s a vacuum cleaner, sweeper, road sweeper, scrubber, or escalator cleaner, scooter mop .we promises your machine performs at its best — every single day.
+        descriptionHTML=" 
+At Dynaclean, we don’t just sell machines — we build long-term partnerships through exceptional service support. Dynaclean Industries is  recognized for providing <strong>the best service of cleaning machines in India</strong>. From the moment your cleaning equipment is delivered, our expert cleaning service team is by your side with professional installation, training, and repairing maintenance. Whether it’s a vacuum cleaner, sweeper, road sweeper, scrubber driers, or escalator cleaner, scooter mop and EV sweeper truck. We promise your machine will perform at its best — every single day. With a nationwide service network, access to genuine spare parts, and a team of highly trained engineers, Dynaclean guarantees minimal downtime and maximum satisfaction.
 
-With a nationwide service network, access to genuine spare parts, and a team of highly trained engineers, Dynaclean guarantees minimal downtime and maximum satisfaction. Our fast and friendly support is just a call away — because we believe cleaning should never stop, and neither should your trust in us."
+<br/><br/>
+
+Have questions or need more information about our cleaning machines and services? Our service support team is always ready to assist you with expert guidance and reliable support. Feel free to get in touch with us—we're here to help you find the right cleaning solution for your needs. Thank you for choosing Dynaclean Industries. We look forward to serving you!
+"
       />
 
       {/* <ImageTextSlider slides={slides} mainHeading="Growing Better Together" /> */}
