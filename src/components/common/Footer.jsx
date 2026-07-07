@@ -301,7 +301,7 @@ export default function Footer() {
                   <img
                     src="/footer image/trial2.jpg"
                     alt="Trial"
-                    className="w-48 md:w-56 lg:w-64 2xl:w-96 h-auto object-contain rounded"
+                    className="w-48 md:w-44 lg:w-52 xl:w-96 2xl:w-[28rem] h-auto object-contain rounded"
                   />
                 </div>
               </div>
