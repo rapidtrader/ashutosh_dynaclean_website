@@ -301,7 +301,8 @@ export default function Footer() {
                   <img
                     src="/footer image/trial2.jpg"
                     alt="Trial"
-                    className="w-48 md:w-44 lg:w-52 xl:w-96 2xl:w-[28rem] h-auto object-contain rounded"
+                    className="w-40 md:w-44 lg:w-52 xl:w-52 2xl:w-52 3xl:w-[28rem] 4xl:w-[32rem] h-auto object-contain rounded"
+                    style={{ minWidth: 'clamp(160px, 15vw, 448px)' }}
                   />
                 </div>
               </div>
