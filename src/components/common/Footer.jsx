@@ -8,16 +8,16 @@ import { useState, useEffect } from "react";
 
 export default function Footer() {
   const [imgWidth, setImgWidth] = useState("160px");
+  const [isSmall, setIsSmall] = useState(false);
 
   useEffect(() => {
     const updateWidth = () => {
       const w = window.innerWidth;
-      if (w < 480) setImgWidth("288px");        // mobile - bada
-      else if (w < 768) setImgWidth("160px");   // sm
-      else if (w < 1024) setImgWidth("176px");  // md
-      else if (w < 1600) setImgWidth("208px");  // lg/xl - chota
-      else if (w < 1800) setImgWidth("352px");  // 1600+ - bada
-      else setImgWidth("512px");                 // 1800+ - aur bada
+      setIsSmall(w < 1550);
+      if (w < 1550) setImgWidth("300px");
+      else if (w < 1600) setImgWidth("208px");
+      else if (w < 1800) setImgWidth("352px");
+      else setImgWidth("512px");
     };
     updateWidth();
     window.addEventListener("resize", updateWidth);
@@ -280,7 +280,7 @@ export default function Footer() {
 
             {/* Contact Info + Images Together */}
             <div className="w-full md:w-1/4 lg:w-1/2 px-4 mb-8 md:mb-0">
-              <div className="flex flex-col lg:flex-row gap-8 items-start">
+              <div className={`flex gap-8 items-start ${isSmall ? 'flex-col' : 'flex-row'}`}>
                 {/* Contact Text */}
                 <div className="flex-1">
                   <h3
