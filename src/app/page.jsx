@@ -14,6 +14,9 @@ const NewsSection = dynamic(() => import("../components/Home/NewsPart"));
 const CustomerFeedback = dynamic(() =>
   import("../components/Home/CustomerFeedback")
 );
+const BrandLogosSlider = dynamic(() =>
+  import("../components/Home/BrandLogosSlider")
+);
 
 export default function Home() {
   const imageUrls = [
@@ -31,6 +34,7 @@ export default function Home() {
       <WhyChooseUs />
       <ApplicationSegments />
       <OurServices />
+      <BrandLogosSlider />
       <NewsSection />
       <CustomerFeedback />
     </main>
