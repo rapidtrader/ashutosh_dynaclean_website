@@ -6,11 +6,11 @@ import { FiPhone } from "react-icons/fi";
 export default function Footer() {
   return (
     <footer className="bg-[#000000] mt-[-3%]">
-      <div className="py-12 sm:py-8">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-wrap -mx-4 text-white">
+      <div className="py-12 sm:py-8 w-full">
+        <div className="w-full sm:w-11/12 lg:w-11/12 mx-auto px-4">
+          <div className="flex flex-row flex-wrap lg:flex-nowrap lg:overflow-hidden -mx-4 text-white">
             {/* Logo + Description + Social */}
-            <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-8 sm:mb-0 text-center sm:text-left border-r border-gray-600 pr-6">
+            <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/5 px-4 mb-8 sm:mb-0 text-center sm:text-left border-r border-gray-600 pr-6">
               <a href="index.html" className="inline-block mb-5">
                 <img
                   src="/logo.svg"
@@ -102,7 +102,7 @@ export default function Footer() {
             </div>
 
             {/* Quick Links */}
-            <div className="w-1/2 sm:w-1/3 md:w-1/6 lg:w-1/6 px-4 mb-8 sm:mb-0 border-r border-gray-600 pr-6 text-center sm:text-left">
+            <div className="w-1/2 md:w-1/4 lg:w-1/5 px-4 mb-8 md:mb-0 border-r border-gray-600 pr-6 text-center sm:text-left">
               <h3
                 className="text-white text-lg font-semibold uppercase mb-4"
               // style={{ color: "#E6D8D8" }}
@@ -168,7 +168,7 @@ export default function Footer() {
             </div>
 
             {/* Our Services */}
-            <div className="w-1/2 sm:w-1/3 md:w-1/6 lg:w-1/6 px-4 mb-8 sm:mb-0 border-r border-gray-600 pr-6 text-center sm:text-left">
+            <div className="w-1/2 md:w-1/4 lg:w-1/5 px-4 mb-8 md:mb-0 border-r border-gray-600 pr-6 text-center sm:text-left">
               <h3
                 className="text-white text-lg font-semibold uppercase mb-4"
               // style={{ color: "#E6D8D8" }}
@@ -259,39 +259,52 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Contact Info */}
-            <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 text-center sm:text-left">
-              <h3
-                className="text-white text-lg font-semibold uppercase mb-4"
-              // style={{ color: "#E6D8D8" }}
-              >
-                Contact Info
-              </h3>
-              <address className="not-italic space-y-3 text-white text-sm max-w-[320px] mx-auto sm:mx-0">
-                <p className="flex items-start gap-2">
-                  <GoLocation style={{ fontSize: "50px" }} />
+            {/* Contact Info + Images Together */}
+            <div className="w-full md:w-1/4 lg:w-1/2 px-4 mb-8 md:mb-0">
+              <div className="flex flex-col lg:flex-row gap-8 items-start">
+                {/* Contact Text */}
+                <div className="flex-1">
+                  <h3
+                    className="text-white text-lg font-semibold uppercase mb-4"
+                  >
+                    Contact Info
+                  </h3>
+                  <address className="not-italic space-y-3 text-white text-sm max-w-[320px]">
+                    <p className="flex items-start gap-2">
+                      <GoLocation style={{ fontSize: "50px" }} />
 
-                  <a href="#" className="hover:text-red-500 transition">
-                    1st floor, 13-B Kattabomman Street, Gandhi Nagar Main Road,
-                    Gandhi Nagar, Ganapathy, Coimbatore, Tamil Nadu,
-                    Pincode-641006
-                  </a>
-                </p>
-                <p className="flex items-center gap-2">
-                  <HiOutlineMail size={16} aria-hidden="true" />
-                  sales@dynacleanindustries.com
-                </p>
+                      <a href="#" className="hover:text-red-500 transition">
+                        1st floor, 13-B Kattabomman Street, Gandhi Nagar Main Road,
+                        Gandhi Nagar, Ganapathy, Coimbatore, Tamil Nadu,
+                        Pincode-641006
+                      </a>
+                    </p>
+                    <p className="flex items-center gap-2">
+                      <HiOutlineMail size={16} aria-hidden="true" />
+                      sales@dynacleanindustries.com
+                    </p>
 
-                <p className="flex items-center gap-2">
-                  <FiPhone size={16} aria-hidden="true" />
-                  01145143666
-                </p>
+                    <p className="flex items-center gap-2">
+                      <FiPhone size={16} aria-hidden="true" />
+                      01145143666
+                    </p>
 
-                <p className="flex items-center gap-2">
-                  <FiPhone size={16} aria-hidden="true" />
-                  +91 7982456944
-                </p>
-              </address>
+                    <p className="flex items-center gap-2">
+                      <FiPhone size={16} aria-hidden="true" />
+                      +91 7982456944
+                    </p>
+                  </address>
+                </div>
+
+                {/* Footer Images */}
+                <div className="flex flex-col md:flex-col gap-2 items-start md:items-end w-full md:w-auto md:ml-auto md:flex-shrink-0 md:pr-4">
+                  <img
+                    src="/footer image/trial2.jpg"
+                    alt="Trial"
+                    className="w-full md:w-[28rem] h-auto object-contain rounded"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
