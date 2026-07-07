@@ -1,9 +1,28 @@
+"use client";
+
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { GoLocation } from "react-icons/go"; // GitHub Octicons
+import { GoLocation } from "react-icons/go";
 import { HiOutlineMail } from "react-icons/hi";
 import { FiPhone } from "react-icons/fi";
+import { useState, useEffect } from "react";
 
 export default function Footer() {
+  const [imgWidth, setImgWidth] = useState("160px");
+
+  useEffect(() => {
+    const updateWidth = () => {
+      const w = window.innerWidth;
+      if (w < 480) setImgWidth("288px");        // mobile - bada
+      else if (w < 768) setImgWidth("160px");   // sm
+      else if (w < 1024) setImgWidth("176px");  // md
+      else if (w < 1600) setImgWidth("208px");  // lg/xl - chota
+      else if (w < 1800) setImgWidth("352px");  // 1600+ - bada
+      else setImgWidth("512px");                 // 1800+ - aur bada
+    };
+    updateWidth();
+    window.addEventListener("resize", updateWidth);
+    return () => window.removeEventListener("resize", updateWidth);
+  }, []);
   return (
     <footer className="bg-[#000000] mt-[-3%]">
       <div className="py-12 sm:py-8 w-full">
@@ -297,12 +316,12 @@ export default function Footer() {
                 </div>
 
                 {/* Footer Images */}
-                <div className="flex flex-col gap-2 items-start md:items-end w-full md:w-auto md:ml-auto md:flex-shrink-0">
+                <div className="flex flex-col gap-2 items-center xs:items-start md:items-end w-full md:w-auto md:ml-auto md:flex-shrink-0">
                   <img
                     src="/footer image/trial2.jpg"
                     alt="Trial"
-                    className="w-40 md:w-44 lg:w-52 xl:w-52 2xl:w-52 3xl:w-[28rem] 4xl:w-[32rem] h-auto object-contain rounded"
-                    style={{ minWidth: 'clamp(160px, 15vw, 448px)' }}
+                    style={{ width: imgWidth }}
+                    className="h-auto object-contain rounded mx-auto xs:mx-0"
                   />
                 </div>
               </div>
