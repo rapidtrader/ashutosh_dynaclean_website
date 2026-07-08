@@ -16,7 +16,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/escalator-cleaner/D-510ES",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Escalator-cleaner/1.png",
+        url: "https://dynacleanindustries.com/Product/Escalator-cleaner/Escalator_Cleaner_D-510ES(1).png",
         alt: "Escalator Cleaner D-510ES",
       },
     ],

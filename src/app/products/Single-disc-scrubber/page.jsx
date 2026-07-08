@@ -19,7 +19,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/Single-disc-scrubber/",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Single-Disc-Scrubber/D-15P/1.png",
+        url: "https://dynacleanindustries.com/Product/Single-Disc-Scrubber/D-15P/Single_Disc_Scrubber_D-15P(1).png",
         alt: "single Disc Scrubber",
       },
     ],
@@ -40,10 +40,10 @@ const Scrubber = () => {
   const shortDescription3 = getShortDescription(data2.description, 27);
   const cardData = {
     images: [
-      "/Product/Single-Disc-Scrubber/D-15P/1.png",
-      "/Product/Single-Disc-Scrubber/D-15P/2.png",
-      "/Product/Single-Disc-Scrubber/D-15P/3.png",
-      "/Product/Single-Disc-Scrubber/D-15P/4.png",
+      "/Product/Single-Disc-Scrubber/D-15P/Single_Disc_Scrubber_D-15P(1).png",
+      "/Product/Single-Disc-Scrubber/D-15P/Single_Disc_Scrubber_D-15P(2).png",
+      "/Product/Single-Disc-Scrubber/D-15P/Single_Disc_Scrubber_D-15P(3).png",
+      "/Product/Single-Disc-Scrubber/D-15P/Single_Disc_Scrubber_D-15P(4).png",
     ],
     url: "/products/Single-disc-scrubber/D-15P",
     title: data15.title,
@@ -52,10 +52,10 @@ const Scrubber = () => {
 
   const cardData1 = {
     images: [
-      "/Product/Single-Disc-Scrubber/D-20P/1.png",
-      "/Product/Single-Disc-Scrubber/D-20P/2.png",
-      "/Product/Single-Disc-Scrubber/D-20P/3.png",
-      "/Product/Single-Disc-Scrubber/D-20P/4.png",
+      "/Product/Single-Disc-Scrubber/D-20P/Single_Disc_Scrubber_D-20P(1).png",
+      "/Product/Single-Disc-Scrubber/D-20P/Single_Disc_Scrubber_D-20P(2).png",
+      "/Product/Single-Disc-Scrubber/D-20P/Single_Disc_Scrubber_D-20P(3).png",
+      "/Product/Single-Disc-Scrubber/D-20P/Single_Disc_Scrubber_D-20P(4).png",
     ],
     url: "/products/Single-disc-scrubber/D-20P",
     title: data20.title,
@@ -64,17 +64,17 @@ const Scrubber = () => {
 
   const cardData2 = {
     images: [
-      "/Product/Single-Disc-Scrubber/D-25P/1.png",
-      "/Product/Single-Disc-Scrubber/D-25P/2.png",
-      "/Product/Single-Disc-Scrubber/D-25P/3.png",
-      "/Product/Single-Disc-Scrubber/D-25P/4.png",
+      "/Product/Single-Disc-Scrubber/D-25P/Single_Disc_Scrubber_D-25P(1).png",
+      "/Product/Single-Disc-Scrubber/D-25P/Single_Disc_Scrubber_D-25P(2).png",
+      "/Product/Single-Disc-Scrubber/D-25P/Single_Disc_Scrubber_D-25P(3).png",
+      "/Product/Single-Disc-Scrubber/D-25P/Single_Disc_Scrubber_D-25P(4).png",
     ],
     url: "/products/Single-disc-scrubber/D-25P",
     title: data25.title,
     description: shortDescription2,
   };
   const cardData3 = {
-    images: ["/Product/Single-Disc-Scrubber/DH-2P/1.jpeg"],
+    images: ["/Product/Single-Disc-Scrubber/DH-2P/Single_Disc_Scrubber_DH-2P.jpeg"],
     url: "/products/Single-disc-scrubber/DH-2P",
     title: data2.title,
     description: shortDescription3,

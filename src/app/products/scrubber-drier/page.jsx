@@ -51,7 +51,7 @@ const Scrubber = () => {
 
   const cardData0 = {
     images: [
-      "/Product/Auto-Scrubber-Drier/DB-6070T/main.webp",
+      "/Product/Auto-Scrubber-Drier/DB-6070T/Walk_behind_Scrubber_Drier_DB-6070T(1).webp",
       "/Product/Auto-Scrubber-Drier/DB-6070T/2.webp",
       "/Product/Auto-Scrubber-Drier/DB-6070T/3.webp",
       "/Product/Auto-Scrubber-Drier/DB-6070T/4.png",
@@ -63,10 +63,10 @@ const Scrubber = () => {
 
   const cardData = {
     images: [
-      "/Product/Auto-Scrubber-Drier/DB-9050P/1.png",
-      "/Product/Auto-Scrubber-Drier/DB-9050P/2.png",
-      "/Product/Auto-Scrubber-Drier/DB-9050P/3.png",
-      "/Product/Auto-Scrubber-Drier/DB-9050P/4.png",
+      "/Product/Auto-Scrubber-Drier/DB-9050P/Walk_behind_Scrubber_Drier_DB-9050P(1).png",
+      "/Product/Auto-Scrubber-Drier/DB-9050P/Walk_behind_Scrubber_Drier_DB-9050P(2).png",
+      "/Product/Auto-Scrubber-Drier/DB-9050P/Walk_behind_Scrubber_Drier_DB-9050P(3).png",
+      "/Product/Auto-Scrubber-Drier/DB-9050P/Walk_behind_Scrubber_Drier_DB-9050P(4).png",
     ],
     url: "/products/scrubber-drier/DB-9050P",
     title: data9050p.title,
@@ -74,10 +74,10 @@ const Scrubber = () => {
   };
   const cardData1 = {
     images: [
-      "/Product/Auto-Scrubber-Drier/DMOP-15P/1.png",
-      "/Product/Auto-Scrubber-Drier/DMOP-15P/2.png",
-      "/Product/Auto-Scrubber-Drier/DMOP-15P/3.png",
-      "/Product/Auto-Scrubber-Drier/DMOP-15P/4.png",
+      "/Product/Auto-Scrubber-Drier/DMOP-15P/Walk_behind_Scrubber_Drier_DMOP-15P(1).png",
+      "/Product/Auto-Scrubber-Drier/DMOP-15P/Walk_behind_Scrubber_Drier_DMOP-15P(2).png",
+      "/Product/Auto-Scrubber-Drier/DMOP-15P/Walk_behind_Scrubber_Drier_DMOP-15P(3).png",
+      "/Product/Auto-Scrubber-Drier/DMOP-15P/Walk_behind_Scrubber_Drier_DMOP-15P(4).png",
     ],
     url: "/products/scrubber-drier/DMOP-15P",
     title: data15p.title,
@@ -85,10 +85,10 @@ const Scrubber = () => {
   };
   const cardData2 = {
     images: [
-      "/Product/Auto-Scrubber-Drier/DRO-100P/1.png",
-      "/Product/Auto-Scrubber-Drier/DRO-100P/2.png",
-      "/Product/Auto-Scrubber-Drier/DRO-100P/3.png",
-      "/Product/Auto-Scrubber-Drier/DRO-100P/4.png",
+      "/Product/Auto-Scrubber-Drier/DRO-100P/Ride_on_Scrubber_Drier_DRO-100P(1).png",
+      "/Product/Auto-Scrubber-Drier/DRO-100P/Ride_on_Scrubber_Drier_DRO-100P(2).png",
+      "/Product/Auto-Scrubber-Drier/DRO-100P/Ride_on_Scrubber_Drier_DRO-100P(3).png",
+      "/Product/Auto-Scrubber-Drier/DRO-100P/Ride_on_Scrubber_Drier_DRO-100P(4).png",
     ],
     url: "/products/scrubber-drier/DRO-100P",
     title: data100p.title,
@@ -96,7 +96,7 @@ const Scrubber = () => {
   };
   const cardData3 = {
     images: [
-      "/Product/Auto-Scrubber-Drier/DRO-100T/1.png",
+      "/Product/Auto-Scrubber-Drier/DRO-100T/Ride_on_Scrubber_Drier_DRO-100T.png",
       "/Product/Auto-Scrubber-Drier/DRO-100T/2.png",
     ],
     url: "/products/scrubber-drier/DRO-100T",
@@ -105,8 +105,8 @@ const Scrubber = () => {
   };
   const cardData4 = {
     images: [
-      "/Product/Auto-Scrubber-Drier/DRO-200T/1.png",
-      "/Product/Auto-Scrubber-Drier/DRO-200T/2.png",
+      "/Product/Auto-Scrubber-Drier/DRO-200T/Ride_on_Scrubber_Drier_DRO-100T(1).png",
+      "/Product/Auto-Scrubber-Drier/DRO-200T/Ride_on_Scrubber_Drier_DRO-100T(2).png",
     ],
     url: "/products/scrubber-drier/DRO-200T",
     title: data200t.title,
@@ -114,10 +114,10 @@ const Scrubber = () => {
   };
   const cardData5 = {
     images: [
-      "/Product/Auto-Scrubber-Drier/DRO-8085/1.png",
-      "/Product/Auto-Scrubber-Drier/DRO-8085/2.png",
-      "/Product/Auto-Scrubber-Drier/DRO-8085/3.png",
-      "/Product/Auto-Scrubber-Drier/DRO-8085/4.png",
+      "/Product/Auto-Scrubber-Drier/DRO-8085/Ride_on_Scrubber_Drier_DRO-8085(1).png",
+      "/Product/Auto-Scrubber-Drier/DRO-8085/Ride_on_Scrubber_Drier_DRO-8085(2).png",
+      "/Product/Auto-Scrubber-Drier/DRO-8085/Ride_on_Scrubber_Drier_DRO-8085(3).png",
+      "/Product/Auto-Scrubber-Drier/DRO-8085/Ride_on_Scrubber_Drier_DRO-8085(4).png",
     ],
     url: "/products/scrubber-drier/DRO-8085",
     title: data8085.title,
@@ -126,9 +126,10 @@ const Scrubber = () => {
   const cardData6 = {
     images: [
       "/Product/Auto-Scrubber-Drier/DYNA-40/DYNA-40.png",
-      "/Product/Auto-Scrubber-Drier/DYNA-40/1.png",
-      "/Product/Auto-Scrubber-Drier/DYNA-40/2.png",
-      "/Product/Auto-Scrubber-Drier/DYNA-40/3.png",
+      "/Product/Auto-Scrubber-Drier/DYNA-40/Walk_behind_Scrubber_Drier_Dyna-40(1).png",
+      "/Product/Auto-Scrubber-Drier/DYNA-40/Walk_behind_Scrubber_Drier_Dyna-40(2).png",
+      "/Product/Auto-Scrubber-Drier/DYNA-40/Walk_behind_Scrubber_Drier_Dyna-40(3).png",
+ 
     ],
     url: "/products/scrubber-drier/DYNA-40",
     title: data40.title,
@@ -137,8 +138,8 @@ const Scrubber = () => {
 
   const cardData7 = {
     images: [
-      "/Product/Auto-Scrubber-Drier/DYNA-20/1.png",
-      "/Product/Auto-Scrubber-Drier/DYNA-20/2.png",
+      "/Product/Auto-Scrubber-Drier/DYNA-20/Walk_behind_Scrubber_Drier_Dyna-20(1).png",
+      "/Product/Auto-Scrubber-Drier/DYNA-20/Walk_behind_Scrubber_Drier_Dyna-20(2).png",
     ],
     url: "/products/scrubber-drier/DYNA-20",
     title: data20.title,
@@ -148,7 +149,7 @@ const Scrubber = () => {
   return (
     <main>
       <ResponsiveSection
-        imagePath="/Product/Auto-Scrubber-Drier/DB-6070T/main.webp" // public directory
+        imagePath="/Product/Auto-Scrubber-Drier/DB-6070T/Walk_behind_Scrubber_Drier_DB-6070T(1).webp" // public directory
         imageSide="left" // or "right"
         title="Scrubber Drier"
         description="At Dynaclean Industries Pvt. Ltd., we manufacture and supply a wide range of 8 scrubber drier machine, designed to deliver best floor cleaning performance. Our product are includes 4 walk-behind models — DMOP15P, DYNA40, DB6070, and DB9050 and 4 ride-on models — DRO8085, DRO100P, DRO100T, and DRO200T. Each machine is manufactured with high-quality scrubber brushes for deep cleaning, with high quality squeegees that leave the floor clean, dry, and shining in a same time.

@@ -13,11 +13,11 @@ const Scrubber = () => {
   const shortDescription = getShortDescription(data.description, 27);
   const cardData = {
     images: [
-      "/Product/carpet-cleaner/carpet cleaner.jpeg",
-      "/Product/carpet-cleaner/1.jpeg",
-      "/Product/carpet-cleaner/2.jpeg",
-      "/Product/carpet-cleaner/3.jpeg",
-      "/Product/carpet-cleaner/4.jpeg",
+      "/Product/carpet-cleaner/Carpet_cleaner_DSC-30(1).jpeg",
+      "/Product/carpet-cleaner/Carpet_cleaner_DSC-30(2).jpeg",
+      "/Product/carpet-cleaner/Carpet_cleaner_DSC-30(3).jpeg",
+      "/Product/carpet-cleaner/Carpet_cleaner_DSC-30(4).jpeg",
+      "/Product/carpet-cleaner/Carpet_cleaner_DSC-30(5).jpeg",
     ],
     url: "/products/carpet-cleaner/DSC-30",
     title: data.title,
@@ -27,7 +27,7 @@ const Scrubber = () => {
   return (
     <main>
       <ResponsiveSection
-        imagePath="/Product/carpet-cleaner/carpet cleaner.jpeg" // public directory
+        imagePath="/Product/carpet-cleaner/Carpet_cleaner_DSC-30(1).jpeg" // public directory
         imageSide="left" // or "right"
         title="Carpet Cleaner DSC-30"
         description="Introducing the Dynaclean Carpet Injection Machine – a high-performance cleaning system designed to deliver professional-grade carpet care. Built with advanced injection-extraction technology, this machine provides powerful suction and deep cleaning that removes embedded dirt, dust, and stains from carpets, upholstery, and fabric surfaces."

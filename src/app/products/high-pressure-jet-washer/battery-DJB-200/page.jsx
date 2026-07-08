@@ -16,7 +16,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/high-pressure-jet-washer/battery-DJB-200",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Jet-washer/DJB-200/1.png",
+        url: "https://dynacleanindustries.com/Product/Jet-washer/DJB-200/High_Pressure_Jet_Washer_DJB-200(1).png",
         alt: "High Pressure Jet Washer DJB-200",
       },
     ],
@@ -26,9 +26,9 @@ export const metadata = {
 const DRS90TSweeper = () => {
   const images = [
     // "/Product/Jet-washer/DJB-200/1.png",
-    "/Product/Jet-washer/DJB-200/2.png",
+    "/Product/Jet-washer/DJB-200/High_Pressure_Jet_Washer_DJB-200(2).png",
     // "/Product/Jet-washer/DJB-200/3.png",
-    "/Product/Jet-washer/DJB-200/4.png",
+    "/Product/Jet-washer/DJB-200/High_Pressure_Jet_Washer_DJB-200(2).png",
   ];
   return (
     <div>

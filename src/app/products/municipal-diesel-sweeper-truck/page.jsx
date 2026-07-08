@@ -85,7 +85,7 @@ const MuncipleDesalTruck = () => {
   };
   const cardData4 = {
     images: [
-      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-5000/main.png",
+      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-5000/Municipal_Sweeper_Truck_DTMS-5000.png",
       "/Product/Munciple-Deisal-sweeper-Truck/DTMS-1000/1.png",
       "/Product/Munciple-Deisal-sweeper-Truck/DTMS-5000/2.png",
     ],
@@ -96,7 +96,7 @@ const MuncipleDesalTruck = () => {
   const cardData5 = {
     images: [
      
-      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-6000/main.png",
+      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-6000/Municipal_Sweeper_Truck_DTMS-6000.png",
     ],
     url: "/products/municipal-diesel-sweeper-truck/DTMS-6000",
     title: data6000.title,
@@ -106,7 +106,7 @@ const MuncipleDesalTruck = () => {
   return (
     <main>
       <ResponsiveSection
-        imagePath="/Product/Munciple-Deisal-sweeper-Truck/DTMS-5000/main.png" // public directory
+        imagePath="/Product/Munciple-Deisal-sweeper-Truck/DTMS-5000/Municipal_Sweeper_Truck_DTMS-5000.png" // public directory
         imageSide="left" // or "right"
         title="Diesel Road Sweeper Truck"
         description="The Diesel Road Sweeper Truck manufactured by Dynaclean Industries is a powerful and reliable product specifically designed for large-scale roads as well as street cleaning. It is equipped with the latest sweeping technology and a durable engine that runs on diesel, this offers the best performance for municipalities roads, highways, industrial sites or commercial areas. The strong suction and sweeping mechanism assures thorough elimination of debris, dust and waste, keeping roads safe and clean, while reducing environmental pollutants.

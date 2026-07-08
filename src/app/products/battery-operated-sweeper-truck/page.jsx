@@ -24,7 +24,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/battery-operated-sweeper-truck",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Bettery-Operated-truck/DTMS-1000 Ev/1.png",
+        url: "https://dynacleanindustries.com/Product/Bettery-Operated-truck/DRS-1000EV_Sweeper_Truck(1).png",
         alt: "Battery-Operated-Sweeper-truck",
       },
     ],
@@ -50,8 +50,8 @@ const MuncipleDesalTruck = () => {
   const shortDescription600DT = getShortDescription(data600DT.description, 27);
   const cardData = {
     images: [
-      "/Product/Bettery-Operated-truck/DTMS-1000 Ev/a (1).png",
-      "/Product/Bettery-Operated-truck/DTMS-1000 Ev/2.png",
+      "/Product/Bettery-Operated-truck/DTMS-1000 Ev/DRS-1000EV_Sweeper_Truck(1).webp",
+      "/Product/Bettery-Operated-truck/DTMS-1000 Ev/DRS-1000EV_Sweeper_Truck(2).png",
     ],
     url: "/products/battery-operated-sweeper-truck/DTMS-1000",
     title: data1000.title,
@@ -60,8 +60,8 @@ const MuncipleDesalTruck = () => {
 
   const cardData1 = {
     images: [
-      "/Product/Bettery-Operated-truck/DTMS-2000 Ev/a (1).png",
-      "/Product/Bettery-Operated-truck/DTMS-2000 Ev/a (2).png",
+      "/Product/Bettery-Operated-truck/DTMS-2000 Ev/DRS-2000EV_Sweeper_Truck(1).png",
+      "/Product/Bettery-Operated-truck/DTMS-2000 Ev/DRS-2000EV_Sweeper_Truck(2).png",
     ],
     url: "/products/battery-operated-sweeper-truck/DTMS-2000",
     title: data2000.title,
@@ -95,7 +95,7 @@ const MuncipleDesalTruck = () => {
     description: shortDescription4,
   };
   const cardData5 = {
-    images: ["/Product/Bettery-Operated-truck/DTMS-6000 Ev/a.png"],
+    images: ["/Product/Bettery-Operated-truck/DTMS-6000 Ev/DTMS-6000EV_Sweeper_Truck.png"],
     url: "/products/battery-operated-sweeper-truck/DTMS-6000",
     title: data6000.title,
     description: shortDescription5,
@@ -103,13 +103,13 @@ const MuncipleDesalTruck = () => {
 
   const cardData6 = {
     images: [
-      "/Product/Bettery-Operated-truck/600/8.png",
-      "/Product/Bettery-Operated-truck/600/2.png",
-      "/Product/Bettery-Operated-truck/600/3.png",
-      "/Product/Bettery-Operated-truck/600/4.png",
-      "/Product/Bettery-Operated-truck/600/5.png",
-      "/Product/Bettery-Operated-truck/600/6.png",
-      "/Product/Bettery-Operated-truck/600/7.png",
+      "/Product/Bettery-Operated-truck/600/DRS-600_Sweeper_Truck(1).png",
+      "/Product/Bettery-Operated-truck/600/DRS-600_Sweeper_Truck(2).png",
+      "/Product/Bettery-Operated-truck/600/DRS-600_Sweeper_Truck(3).png",
+      "/Product/Bettery-Operated-truck/600/DRS-600_Sweeper_Truck(4).png",
+      "/Product/Bettery-Operated-truck/600/DRS-600_Sweeper_Truck(5).png",
+      "/Product/Bettery-Operated-truck/600/DRS-600_Sweeper_Truck(6).png",
+      "/Product/Bettery-Operated-truck/600/DRS-600_Sweeper_Truck(7).png",
     ],
     url: "/products/battery-operated-sweeper-truck/600",
     title: data600.title,
@@ -118,10 +118,10 @@ const MuncipleDesalTruck = () => {
 
   const cardData7 = {
     images: [
-      "/Product/Bettery-Operated-truck/600DT/4.png",
-      "/Product/Bettery-Operated-truck/600DT/1.png",
-      "/Product/Bettery-Operated-truck/600DT/2.png",
-      "/Product/Bettery-Operated-truck/600DT/3.png",
+      "/Product/Bettery-Operated-truck/600DT/DRS-600DT_Sweeper_Truck(1).png",
+      "/Product/Bettery-Operated-truck/600DT/DRS-600DT_Sweeper_Truck(2).png",
+      "/Product/Bettery-Operated-truck/600DT/DRS-600DT_Sweeper_Truck(3).png",
+      "/Product/Bettery-Operated-truck/600DT/DRS-600DT_Sweeper_Truck(4).png",
     ],
     url: "/products/battery-operated-sweeper-truck/DRS-600DT",
     title: data600DT.title,
@@ -129,7 +129,7 @@ const MuncipleDesalTruck = () => {
   };
 
   const cardData8 = {
-    images: ["/Product/Bettery-Operated-truck/DTMS-7500 Ev/a.png"],
+    images: ["/Product/Bettery-Operated-truck/DTMS-7500 Ev/DTMS-7500EV_Sweeper_Truck.png"],
     url: "/products/battery-operated-sweeper-truck/DTMS-7500",
     title: data7500.title,
     description: shortDescription7500,

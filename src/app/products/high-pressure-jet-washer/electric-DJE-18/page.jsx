@@ -16,7 +16,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/high-pressure-jet-washer/electric-DJE-18",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Jet-washer/DJE-18/1.png",
+        url: "https://dynacleanindustries.com/Product/Jet-washer/DJE-18/High_Pressure_Jet_Washer_DJE-18(1).png",
         alt: "High jet pressure washer",
       },
     ],

@@ -25,8 +25,8 @@ export const metadata = {
 
 const DYNA20Scrubber = () => {
   const images = [
-    "/Product/Auto-Scrubber-Drier/DYNA-20/1.png",
-    "/Product/Auto-Scrubber-Drier/DYNA-20/2.png",
+    "/Product/Auto-Scrubber-Drier/DYNA-20/Walk_behind_Scrubber_Drier_Dyna-20(1).png",
+    "/Product/Auto-Scrubber-Drier/DYNA-20/Walk_behind_Scrubber_Drier_Dyna-20(2).png",
   ];
 
   return (

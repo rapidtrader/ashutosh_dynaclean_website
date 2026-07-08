@@ -16,7 +16,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/high-pressure-jet-washer/electric-DJE-30",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Jet-washer/DJE-30/1.png",
+        url: "https://dynacleanindustries.com/Product/Jet-washer/DJE-30/High_Pressure_Jet_Washer_DJE-30(1).png",
         alt: "High jet pressure washer",
       },
     ],
@@ -25,10 +25,10 @@ export const metadata = {
 
 const DRS90TSweeper = () => {
   const images = [
-    "/Catalouge/High Pressure Jet Washer/Dje-30/1.png",
-    "/Catalouge/High Pressure Jet Washer/Dje-30/2.png",
-    "/Catalouge/High Pressure Jet Washer/Dje-30/3.png",
-    "/Catalouge/High Pressure Jet Washer/Dje-30/4.png",
+    "/Catalouge/High Pressure Jet Washer/Dje-30/High_Pressure_Jet_Washer_DJE-30(1).png",
+    "/Catalouge/High Pressure Jet Washer/Dje-30/High_Pressure_Jet_Washer_DJE-30(2).png",
+    "/Catalouge/High Pressure Jet Washer/Dje-30/High_Pressure_Jet_Washer_DJE-30(3).png",
+    "/Catalouge/High Pressure Jet Washer/Dje-30/High_Pressure_Jet_Washer_DJE-30(4).png",
   ];
   return (
     <div>

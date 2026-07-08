@@ -16,7 +16,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/Single-disc-scrubber/DH-2P",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Single-Disc-Scrubber/DH-2P/1.jpeg",
+        url: "https://dynacleanindustries.com/Product/Single-Disc-Scrubber/DH-2P/Single_Disc_Scrubber_DH-2P.jpeg",
         alt: "DH-2P Single Disc Scrubber",
       },
     ],
@@ -24,7 +24,7 @@ export const metadata = {
 };
 
 const DH2PScrubber = () => {
-  const images = ["/Product/Single-Disc-Scrubber/DH-2P/1.jpeg"];
+  const images = ["/Product/Single-Disc-Scrubber/DH-2P/Single_Disc_Scrubber_DH-2P.jpeg"];
 
   return (
     <div>

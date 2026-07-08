@@ -15,7 +15,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/vacuum-cleaner/dv-80",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Vaccume-Cleaner/DV-80/1.jpg",
+        url: "https://dynacleanindustries.com/Product/Vaccume-Cleaner/DV-80/Vacuum_Cleaner_DV-80(1).jpg",
         alt: "Vacuum cleaner",
       },
     ],

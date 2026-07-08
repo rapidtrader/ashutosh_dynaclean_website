@@ -15,10 +15,10 @@ const Scrubber = () => {
   const shortDescriptionHD115 = getShortDescription(dataHD115.description, 27);
   const cardData = {
     images: [
-      "/Product/hand-scrubber/hand-scrubber.jpeg",
-      "/Product/hand-scrubber/1.jpeg",
-      "/Product/hand-scrubber/2.jpeg",
-      "/Product/hand-scrubber/3.jpeg",
+      "/Product/hand-scrubber/HD-15P/Hand_Scrubber_HD-15P(1).jpeg",
+    "/Product/hand-scrubber/HD-15P/Hand_Scrubber_HD-15P(2).jpeg",
+    "/Product/hand-scrubber//HD-15P/Hand_Scrubber_HD-15P(3).jpeg",
+    "/Product/hand-scrubber//HD-15P/Hand_Scrubber_HD-15P(4).jpeg"
     ],
     url: "/products/hand-scrubber/HD-15",
     title: data.title,
@@ -27,13 +27,13 @@ const Scrubber = () => {
 
   const cardDataHD115 = {
     images: [
-      "/Product/hand-scrubber/HD-115/hd-115%204.png",
-      "/Product/hand-scrubber/HD-115/hd-115%202.png",
-      "/Product/hand-scrubber/HD-115/hd-115%203.png",
-      "/Product/hand-scrubber/HD-115/hd-115%201.png",
-      "/Product/hand-scrubber/HD-115/hd-115%205.png",
-      "/Product/hand-scrubber/HD-115/hd-115%206.png",
-      "/Product/hand-scrubber/HD-115/hd-115%207.png",
+      "/Product/hand-scrubber/HD-115/Hand_Scrubber_Polisher_HD-115(1).png",
+      "/Product/hand-scrubber/HD-115/Hand_Scrubber_Polisher_HD-115(2).png",
+      "/Product/hand-scrubber/HD-115/Hand_Scrubber_Polisher_HD-115(3).png",
+      "/Product/hand-scrubber/HD-115/Hand_Scrubber_Polisher_HD-115(4).png",
+      "/Product/hand-scrubber/HD-115/Hand_Scrubber_Polisher_HD-115(5).png",
+      "/Product/hand-scrubber/HD-115/Hand_Scrubber_Polisher_HD-115(6).png",
+      "/Product/hand-scrubber/HD-115/Hand_Scrubber_Polisher_HD-115(7).png",
     ],
     url: "/products/hand-scrubber/HD-115",
     title: dataHD115.title,

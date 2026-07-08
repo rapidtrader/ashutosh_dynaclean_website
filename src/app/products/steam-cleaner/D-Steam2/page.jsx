@@ -16,7 +16,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/steam-cleaner/D-Steam2",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/steam-cleaner/1.png",
+        url: "https://dynacleanindustries.com/Product/steam-cleaner/Steam_Cleaner_D-Steam2(1).png",
         alt: "Steam Cleaner-D-Steam2",
       },
     ],

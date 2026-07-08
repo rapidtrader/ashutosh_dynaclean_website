@@ -3,7 +3,7 @@ import React from "react";
 const products = [
   {
     name: "Scrubber Drier",
-    image: "/Product/Auto-Scrubber-Drier/DB-6070T/main.webp",
+    image: "/Product/Auto-Scrubber-Drier/DB-6070T/Walk_behind_Scrubber_Drier_DB-6070T(1).webp",
     link: "/products/scrubber-drier",
   },
   {
@@ -13,7 +13,7 @@ const products = [
   },
   {
     name: "Sweeper Machine",
-    image: "/Product/Sweeper/DRS-90T/3.jpeg",
+    image: "/Product/Sweeper/DRS-90T/Ride_on_Sweeper_DRS-90T(2).jpeg",
     link: "/products/sweeper",
   },
   {
@@ -23,7 +23,7 @@ const products = [
   },
   {
     name: "Diesel Road Sweeper Truck",
-    image: "/Product/Munciple-Deisal-sweeper-Truck/DTMS-5000/main.png",
+    image: "/Product/Munciple-Deisal-sweeper-Truck/DTMS-5000/Municipal_Sweeper_Truck_DTMS-5000.png",
     link: "/products/municipal-diesel-sweeper-truck",
   },
   {
@@ -58,7 +58,7 @@ const products = [
   },
   {
     name: "CarpetCleaner",
-    image: "/Product/carpet-cleaner/carpet cleaner.jpeg",
+    image: "/Product/carpet-cleaner/Carpet_cleaner_DSC-30(1).jpeg",
     link: "/products/carpet-cleaner/DSC-30",
   },
 ];

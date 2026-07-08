@@ -16,7 +16,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/Single-disc-scrubber/D-25P",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Single-Disc-Scrubber/D-25P/1.png",
+        url: "https://dynacleanindustries.com/Product/Single-Disc-Scrubber/D-25P/Single_Disc_Scrubber_D-25P(1).png",
         alt: "Single disc scrubber",
       },
     ],

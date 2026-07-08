@@ -16,7 +16,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/battery-operated-sweeper-truck/DTMS-3000",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Bettery-Operated-truck/DTMS-3000%20Ev/1.jpg",
+        url: "https://dynacleanindustries.com/Product/Bettery-Operated-truck/DTMS-3000%20Ev/DTMS-3000EV_Sweeper_Truck(1).png",
         alt: "Battery-operated Sweeper Truck",
       },
     ],

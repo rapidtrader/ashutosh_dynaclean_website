@@ -16,7 +16,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/scrubber-drier/DRO-100T",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Auto-Scrubber-Drier/DRO-100T/1.png",
+        url: "https://dynacleanindustries.com/Product/Auto-Scrubber-Drier/DRO-100T/Ride_on_Scrubber_Drier_DRO-100T.png",
         alt: "Ride On Scrubber Machine DRO-100T",
       },
     ],

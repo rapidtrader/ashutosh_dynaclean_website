@@ -16,7 +16,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/carpet-cleaner/DSC-30",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/carpet-cleaner/carpet cleaner.jpeg",
+        url: "https://dynacleanindustries.com/Product/carpet-cleaner/Carpet_cleaner_DSC-30(1).jpeg",
         alt: "CARPET CLEANER DSC-30",
       },
     ],

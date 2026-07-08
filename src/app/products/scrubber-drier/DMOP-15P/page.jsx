@@ -16,7 +16,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/scrubber-drier/DMOP-15P",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Auto-Scrubber-Drier/DMOP-15P/1.png",
+        url: "https://dynacleanindustries.com/Product/Auto-Scrubber-Drier/DMOP-15P/Walk_behind_Scrubber_Drier_DMOP-15P(1).png",
         alt: "Auto Scrubber Drier DMOP-15P",
       },
     ],

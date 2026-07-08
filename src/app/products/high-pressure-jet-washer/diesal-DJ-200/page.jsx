@@ -16,7 +16,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/high-pressure-jet-washer/diesel-DJ-200",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Jet-washer/DJ-200/1.png",
+        url: "https://dynacleanindustries.com/Product/Jet-washer/DJ-200/High_Pressure_Jet_Washer_DJ-200(1).png",
         alt: "High Pressure Jet Washer DJ-200",
       },
     ],
@@ -25,7 +25,7 @@ export const metadata = {
 
 const DRS90TSweeper = () => {
   const images = [
-    "/Catalouge/High Pressure Jet Washer/Dj-200/1.png",
+    "/Catalouge/High Pressure Jet Washer/Dj-200/High_Pressure_Jet_Washer_DJ-200(1).png",
     "/Catalouge/High Pressure Jet Washer/Dj-200/2.png",
     "/Catalouge/High Pressure Jet Washer/Dj-200/3.png",
     "/Catalouge/High Pressure Jet Washer/Dj-200/4.png",

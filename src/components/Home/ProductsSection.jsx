@@ -15,7 +15,7 @@ const products = [
   },
   {
     name: "Ride On Sweeper",
-    image: "/Product/Sweeper/DRS-90T/3.jpeg",
+    image: "/Product/Sweeper/DRS-90T/Ride_on_Sweeper_DRS-90T(2).jpeg",
     link: "/products/sweeper/ride-on-sweeper-DRS90T",
   },
   {

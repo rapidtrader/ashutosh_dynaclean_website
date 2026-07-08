@@ -15,7 +15,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/battery-operated-sweeper-truck/DRS-600DT",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Bettery-Operated-truck/600DT/4.png",
+        url: "https://dynacleanindustries.com/Product/Bettery-Operated-truck/600DT/DRS-600DT_Sweeper_Truck(1).png",
         alt: "Self Propelled Sweeper Truck DRS-600DT",
       },
     ],

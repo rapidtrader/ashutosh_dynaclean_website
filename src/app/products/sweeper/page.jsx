@@ -20,7 +20,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/sweeper",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Sweeper/DRS-90T/3.jpeg",
+        url: "https://dynacleanindustries.com/Product/Sweeper/DRS-90T/Ride_on_Sweeper_DRS-90T(1).jpeg",
         alt: "Sweeper Machine",
       },
     ],
@@ -42,8 +42,8 @@ const Scrubber = () => {
   const shortDescription4 = getShortDescription(data250.description, 27);
   const cardData = {
     images: [
-      "/Product/Sweeper/DRS-90T/3.jpeg",
-      "/Product/Sweeper/DRS-90T/4.jpeg",
+      "/Product/Sweeper/DRS-90T/Ride_on_Sweeper_DRS-90T(2).jpeg",
+      "/Product/Sweeper/DRS-90T/Ride_on_Sweeper_DRS-90T(1).jpeg",
 
     ],
     url: "/products/sweeper/ride-on-sweeper-DRS90T",
@@ -55,9 +55,9 @@ const Scrubber = () => {
     images: [
 
      
-      "/Product/Sweeper/DRS-180T/8.jpeg",
-      "/Product/Sweeper/DRS-180T/6.png",
-      "/Product/Sweeper/DRS-180T/7.jpeg",
+      "/Product/Sweeper/DRS-180T/Ride_on_Sweeper_DRS-180T(1).jpeg",
+      "/Product/Sweeper/DRS-180T/Ride_on_Sweeper_DRS-180T(2).png",
+      "/Product/Sweeper/DRS-180T/Ride_on_Sweeper_DRS-180T(3).jpeg",
 
     ],
     url: "/products/sweeper/ride-on-sweeper-DRS180T",
@@ -67,11 +67,11 @@ const Scrubber = () => {
 
   const cardData2 = {
     images: [
-      "/Product/Sweeper/DS2-55/main.png",
-      "/Product/Sweeper/DS2-55/1.png",
-      "/Product/Sweeper/DS2-55/2.png",
-      "/Product/Sweeper/DS2-55/3.png",
-      "/Product/Sweeper/DS2-55/4.png",
+      "/Product/Sweeper/DS2-55/Manual_Sweeper_DS2-55(1).png",
+      "/Product/Sweeper/DS2-55/Manual_Sweeper_DS2-55(1).png",
+      "/Product/Sweeper/DS2-55/Manual_Sweeper_DS2-55(1).png",
+      "/Product/Sweeper/DS2-55/Manual_Sweeper_DS2-55(1).png",
+      "/Product/Sweeper/DS2-55/Manual_Sweeper_DS2-55(1).png",
     ],
     url: "/products/sweeper/manual-sweeper-DS255",
     title: data55.title,
@@ -80,17 +80,17 @@ const Scrubber = () => {
 
   const cardData3 = {
     images: [
-      "/Product/Sweeper/DSE-55/1.png",
-      "/Product/Sweeper/DSE-55/2.png",
-      "/Product/Sweeper/DSE-55/3.png",
-      "/Product/Sweeper/DSE-55/4.png",
+      "/Product/Sweeper/DSE-55/Sweeper_Machine_DSE-55(1).png",
+      "/Product/Sweeper/DSE-55/Sweeper_Machine_DSE-55(2).png",
+      "/Product/Sweeper/DSE-55/Sweeper_Machine_DSE-55(3).png",
+      "/Product/Sweeper/DSE-55/Sweeper_Machine_DSE-55(4).png",
     ],
     url: "/products/sweeper/manual-sweeper-DSE55",
     title: datae55.title,
     description: shortDescription3,
   };
   const cardData4 = {
-    images: ["/Product/Sweeper/DRS-250T/1.webp"],
+    images: ["/Product/Sweeper/DRS-250T/Ride_on_Sweeper_DRS-250T(1).webp"],
     url: "/products/sweeper/ride-on-sweeper-DRS250T",
     title: data250.title,
     description: shortDescription4,
@@ -99,7 +99,7 @@ const Scrubber = () => {
   return (
     <main>
       <ResponsiveSection
-        imagePath="/Product/Sweeper/DRS-90T/3.jpeg"
+        imagePath="/Product/Sweeper/DRS-90T/Ride_on_Sweeper_DRS-90T(1).jpeg"
         imageSide="left" // or "right"
         title="Sweeper Machine"
         description="Dynaclean Industries Pvt. Ltd. manufactures and supplies high-performance sweeper machine every sweeper machine designed for effective dust and debris removal all industrial and commercial sectors. walk behind manual sweeper machine module DS255 , known for its lightweight and user-friendly operation, and the DSE55 Electric Sweeper, which provides best cleaning with minimal effort.

@@ -17,7 +17,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/sweeper/ride-on-sweeper-DRS90T",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Sweeper/DRS-90T/3.jpeg",
+        url: "https://dynacleanindustries.com/Product/Sweeper/DRS-90T/Ride_on_Sweeper_DRS-90T(2).jpeg",
         alt: "Ride On Sweeper",
       },
     ],

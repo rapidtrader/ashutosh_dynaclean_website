@@ -19,7 +19,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/high-pressure-jet-washer",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Jet-washer/DJB-200/1.png",
+        url: "https://dynacleanindustries.com/Product/Jet-washer/DJB-200/High_Pressure_Jet_Washer_DJB-200(1).png",
         alt: "High-pressure jet washer",
       },
     ],
@@ -40,9 +40,9 @@ const Scrubber = () => {
   const shortDescription3 = getShortDescription(data30.description, 27);
   const cardData = {
     images: [
-      "/Product/Jet-washer/DJ-200/1.png",
-      "/Product/Jet-washer/DJ-200/2.png",
-      "/Product/Jet-washer/DJ-200/3.png",
+      "/Product/Jet-washer/DJ-200/High_Pressure_Jet_Washer_DJ-200(1).png",
+      "/Product/Jet-washer/DJ-200/High_Pressure_Jet_Washer_DJ-200(2).png",
+      "/Product/Jet-washer/DJ-200/High_Pressure_Jet_Washer_DJ-200(3).png",
     ],
     url: "/products/high-pressure-jet-washer/diesal-DJ-200",
     title: data200.title,
@@ -51,10 +51,10 @@ const Scrubber = () => {
 
   const cardData1 = {
     images: [
-      "/Product/Jet-washer/DJB-200/1.png",
-      "/Product/Jet-washer/DJB-200/2.png",
-      "/Product/Jet-washer/DJB-200/3.png",
-      "/Product/Jet-washer/DJB-200/4.png",
+      "/Product/Jet-washer/DJB-200/High_Pressure_Jet_Washer_DJB-200(1).png",
+      "/Product/Jet-washer/DJB-200/High_Pressure_Jet_Washer_DJB-200(2).png",
+      "/Product/Jet-washer/DJB-200/High_Pressure_Jet_Washer_DJB-200(3).png",
+      "/Product/Jet-washer/DJB-200/High_Pressure_Jet_Washer_DJB-200(4).png",
     ],
     url: "/products/high-pressure-jet-washer/battery-DJB-200",
     title: dataB200.title,
@@ -63,10 +63,13 @@ const Scrubber = () => {
 
   const cardData2 = {
     images: [
-      "/Product/Jet-washer/DJE-18/1.png",
-      "/Product/Jet-washer/DJE-18/2.png",
-      "/Product/Jet-washer/DJE-18/3.png",
-      "/Product/Jet-washer/DJE-18/4.png",
+      "/Product/Jet-washer/DJE-18/High_Pressure_Jet_Washer_DJE-18(1).png",
+      "/Product/Jet-washer/DJE-18/High_Pressure_Jet_Washer_DJE-18(2).png",
+      
+      "/Product/Jet-washer/DJE-18/High_Pressure_Jet_Washer_DJE-18(3).png",
+      
+      "/Product/Jet-washer/DJE-18/High_Pressure_Jet_Washer_DJE-18(4).png",
+      
     ],
     url: "/products/high-pressure-jet-washer/electric-DJE-18",
     title: data18.title,
@@ -75,10 +78,10 @@ const Scrubber = () => {
 
   const cardData3 = {
     images: [
-      "/Product/Jet-washer/DJE-30/1.png",
-      "/Product/Jet-washer/DJE-30/2.png",
-      "/Product/Jet-washer/DJE-30/3.png",
-      "/Product/Jet-washer/DJE-30/4.png",
+      "/Product/Jet-washer/DJE-30/High_Pressure_Jet_Washer_DJE-30(1).png",
+      "/Product/Jet-washer/DJE-30/High_Pressure_Jet_Washer_DJE-30(2).png",
+      "/Product/Jet-washer/DJE-30/High_Pressure_Jet_Washer_DJE-30(3).png",
+      "/Product/Jet-washer/DJE-30/High_Pressure_Jet_Washer_DJE-30(4).png",
     ],
     url: "/products/high-pressure-jet-washer/electric-DJE-30",
     title: data30.title,

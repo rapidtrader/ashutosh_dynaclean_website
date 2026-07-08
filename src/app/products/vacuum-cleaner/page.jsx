@@ -42,9 +42,9 @@ const MuncipleDesalTruck = () => {
   const shortDescription4 = getShortDescription(data80.description, 27);
   const cardData = {
     images: [
-      "/Product/Vaccume-Cleaner/Back-Pack Vacuum Cleaner/1.png",
-      "/Product/Vaccume-Cleaner/Back-Pack Vacuum Cleaner/2.png",
-      "/Product/Vaccume-Cleaner/Back-Pack Vacuum Cleaner/3.png",
+      "/Product/Vaccume-Cleaner/Back-Pack Vacuum Cleaner/Back-Pack_Vacuum_Cleaner_D-BP6(1).png",
+      "/Product/Vaccume-Cleaner/Back-Pack Vacuum Cleaner/Back-Pack_Vacuum_Cleaner_D-BP6(2).png",
+      "/Product/Vaccume-Cleaner/Back-Pack Vacuum Cleaner/Back-Pack_Vacuum_Cleaner_D-BP6(3).png",
     ],
     url: "/products/vacuum-cleaner/back-pack-DBP6",
     title: databack.title,
@@ -89,10 +89,10 @@ const MuncipleDesalTruck = () => {
   };
   const cardData4 = {
     images: [
-      "/Product/Vaccume-Cleaner/DV-80/1.jpg",
-      "/Product/Vaccume-Cleaner/DV-80/3.png",
-      "/Product/Vaccume-Cleaner/DV-80/5.png",
-      "/Product/Vaccume-Cleaner/DV-80/6.png",
+      "/Product/Vaccume-Cleaner/DV-80/Vacuum_Cleaner_DV-80(1).jpg",
+      "/Product/Vaccume-Cleaner/DV-80/Vacuum_Cleaner_DV-80(2).png",
+      "/Product/Vaccume-Cleaner/DV-80/Vacuum_Cleaner_DV-80(3).png",
+      "/Product/Vaccume-Cleaner/DV-80/Vacuum_Cleaner_DV-80(4).png",
     ],
     url: "/products/vacuum-cleaner/dv-80",
     title: data80.title,

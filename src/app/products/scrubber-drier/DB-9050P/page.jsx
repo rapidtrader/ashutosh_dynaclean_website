@@ -16,7 +16,7 @@ export const metadata = {
     url: "https://dynacleanindustries.com/products/scrubber-drier/DB-9050P",
     images: [
       {
-        url: "https://dynacleanindustries.com/Product/Auto-Scrubber-Drier/DB-9050P/1.png",
+        url: "https://dynacleanindustries.com/Product/Auto-Scrubber-Drier/DB-9050P/Walk_behind_Scrubber_Drier_DB-9050P(1).png.png",
         alt: "Auto Scrubber Drier DB-9050P",
       },
     ],
