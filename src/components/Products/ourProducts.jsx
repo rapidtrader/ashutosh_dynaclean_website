@@ -43,7 +43,7 @@ const products = [
   },
   {
     name: "Scooter Mop",
-    image: "/Product/Scooter-mop/Scooter-Mop.png",
+    image: "/Product/Scooter-mop/Scooter_Mop_DMS-115P.jpeg",
     link: "/products/scooter-mop/DMS-115P",
   },
   {
@@ -53,7 +53,7 @@ const products = [
   },
   {
     name: "Hand Scrubber",
-    image: "/Product/hand-scrubber/hand-scrubber.jpeg",
+    image: "/Product/hand-scrubber/Hand_Scrubber_Polisher_HD-115(1).png",
     link: "/products/hand-scrubber",
   },
   {
