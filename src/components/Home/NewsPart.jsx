@@ -61,12 +61,12 @@ const NewsSection = () => {
           </a>
 
           {/* Static Image */}
-          <img
+          {/* <img
             src="/Home/News/4.jpeg"
             alt="News Highlight"
             className="w-[28rem] h-auto mx-auto rounded-lg shadow-md"
             loading="lazy"
-          />
+          /> */}
         </div>
       </div>
 
