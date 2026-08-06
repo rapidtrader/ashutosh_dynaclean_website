@@ -5,13 +5,13 @@ import ImageGallery from "@/components/Products/ImageGallery";
 export const metadata = {
   title: "Vacuum Cleaner DV-80",
   description:
-    "Vacuum Cleaner DV-80 is a powerful industrial-grade dry and wet vacuum cleaner designed to take on the toughest cleaning challenges easily.",
+    "Vacuum Cleaner DV-80 is a powerful dry and wet industrial vacuum cleaner designed to take on the toughest cleaning challenges easily.",
   keywords: "Dynaclean vacuum cleaner, vacuum cleaner, best vacuum cleaner",
   openGraph: {
     type: "website",
     title: "Vacuum Cleaner DV-80",
     description:
-      "Vacuum Cleaner DV-80 is a powerful industrial-grade dry and wet vacuum cleaner designed to take on the toughest cleaning challenges easily.",
+      "Vacuum Cleaner DV-80 is a powerful dry and wet industrial vacuum cleaner designed to take on the toughest cleaning challenges easily.",
     url: "https://dynacleanindustries.com/products/vacuum-cleaner/dv-80",
     images: [
       {
