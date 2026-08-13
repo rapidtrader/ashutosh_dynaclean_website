@@ -3,13 +3,25 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { FiPhone } from "react-icons/fi";
+import { useCart } from "@/context/CartContext";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
+  const [cartCount, setCartCount] = useState(0);
+  const [isLoaded, setIsLoaded] = useState(false);
   const lastScrollY = useRef(0);
   const pathname = usePathname();
+  const { getCartCount, isLoaded: cartLoaded } = useCart();
+
+  // Update cart count only after hydration
+  useEffect(() => {
+    setIsLoaded(true);
+    if (cartLoaded) {
+      setCartCount(getCartCount());
+    }
+  }, [cartLoaded, getCartCount]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -270,6 +282,45 @@ export default function Header() {
                 </li>
               );
             })}
+
+            {/* Cart Icon */}
+            <li className="mt-2 md:mt-0 md:ml-4 relative">
+              <Link
+                href="/cart"
+                onClick={handleMenuLinkClick}
+                className="inline-flex items-center justify-center relative"
+              >
+                <svg
+                  className="h-6 w-6 text-red-600"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+                  />
+                </svg>
+                {isLoaded && cartCount > 0 && (
+                  <span className="absolute -top-2 -right-2 bg-red-600 text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
+                    {cartCount}
+                  </span>
+                )}
+              </Link>
+            </li>
+
+            {/* Shop Now Button */}
+            <li className="mt-2 md:mt-0 md:ml-4">
+              <Link
+                href="/shop"
+                onClick={handleMenuLinkClick}
+                className="inline-block bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors font-semibold"
+              >
+                Shop Now
+              </Link>
+            </li>
 
             {/* Catalog Download */}
             <li className="mt-2 md:mt-0 md:ml-4">

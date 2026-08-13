@@ -1,0 +1,308 @@
+{
+  "categories": [
+    {
+      "id": "single-disc-scrubber",
+      "name": "Single Disc Scrubber",
+      "products": [
+        {
+          "id": "d-15p",
+          "name": "D-15P Single Disc Scrubber",
+          "image": "/Product/Single-Disc-Scrubber/Single-Disc-Scrubber.png",
+          "images": [
+            "/Product/Single-Disc-Scrubber/D-15P/Single_Disc_Scrubber_D-15P(1).png",
+            "/Product/Single-Disc-Scrubber/D-15P/Single_Disc_Scrubber_D-15P(2).png",
+            "/Product/Single-Disc-Scrubber/D-15P/Single_Disc_Scrubber_D-15P(3).png",
+            "/Product/Single-Disc-Scrubber/D-15P/Single_Disc_Scrubber_D-15P(4).png"
+          ],
+          "link": "/products/Single-disc-scrubber/D-15P",
+          "price": "₹37,000",
+          "description": "1.5 HP single disc scrubber for professional cleaning",
+          "specifications": [
+            { "label": "Power", "value": "1.5 HP" },
+            { "label": "Brush Speed", "value": "175 RPM" },
+            { "label": "Brush Pressure", "value": "40 Kg" },
+            { "label": "Weight", "value": "50 Kg" },
+            { "label": "Water Tank", "value": "10L" },
+            { "label": "Wire Size", "value": "12 m" },
+            { "label": "Voltage", "value": "220V" }
+          ]
+        },
+        {
+          "id": "d-20p",
+          "name": "D-20P Single Disc Scrubber",
+          "image": "/Product/Single-Disc-Scrubber/Single-Disc-Scrubber.png",
+          "images": [
+            "/Product/Single-Disc-Scrubber/D-20P/Single_Disc_Scrubber_D-20P(1).png",
+            "/Product/Single-Disc-Scrubber/D-20P/Single_Disc_Scrubber_D-20P(2).png",
+            "/Product/Single-Disc-Scrubber/D-20P/Single_Disc_Scrubber_D-20P(3).png",
+            "/Product/Single-Disc-Scrubber/D-20P/Single_Disc_Scrubber_D-20P(4).png"
+          ],
+          "link": "/products/Single-disc-scrubber/D-20P",
+          "price": "₹46,000",
+          "description": "2 HP single disc scrubber with enhanced performance",
+          "specifications": [
+            { "label": "Power", "value": "2 HP" },
+            { "label": "Brush Speed", "value": "175 RPM" },
+            { "label": "Brush Pressure", "value": "50 Kg" },
+            { "label": "Weight", "value": "55 Kg" },
+            { "label": "Water Tank", "value": "12L" },
+            { "label": "Wire Size", "value": "12 m" },
+            { "label": "Voltage", "value": "220V" }
+          ]
+        },
+        {
+          "id": "d-25p",
+          "name": "D-25P Single Disc Scrubber",
+          "image": "/Product/Single-Disc-Scrubber/Single-Disc-Scrubber.png",
+          "images": [
+            "/Product/Single-Disc-Scrubber/D-25P/Single_Disc_Scrubber_D-25P(1).png",
+            "/Product/Single-Disc-Scrubber/D-25P/Single_Disc_Scrubber_D-25P(2).png",
+            "/Product/Single-Disc-Scrubber/D-25P/Single_Disc_Scrubber_D-25P(3).png",
+            "/Product/Single-Disc-Scrubber/D-25P/Single_Disc_Scrubber_D-25P(4).png"
+          ],
+          "link": "/products/Single-disc-scrubber/D-25P",
+          "price": "₹55,000",
+          "description": "2.5 HP single disc scrubber for heavy-duty cleaning",
+          "specifications": [
+            { "label": "Power", "value": "2.5 HP" },
+            { "label": "Brush Speed", "value": "175 RPM" },
+            { "label": "Brush Pressure", "value": "60 Kg" },
+            { "label": "Weight", "value": "60 Kg" },
+            { "label": "Water Tank", "value": "15L" },
+            { "label": "Wire Size", "value": "15 m" },
+            { "label": "Voltage", "value": "220V" }
+          ]
+        },
+        {
+          "id": "dh-2p",
+          "name": "DH-2P Single Disc Scrubber",
+          "image": "/Product/Single-Disc-Scrubber/Single-Disc-Scrubber.png",
+          "images": [
+            "/Product/Single-Disc-Scrubber/DH-2P/Single_Disc_Scrubber_DH-2P.jpeg"
+          ],
+          "link": "/products/Single-disc-scrubber/DH-2P",
+          "price": "₹98,000",
+          "description": "Compact single disc scrubber for detailed cleaning",
+          "specifications": [
+            { "label": "Power", "value": "1 HP" },
+            { "label": "Brush Speed", "value": "150 RPM" },
+            { "label": "Brush Pressure", "value": "30 Kg" },
+            { "label": "Weight", "value": "40 Kg" },
+            { "label": "Water Tank", "value": "8L" },
+            { "label": "Wire Size", "value": "10 m" },
+            { "label": "Voltage", "value": "220V" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "high-pressure-jet-washer",
+      "name": "High Pressure Jet Washer",
+      "products": [
+        {
+          "id": "dj-200",
+          "name": "DJ-200 High Pressure Jet Washer",
+          "image": "/Product/Jet-washer/High-Pressure-Jet-Washer.png",
+          "images": [
+            "/Product/Jet-washer/DJ-200/High_Pressure_Jet_Washer_DJ-200(1).png",
+            "/Product/Jet-washer/DJ-200/High_Pressure_Jet_Washer_DJ-200(2).png",
+            "/Product/Jet-washer/DJ-200/High_Pressure_Jet_Washer_DJ-200(3).png"
+          ],
+          "link": "/products/high-pressure-jet-washer/diesal-DJ-200",
+          "price": "₹1,16,000",
+          "description": "200 bar high pressure jet washer for intense cleaning",
+          "specifications": [
+            { "label": "Pressure", "value": "200 Bar" },
+            { "label": "Flow Rate", "value": "15 L/min" },
+            { "label": "Power Source", "value": "Diesel" },
+            { "label": "Weight", "value": "120 Kg" },
+            { "label": "Hose Length", "value": "15 m" },
+            { "label": "Engine", "value": "4 Stroke" }
+          ]
+        },
+        {
+          "id": "djb-200",
+          "name": "DJB-200 High Pressure Jet Washer",
+          "image": "/Product/Jet-washer/High-Pressure-Jet-Washer.png",
+          "images": [
+            "/Product/Jet-washer/DJB-200/High_Pressure_Jet_Washer_DJB-200(1).png",
+            "/Product/Jet-washer/DJB-200/High_Pressure_Jet_Washer_DJB-200(2).png",
+            "/Product/Jet-washer/DJB-200/High_Pressure_Jet_Washer_DJB-200(3).png",
+            "/Product/Jet-washer/DJB-200/High_Pressure_Jet_Washer_DJB-200(4).png"
+          ],
+          "link": "/products/high-pressure-jet-washer/battery-DJB-200",
+          "price": "₹3,80,000",
+          "description": "Heavy-duty 200 bar jet washer with built-in pump",
+          "specifications": [
+            { "label": "Pressure", "value": "200 Bar" },
+            { "label": "Flow Rate", "value": "18 L/min" },
+            { "label": "Power Source", "value": "Battery Operated" },
+            { "label": "Weight", "value": "100 Kg" },
+            { "label": "Hose Length", "value": "20 m" },
+            { "label": "Runtime", "value": "6-8 hours" }
+          ]
+        },
+        {
+          "id": "dje-18",
+          "name": "DJE-18 Electric Jet Washer",
+          "image": "/Product/Jet-washer/High-Pressure-Jet-Washer.png",
+          "images": [
+            "/Product/Jet-washer/DJE-18/High_Pressure_Jet_Washer_DJE-18(1).png",
+            "/Product/Jet-washer/DJE-18/High_Pressure_Jet_Washer_DJE-18(2).png",
+            "/Product/Jet-washer/DJE-18/High_Pressure_Jet_Washer_DJE-18(3).png",
+            "/Product/Jet-washer/DJE-18/High_Pressure_Jet_Washer_DJE-18(4).png"
+          ],
+          "link": "/products/high-pressure-jet-washer/electric-DJE-18",
+          "price": "₹20,800",
+          "description": "Electric-powered jet washer for eco-friendly cleaning",
+          "specifications": [
+            { "label": "Pressure", "value": "150 Bar" },
+            { "label": "Flow Rate", "value": "8 L/min" },
+            { "label": "Power Source", "value": "Electric (220V)" },
+            { "label": "Weight", "value": "25 Kg" },
+            { "label": "Hose Length", "value": "10 m" },
+            { "label": "Power Consumption", "value": "2.2 KW" }
+          ]
+        },
+        {
+          "id": "dje-30",
+          "name": "DJE-30 Electric Jet Washer",
+          "image": "/Product/Jet-washer/High-Pressure-Jet-Washer.png",
+          "images": [
+            "/Product/Jet-washer/DJE-30/High_Pressure_Jet_Washer_DJE-30(1).png",
+            "/Product/Jet-washer/DJE-30/High_Pressure_Jet_Washer_DJE-30(2).png",
+            "/Product/Jet-washer/DJE-30/High_Pressure_Jet_Washer_DJE-30(3).png",
+            "/Product/Jet-washer/DJE-30/High_Pressure_Jet_Washer_DJE-30(4).png"
+          ],
+          "link": "/products/high-pressure-jet-washer/electric-DJE-30",
+          "price": "₹42,000",
+          "description": "3000 PSI electric jet washer for professional use",
+          "specifications": [
+            { "label": "Pressure", "value": "210 Bar / 3000 PSI" },
+            { "label": "Flow Rate", "value": "12 L/min" },
+            { "label": "Power Source", "value": "Electric (220V)" },
+            { "label": "Weight", "value": "35 Kg" },
+            { "label": "Hose Length", "value": "15 m" },
+            { "label": "Power Consumption", "value": "3.5 KW" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vacuum-cleaner",
+      "name": "Vacuum Cleaner",
+      "products": [
+        {
+          "id": "dv-15",
+          "name": "DV-15 Portable Vacuum Cleaner",
+          "image": "/Product/Vaccume-Cleaner/DV-15/1.png",
+          "images": [
+            "/Product/Vaccume-Cleaner/DV-15/1.png",
+            "/Product/Vaccume-Cleaner/DV-15/2.png",
+            "/Product/Vaccume-Cleaner/DV-15/3.png",
+            "/Product/Vaccume-Cleaner/DV-15/5.png"
+          ],
+          "link": "/products/vacuum-cleaner/dv-15",
+          "price": "₹7,500",
+          "description": "Lightweight portable vacuum cleaner for daily use",
+          "specifications": [
+            { "label": "Motor Power", "value": "1.5 KW" },
+            { "label": "Suction Capacity", "value": "100 L" },
+            { "label": "Tank Material", "value": "Plastic" },
+            { "label": "Weight", "value": "15 Kg" },
+            { "label": "Noise Level", "value": "75 dB" },
+            { "label": "Power Cord", "value": "5 m" }
+          ]
+        },
+        {
+          "id": "dv-30",
+          "name": "DV-30 Industrial Vacuum Cleaner",
+          "image": "/Product/Vaccume-Cleaner/DV-30/pehli.png",
+          "images": [
+            "/Product/Vaccume-Cleaner/DV-30/pehli.png",
+            "/Product/Vaccume-Cleaner/DV-30/1.png",
+            "/Product/Vaccume-Cleaner/DV-30/3.png",
+            "/Product/Vaccume-Cleaner/DV-30/5.png",
+            "/Product/Vaccume-Cleaner/DV-30/6.png"
+          ],
+          "link": "/products/vacuum-cleaner/dv-30",
+          "price": "₹9,000",
+          "description": "Industrial-grade vacuum cleaner with high suction power",
+          "specifications": [
+            { "label": "Motor Power", "value": "3 KW" },
+            { "label": "Suction Capacity", "value": "200 L" },
+            { "label": "Tank Material", "value": "Stainless Steel" },
+            { "label": "Weight", "value": "45 Kg" },
+            { "label": "Noise Level", "value": "80 dB" },
+            { "label": "Power Cord", "value": "10 m" }
+          ]
+        },
+        {
+          "id": "dv-60",
+          "name": "DV-60 Commercial Vacuum Cleaner",
+          "image": "/Product/Vaccume-Cleaner/DV-60/1.jpg",
+          "images": [
+            "/Product/Vaccume-Cleaner/DV-60/1.jpg",
+            "/Product/Vaccume-Cleaner/DV-60/3.png",
+            "/Product/Vaccume-Cleaner/DV-60/5.png",
+            "/Product/Vaccume-Cleaner/DV-60/6.png"
+          ],
+          "link": "/products/vacuum-cleaner/dv-60",
+          "price": "₹18,000",
+          "description": "Commercial vacuum cleaner for large-scale cleaning",
+          "specifications": [
+            { "label": "Motor Power", "value": "5 KW" },
+            { "label": "Suction Capacity", "value": "400 L" },
+            { "label": "Tank Material", "value": "Stainless Steel" },
+            { "label": "Weight", "value": "80 Kg" },
+            { "label": "Noise Level", "value": "82 dB" },
+            { "label": "Power Cord", "value": "15 m" }
+          ]
+        },
+        {
+          "id": "dv-80",
+          "name": "DV-80 Heavy-Duty Vacuum Cleaner",
+          "image": "/Product/Vaccume-Cleaner/DV-80/Vacuum_Cleaner_DV-80(1).jpg",
+          "images": [
+            "/Product/Vaccume-Cleaner/DV-80/Vacuum_Cleaner_DV-80(1).jpg",
+            "/Product/Vaccume-Cleaner/DV-80/Vacuum_Cleaner_DV-80(2).png",
+            "/Product/Vaccume-Cleaner/DV-80/Vacuum_Cleaner_DV-80(3).png",
+            "/Product/Vaccume-Cleaner/DV-80/Vacuum_Cleaner_DV-80(4).png"
+          ],
+          "link": "/products/vacuum-cleaner/dv-80",
+          "price": "₹23,500",
+          "description": "Heavy-duty vacuum cleaner for industrial applications",
+          "specifications": [
+            { "label": "Motor Power", "value": "7.5 KW" },
+            { "label": "Suction Capacity", "value": "600 L" },
+            { "label": "Tank Material", "value": "Stainless Steel" },
+            { "label": "Weight", "value": "120 Kg" },
+            { "label": "Noise Level", "value": "85 dB" },
+            { "label": "Power Cord", "value": "20 m" }
+          ]
+        },
+        {
+          "id": "back-pack",
+          "name": "D-BP6 Back Pack Vacuum Cleaner",
+          "image": "/Product/Vaccume-Cleaner/Back-Pack Vacuum Cleaner/Back-Pack_Vacuum_Cleaner_D-BP6(1).png",
+          "images": [
+            "/Product/Vaccume-Cleaner/Back-Pack Vacuum Cleaner/Back-Pack_Vacuum_Cleaner_D-BP6(1).png",
+            "/Product/Vaccume-Cleaner/Back-Pack Vacuum Cleaner/Back-Pack_Vacuum_Cleaner_D-BP6(2).png",
+            "/Product/Vaccume-Cleaner/Back-Pack Vacuum Cleaner/Back-Pack_Vacuum_Cleaner_D-BP6(3).png"
+          ],
+          "link": "/products/vacuum-cleaner/back-pack",
+          "price": "₹22,300",
+          "description": "Portable back-pack style vacuum cleaner",
+          "specifications": [
+            { "label": "Motor Power", "value": "1 KW" },
+            { "label": "Tank Capacity", "value": "6 L" },
+            { "label": "Tank Material", "value": "Plastic" },
+            { "label": "Weight", "value": "4 Kg" },
+            { "label": "Runtime", "value": "45 minutes" },
+            { "label": "Charging Time", "value": "2 hours" }
+          ]
+        }
+      ]
+    }
+  ]
+}
