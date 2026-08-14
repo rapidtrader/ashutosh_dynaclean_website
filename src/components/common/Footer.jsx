@@ -297,7 +297,20 @@ export default function Footer() {
                         Gandhi Nagar, Ganapathy, Coimbatore, Tamil Nadu,
                         Pincode-641006
                       </a>
+                     
                     </p>
+
+                    <p className="flex items-start gap-2">
+                      <GoLocation style={{ fontSize: "50px" }} />
+
+                      <a href="#" className="hover:text-red-500 transition">
+                        3rd floor, Plot No 9, Pocket-3, Block B, Sector-17 Dwarka,
+                        South west Delhi, Delhi-110078
+                      </a>
+                     
+                    </p>
+                    
+                   
                     <p className="flex items-center gap-2">
                       <HiOutlineMail size={16} aria-hidden="true" />
                       sales@dynacleanindustries.com
