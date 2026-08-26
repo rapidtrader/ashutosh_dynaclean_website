@@ -48,7 +48,7 @@ export default function Home() {
   return (
     <main>
       <ResponsiveSection
-        imagePath="/ServiceSuport/Srivece.webp" // public directory
+        imagePath="/ServiceSuport/Service.png" // public directory
         imageSide="left" // or "right"
         title="Service Support"
         descriptionHTML=" 

@@ -183,6 +183,14 @@ export default function Footer() {
                     Terms & Conditions
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="/shipping-policy"
+                    className="hover:text-red-500 transition"
+                  >
+                    Shipping Policy
+                  </a>
+                </li>
               </ul>
             </div>
 

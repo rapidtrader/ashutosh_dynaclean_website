@@ -3,10 +3,12 @@
 import { useCart } from "@/context/CartContext";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import CheckoutModal from "@/components/cart/CheckoutModal";
 
 export default function CartPage() {
   const { cart, removeFromCart, updateQuantity, getCartTotal, clearCart } = useCart();
   const [isLoaded, setIsLoaded] = useState(false);
+  const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
 
   useEffect(() => {
     setIsLoaded(true);
@@ -175,7 +177,10 @@ export default function CartPage() {
                 </div>
 
                 {/* Checkout Button */}
-                <button className="w-full bg-red-600 text-white py-3 rounded-lg font-bold hover:bg-red-700 transition-colors mb-3">
+                <button
+                  onClick={() => setIsCheckoutOpen(true)}
+                  className="w-full bg-red-600 text-white py-3 rounded-lg font-bold hover:bg-red-700 transition-colors mb-3"
+                >
                   Proceed to Checkout
                 </button>
 
@@ -191,6 +196,13 @@ export default function CartPage() {
           </div>
         )}
       </div>
+
+      <CheckoutModal
+        isOpen={isCheckoutOpen}
+        onClose={() => setIsCheckoutOpen(false)}
+        cart={cart}
+        cartTotal={cartTotal}
+      />
     </main>
   );
 }
