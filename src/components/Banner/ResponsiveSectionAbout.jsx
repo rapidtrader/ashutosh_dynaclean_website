@@ -10,11 +10,18 @@ export default function ResponsiveSection({
   title,
   description,
   descriptionHTML,
+  whiteImageBackground = false,
+  actionButton,
 }) {
   const isImageLeft = imageSide === "left";
 
   return (
-    <section className="relative flex flex-col lg:flex-row items-center gap-6 md:gap-12 px-6 py-12 md:px-20 md:py-10 overflow-hidden bg-gray-100">
+    <section
+      className={clsx(
+        "relative flex flex-col lg:flex-row items-center gap-6 md:gap-12 px-6 py-12 md:px-20 md:py-10 overflow-hidden",
+        whiteImageBackground ? "bg-white" : "bg-gray-100"
+      )}
+    >
       {/* Image Section */}
       <div
         className={clsx(
@@ -25,14 +32,20 @@ export default function ResponsiveSection({
           }
         )}
       >
-        <div className="absolute w-80 h-80 bg-red-800 rounded-full blur-[80px] opacity-90"></div>
         <div className="relative z-10">
+          {!whiteImageBackground && (
+            <div className="absolute w-80 h-80 bg-red-800 rounded-full blur-[80px] opacity-90 -z-10" />
+          )}
           <Image
             src={imagePath}
             alt="Illustration"
-            width={600}
-            height={400}
-            className="object-contain rounded-lg shadow-lg"
+            width={whiteImageBackground ? 720 : 600}
+            height={whiteImageBackground ? 480 : 400}
+            className={clsx(
+              "object-contain rounded-lg w-full",
+              whiteImageBackground ? "max-w-[720px]" : "max-w-[600px]",
+              !whiteImageBackground && "shadow-lg"
+            )}
           />
         </div>
       </div>
@@ -55,6 +68,7 @@ export default function ResponsiveSection({
         ) : (
           <p className="text-gray-700 text-lg text-justify">{description}</p>
         )}
+        {actionButton}
       </div>
     </section>
   );
@@ -66,4 +80,6 @@ ResponsiveSection.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string,
   descriptionHTML: PropTypes.string,
+  whiteImageBackground: PropTypes.bool,
+  actionButton: PropTypes.node,
 };
