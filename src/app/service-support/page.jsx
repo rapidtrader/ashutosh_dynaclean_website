@@ -48,7 +48,7 @@ export default function Home() {
   return (
     <main>
       <ResponsiveSection
-        imagePath="/ServiceSuport/Service.png" // public directory
+        imagePath="/ServiceSuport/service.png"
         imageSide="left" // or "right"
         title="Service Support"
         descriptionHTML=" 
