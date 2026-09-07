@@ -9,6 +9,7 @@ import data6000 from "@/data/Electric-Sweeper-Truck/DTMS-6000/data";
 import data7500 from "@/data/Electric-Sweeper-Truck/DTMS-7500/data";
 import data600 from "@/data/Electric-Sweeper-Truck/600/data";
 import data600DT from "@/data/Electric-Sweeper-Truck/DRS-600DT/data";
+import dataDRS2000HD from "@/data/Electric-Sweeper-Truck/DRS-2000HD/data";
 
 export const metadata = {
   title: "Battery-Operated-Sweeper-truck | Dynaclean Industries",
@@ -48,6 +49,7 @@ const MuncipleDesalTruck = () => {
   const shortDescription7500 = getShortDescription(data7500.description, 27);
   const shortDescription600 = getShortDescription(data600.description, 27);
   const shortDescription600DT = getShortDescription(data600DT.description, 27);
+  const shortDescriptionDRS2000HD = getShortDescription(dataDRS2000HD.description, 27);
   const cardData = {
     images: [
       "/Product/Bettery-Operated-truck/DTMS-1000 Ev/DRS-1000EV_Sweeper_Truck(1).webp",
@@ -135,6 +137,16 @@ const MuncipleDesalTruck = () => {
     description: shortDescription7500,
   };
 
+  const cardDataDRS2000HD = {
+    images: [
+      "/Product/Bettery-Operated-truck/DRS-2000HD/DRS_2000HD (1).png",
+      "/Product/Bettery-Operated-truck/DRS-2000HD/DRS_2000HD (2).png",
+    ],
+    url: "/products/battery-operated-sweeper-truck/DRS-2000HD",
+    title: dataDRS2000HD.title,
+    description: shortDescriptionDRS2000HD,
+  };
+
   return (
     <main>
       <ResponsiveSection
@@ -154,6 +166,7 @@ const MuncipleDesalTruck = () => {
         <Card {...cardData8} />
         <Card {...cardData6} />
         <Card {...cardData7} />
+        <Card {...cardDataDRS2000HD} />
       </div>
     </main>
   );

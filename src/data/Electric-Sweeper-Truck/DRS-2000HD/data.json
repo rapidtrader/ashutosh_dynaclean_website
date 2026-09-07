@@ -1,0 +1,52 @@
+{
+  "title": "Electric Road Sweeper Truck DRS-2000HD",
+  "images": [
+      "/Product/Bettery-Operated-truck/DRS-2000HD/DRS_2000HD (1).png",
+      "/Product/Bettery-Operated-truck/DRS-2000HD/DRS_2000HD (2).png",
+      "/Product/Bettery-Operated-truck/DRS-2000HD/DRS_2000HD (3).png",
+      "/Product/Bettery-Operated-truck/DRS-2000HD/DRS_2000HD (4).png",
+      "/Product/Bettery-Operated-truck/DRS-2000HD/DRS_2000HD (5).png"
+  ],
+  "specifications": [
+    [
+       { "label": "Waste Dust Tank", "value": "2000L" },
+       { "label": "Clear Water Tank", "value": "600 L" },
+       { "label": "Sweeping Width", "value": "2400 mm" },
+       { "label": "Cleaning Efficiency (maximum)", "value": "24000 m²/hour" },
+       { "label": "Number of Brushes", "value": "4" },
+       { "label": "Drive Motor Power", "value": "5000 W" },
+       { "label": "Vacuum Motor Power", "value": "3000 W" },
+       { "label": "Maximum Sweeping Speed", "value": "10 km/h" },
+       { "label": "Maximum Drive Speed", "value": "25 km/h" },
+       { "label": "Anti-Smog System", "value": "Yes" }
+    ],
+    [
+       { "label": "In-built Jet Pressure Washer", "value": "130 Bar" },
+       { "label": "Water Cannon", "value": "Yes" },
+       { "label": "Dumping Type", "value": "Hydraulic" },
+       { "label": "Cabin", "value": "2 Persons" },
+       { "label": "Litter Picker", "value": "Yes" },
+       { "label": "Battery Capacity", "value": "30 kWh" },
+       { "label": "Charging Time", "value": "6-8 hours" },
+       { "label": "Running Time", "value": "8-10 hours" },
+       { "label": "Safety Features", "value": "Alarm, front & rear warning lights" },
+       { "label": "Charging Cost (Approx.)", "value": "₹300 Rupees/day" }
+    ]
+  ],
+  "youtubeVideoId": "",
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/battery_operated_sweeper_trucks/DRS-2000HD.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The DRS-2000HD Sweeper is a powerful, battery-operated cleaning machine designed for efficient dust control in large areas. With advanced sweeping technology, strong suction, and an eco-friendly design, it ensures maximum cleaning performance with minimal maintenance.",
+  "keyFeatures": [
+    "High-Capacity Dust & Water Tanks – 2000L waste dust tank and 600L clear water tank for extended operations.",
+    "Wide Sweeping Coverage – 2400mm sweeping width for efficient area coverage.",
+    "Powerful Cleaning Performance – 24,000 m²/hour cleaning efficiency with 4 brushes.",
+    "Eco-Friendly Battery Operation – 30 kWh battery capacity with 8-10 hours running time.",
+    "Advanced Motor System – 5000W drive motor and 3000W vacuum motor for optimal performance.",
+    "Anti-Smog System – Yes, minimizes dust and improves air quality during sweeping.",
+    "Multi-Purpose Water Systems – In-built 130 Bar jet pressure washer and water cannon.",
+    "Safety Features – Alarm and front & rear warning lights for safe operation.",
+    "Spacious Two-Person Cabin – Comfortable operation for two crew members with Litter Picker."
+  ]
+}
