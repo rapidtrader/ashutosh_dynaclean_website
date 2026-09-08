@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import PropTypes from "prop-types";
 import clsx from "clsx";
 
@@ -26,12 +25,10 @@ export default function ResponsiveSection({
       >
         <div className="absolute w-80 h-80 bg-red-800 rounded-full blur-[80px] opacity-90"></div>
         <div className="relative z-10">
-          <Image
+          <img
             src={imagePath}
             alt={title || "Product Image"}
-            width={500}
-            height={400}
-            className="object-contain rounded-lg shadow-lg"
+            className="object-contain rounded-lg shadow-lg max-w-[500px] max-h-[400px]"
           />
         </div>
       </div>
