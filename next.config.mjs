@@ -32,7 +32,6 @@ const nextConfig = {
 
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
-    minify: true, // ✅ Modern minification (replaces swcMinify)
   },
 
   transpilePackages: [],

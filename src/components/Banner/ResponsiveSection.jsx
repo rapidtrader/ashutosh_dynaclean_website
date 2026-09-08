@@ -28,7 +28,7 @@ export default function ResponsiveSection({
         <div className="relative z-10">
           <Image
             src={imagePath}
-            alt={imagePath}
+            alt={title || "Product Image"}
             width={500}
             height={400}
             className="object-contain rounded-lg shadow-lg"
