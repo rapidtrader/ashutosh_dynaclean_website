@@ -159,6 +159,10 @@ export default function Header() {
                 "/products",
                 "products",
                 [
+                  [
+                    "Highway Sweeper Truck",
+                    "/products/highway-sweeper-truck",
+                  ],
                   ["Scrubber Drier", "/products/scrubber-drier"],
                   ["Sweeper Machine", "/products/sweeper"],
                   [

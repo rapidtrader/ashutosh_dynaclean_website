@@ -205,6 +205,14 @@ export default function Footer() {
               <ul className="space-y-2 text-white text-sm">
                 <li>
                   <a
+                    href="/products/highway-sweeper-truck"
+                    className="hover:text-red-500 transition"
+                  >
+                    Highway Sweeper Truck
+                  </a>
+                </li>
+                <li>
+                  <a
                     href="/products/scrubber-drier"
                     className="hover:text-red-500 transition"
                   >

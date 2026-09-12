@@ -103,6 +103,16 @@ const MuncipleDesalTruck = () => {
     description: shortDescription5,
   };
 
+  const cardDataTruckMounted = {
+    images: [
+      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-10000/1-Photoroom.png",
+      "/Product/Munciple-Deisal-sweeper-Truck/DTMS-10000/2-Photoroom.png",
+    ],
+    url: "/products/municipal-diesel-sweeper-truck/DTMS-10000",
+    title: "Truck Mounted Road Sweeper DTMS-10000",
+    description: "High-performance, heavy-duty road cleaning machine designed for large-scale sweeping and sanitation operations.",
+  };
+
   return (
     <main>
       <ResponsiveSection
@@ -121,6 +131,7 @@ Constructed to be durable and efficient The sweeper truck is perfect for long-te
         <Card {...cardData3} /> */}
         <Card {...cardData4} />
         <Card {...cardData5} />
+        <Card {...cardDataTruckMounted} />
       </div>
     </main>
   );

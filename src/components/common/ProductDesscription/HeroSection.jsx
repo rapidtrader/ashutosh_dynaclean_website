@@ -30,7 +30,7 @@ const SweeperComponent = ({ sweeperData }) => {
           {/* Media Gallery */}
           <div className="flex flex-col items-center">
             {/* Main Display Area */}
-            <div className="w-full max-w-md h-[300px] md:h-[400px] overflow-hidden rounded-lg shadow-md mb-4 bg-gray-50 flex justify-center items-center relative">
+            <div className="w-full max-w-md h-[250px] md:h-[350px] overflow-hidden rounded-lg shadow-md mb-4 flex justify-center items-center relative">
               {selectedMedia.type === "image" ? (
                 <img
                   src={selectedMedia.src}
@@ -100,11 +100,11 @@ const SweeperComponent = ({ sweeperData }) => {
           <aside className="space-y-8">
             <div className="text-2xl text-gray-700">Specification</div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl">
               {sweeperData.specifications.map((spec, index) => (
                 <div
                   key={index}
-                  className="bg-white shadow-md rounded-lg p-6 border border-gray-100 hover:shadow-lg transition duration-300"
+                  className="bg-white shadow-md rounded-lg p-4 border border-gray-100 hover:shadow-lg transition duration-300"
                 >
                   <table className="w-full text-sm lg:text-base">
                     <tbody>

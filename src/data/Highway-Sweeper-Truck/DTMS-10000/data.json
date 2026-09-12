@@ -1,0 +1,83 @@
+{
+  "title": "Highway Sweeper Truck DTMS-10000",
+  "images": [
+    "/Product/HIGHWAY SWEEPER TRUCK-DTMS-10000/1-Photoroom.png",
+    "/Product/HIGHWAY SWEEPER TRUCK-DTMS-10000/2-Photoroom.png"
+  ],
+  "specifications": [
+    [
+      { "label": "Chassis", "value": "Tata AZURA 1918" },
+      { "label": "GVW", "value": "18,500 kg" },
+      { "label": "Engine", "value": "170 PS Diesel Engine" },
+      { "label": "Engine Capacity", "value": "3.6L BS6" },
+      { "label": "Engine Torque", "value": "600 Nm" },
+      { "label": "Hopper Capacity", "value": "10 m³" }
+    ],
+    [
+      { "label": "Sweeping Capacity", "value": "36,000 m²/hr" },
+      { "label": "Sweeping Speed", "value": "12 km/h" },
+      { "label": "Sweeping Width", "value": "3,000 mm" },
+      { "label": "Suction Power", "value": "17,500 m³/hr" },
+      { "label": "Brush System", "value": "3-Brush System (1 Central + 2 Side)" },
+      { "label": "Side Brushes", "value": "Ø600 mm Hydraulic" }
+    ],
+    [
+      { "label": "Water Tank", "value": "900 L (Stainless Steel)" },
+      { "label": "Water Pump", "value": "150 Bar" },
+      { "label": "Water Spray Nozzles", "value": "25+ Nozzles" },
+      { "label": "Fuel Tank", "value": "245 L" },
+      { "label": "DEF Tank", "value": "25 L" },
+      { "label": "Filtration", "value": "PM2.5 Certified" }
+    ],
+    [
+      { "label": "Manual Vacuum Hose", "value": "5 m Flexible" },
+      { "label": "Stone & Debris Pickup", "value": "Up to 100 mm" },
+      { "label": "Washing Gun", "value": "10 m @ 150 Bar" },
+      { "label": "Gradeability", "value": "26%" },
+      { "label": "Cabin Capacity", "value": "Driver + 2 Passengers" },
+      { "label": "Control System", "value": "PLC Touchscreen HMI" }
+    ],
+    [
+      { "label": "Camera System", "value": "Dual CCD Cameras (Front & Rear)" },
+      { "label": "Lighting", "value": "Night Cleaning Lights (Search/Flood)" },
+      { "label": "Additional Features", "value": "Front Brushes, High-Pressure Mist Spray System" }
+    ]
+  ],
+  "contactLink": "/contact",
+  "catalogLink": "/catalogue/highway_sweeper_truck/DTMS-10000.pdf",
+  "descriptionTitle": "Overview",
+  "description": "The Dynaclean DTMS-10000 Highway Sweeper Truck is a high-performance, heavy-duty road cleaning machine designed for large-scale sweeping and sanitation operations. Built to handle demanding cleaning requirements, this Highway Sweeper Truck is ideal for highways, municipal roads, industrial zones, airports, construction sites, urban roads, and other large outdoor areas. The DTMS-10000 combines powerful sweeping performance, high-capacity dust collection, efficient suction, and controlled water spraying to effectively remove dust, dirt, leaves, gravel, plastic waste, and other road debris. Its advanced sweeping and suction system helps deliver consistent cleaning performance while reducing airborne dust during operation. Designed for demanding Indian road and weather conditions, this Road Sweeper Truck offers reliable solutions for municipalities, infrastructure companies, industrial facilities, airports, smart city projects, and highway maintenance operations. Its robust construction, spacious operator cabin, user-friendly controls, and high-capacity waste collection system make it suitable for extended cleaning operations.",
+  "keyFeatures": [
+    "36,000 m²/hr Sweeping Capacity – High productivity at 12 km/h sweeping speed for efficient highway cleaning.",
+    "10 m³ Debris Hopper – Large-capacity waste collection for extended operations without frequent unloading.",
+    "3,000 mm Sweeping Width – Central, side and additional front brushes for comprehensive coverage.",
+    "17,500 m³/hr Suction Power – Powerful vacuum system for dust, sand, leaves and heavy debris removal.",
+    "Tata AZURA 1918 Chassis – Heavy-duty 18,500 kg GVW truck platform for demanding operations.",
+    "170 PS Diesel Engine – 3.6L BS6 engine with 600 Nm torque for powerful performance.",
+    "3-Brush System – 1 central brush + 2 hydraulic Ø600 mm side brushes for complete coverage.",
+    "900 L Stainless Steel Water Tank – Efficient dust suppression and cleaning capability.",
+    "150 Bar Water Pump – High-pressure washing and dust-control capability with 25+ spray nozzles.",
+    "PM2.5 Certified Filtration – Advanced fine-particle filtration system for better air quality.",
+    "Stone & Debris Pickup – Suction nozzles lift stones up to 100 mm, leaves and sand.",
+    "Manual Vacuum System – 5 m flexible hose for corners and hard-to-reach areas.",
+    "PLC Touchscreen HMI – Advanced touchscreen with mechanical controls for easy operation.",
+    "Dual CCD Cameras – Front sweeping-head and rear cameras with cabin monitor.",
+    "10 m Washing Gun – Minimum 150 bar high-pressure cleaning system.",
+    "Night Cleaning Lights – Search/flood lights for low-light operations.",
+    "26% Gradeability – Suitable for challenging roads and gradients.",
+    "Driver + 2 Passengers – Comfortable, operator-friendly cabin design."
+  ],
+  "applications": [
+    "Highways and expressways",
+    "Municipal and city roads",
+    "Industrial areas and manufacturing zones",
+    "Airports and airport roads",
+    "Construction sites",
+    "Smart City projects",
+    "Large parking areas",
+    "Ports and logistics areas",
+    "Public infrastructure",
+    "Urban sanitation projects",
+    "Road and infrastructure maintenance"
+  ]
+}
