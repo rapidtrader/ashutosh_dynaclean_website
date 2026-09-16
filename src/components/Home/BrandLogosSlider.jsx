@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/autoplay";
 
 export default function BrandLogosSlider() {
-  const singleLogos = Array.from({ length: 12 }, (_, i) => ({
+  const singleLogos = Array.from({ length: 15 }, (_, i) => ({
     id: i,
     src: `/Clients/brand-logo${i === 0 ? "" : i}.png`,
     alt: `Brand Logo ${i}`,
