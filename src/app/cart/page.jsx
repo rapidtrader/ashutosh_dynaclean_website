@@ -97,7 +97,17 @@ export default function CartPage() {
                       </p>
                       <div className="mt-3 flex items-center gap-4">
                         <span className="text-xl font-bold text-red-600">
-                          {item.price}
+                          {typeof item.price === "number" ? (
+                            <>
+                              ₹{item.price.toLocaleString("en-IN")}{" "}
+                              <span className="text-sm font-semibold text-red-500">+ GST</span>
+                            </>
+                          ) : (
+                            <>
+                              {item.price}{" "}
+                              <span className="text-sm font-semibold text-red-500">+ GST</span>
+                            </>
+                          )}
                         </span>
                       </div>
                     </div>

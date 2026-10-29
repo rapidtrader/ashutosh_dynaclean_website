@@ -211,8 +211,20 @@ export default function ShopPage() {
                             {/* Price and Add to Cart */}
                             <div className="mt-auto">
                               <div className="flex items-center justify-between mb-4">
-                                <div className="text-3xl font-bold text-red-600">
-                                  ₹{product.price ? product.price.toLocaleString() : (product.last_negotiation_price ? product.last_negotiation_price.toLocaleString() : "Contact")}
+                                <div className="text-2xl font-bold text-red-600">
+                                  {product.price || product.last_negotiation_price ? (
+                                    <>
+                                      ₹
+                                      {(product.price || product.last_negotiation_price).toLocaleString(
+                                        "en-IN"
+                                      )}{" "}
+                                      <span className="text-sm font-semibold text-red-500">
+                                        + GST
+                                      </span>
+                                    </>
+                                  ) : (
+                                    "Contact"
+                                  )}
                                 </div>
                                 <button
                                   onClick={() => handleAddToCart(product)}

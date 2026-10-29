@@ -135,7 +135,8 @@ export default function ProductPage({ params }) {
             <div className="bg-gradient-to-r from-red-50 to-red-100 rounded-lg p-6 mb-6">
               <p className="text-gray-600 text-sm mb-2">Price</p>
               <div className="text-5xl font-bold text-red-600 mb-2">
-                {product.price}
+                {product.price}{" "}
+                <span className="text-lg font-semibold text-red-500">+ GST</span>
               </div>
               <p className="text-gray-600 text-sm">
                 Competitive pricing for professional-grade equipment
@@ -253,7 +254,10 @@ export default function ProductPage({ params }) {
                       <h3 className="font-semibold text-gray-800 line-clamp-2 group-hover:text-red-600">
                         {relatedProduct.name}
                       </h3>
-                      <p className="text-red-600 font-bold mt-2">{relatedProduct.price}</p>
+                      <p className="text-red-600 font-bold mt-2">
+                        {relatedProduct.price}{" "}
+                        <span className="text-xs font-semibold text-red-500">+ GST</span>
+                      </p>
                     </div>
                   </div>
                 </Link>
