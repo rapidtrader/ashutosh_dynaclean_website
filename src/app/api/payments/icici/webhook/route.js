@@ -2,7 +2,9 @@ import { verifySecureHash, getIciciConfig } from "@/lib/iciciPg";
 
 export const runtime = "nodejs";
 
-/** Payment Advice / webhook from ICICI Orange PG (configure URL in merchant dashboard) */
+/** Payment Advice / webhook from ICICI Orange PG
+ *  Dashboard URL: https://www.dynacleanindustries.com/api/payments/icici/webhook
+ */
 export async function POST(req) {
   try {
     const payload = await req.json();

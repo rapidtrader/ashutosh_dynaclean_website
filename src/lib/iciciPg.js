@@ -1,10 +1,15 @@
 import crypto from "crypto";
 
+/** ICICI live return / domain validation — always production (not localhost) */
+export const ICICI_PAYMENT_BASE_URL = "https://www.dynacleanindustries.com";
+export const ICICI_RETURN_PATH = "/api/payments/icici/return";
+export const ICICI_WEBHOOK_PATH = "/api/payments/icici/webhook";
+export const ICICI_RETURN_URL = `${ICICI_PAYMENT_BASE_URL}${ICICI_RETURN_PATH}`;
+export const ICICI_WEBHOOK_URL = `${ICICI_PAYMENT_BASE_URL}${ICICI_WEBHOOK_PATH}`;
+
 export function getSiteUrl() {
   const url =
-    process.env.NEXT_PUBLIC_SITE_URL ||
-    process.env.SITE_URL ||
-    "http://localhost:3000";
+    process.env.ICICI_PG_SITE_URL?.trim() || ICICI_PAYMENT_BASE_URL;
   return url.replace(/\/$/, "");
 }
 
@@ -107,7 +112,7 @@ export async function initiateIciciSale(order) {
   const config = assertIciciConfigured();
 
   const merchantTxnNo = generateMerchantTxnNo();
-  const returnURL = `${getSiteUrl()}/api/payments/icici/return`;
+  const returnURL = ICICI_RETURN_URL;
 
   const payload = {
     amount: formatAmount(order.amount),
