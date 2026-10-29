@@ -14,6 +14,8 @@ export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
   const [couponCode, setCouponCode] = useState("");
   const [pincode, setPincode] = useState("201201");
   const [isEditingAddress, setIsEditingAddress] = useState(false);
+  const [isPaying, setIsPaying] = useState(false);
+  const [payError, setPayError] = useState("");
   const [deliveryDetails, setDeliveryDetails] = useState({
     name: "",
     email: "",
@@ -54,13 +56,62 @@ export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
 
   if (!isOpen) return null;
 
-  const handlePayNow = () => {
+  const handlePayNow = async () => {
     if (!deliveryDetails.name || !deliveryDetails.phone || !deliveryDetails.address) {
       alert("Please fill in your delivery details before proceeding.");
       setIsEditingAddress(true);
       return;
     }
-    alert("Payment gateway integration coming soon. Our team will contact you shortly.");
+
+    if (paymentMode === "cod") {
+      alert(
+        "Cash on Delivery selected. Our team will confirm your order on the phone number provided."
+      );
+      return;
+    }
+
+    if (paymentGateway === "razorpay") {
+      alert("Razorpay integration is coming soon. Please use ICICI Bank for online payment.");
+      return;
+    }
+
+    if (paymentGateway !== "icici") return;
+
+    setIsPaying(true);
+    setPayError("");
+
+    try {
+      const res = await fetch("/api/payments/icici/initiate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          amount: youPay,
+          cartTotal,
+          shippingCost,
+          shippingMode,
+          pincode,
+          deliveryDetails,
+          cart,
+        }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(data.message || "Could not start payment.");
+      }
+
+      if (data.redirectUrl) {
+        window.location.href = data.redirectUrl;
+        return;
+      }
+
+      throw new Error("Payment gateway did not return a redirect URL.");
+    } catch (error) {
+      setPayError(error.message || "Payment failed. Please try again.");
+    } finally {
+      setIsPaying(false);
+    }
   };
 
   return (
@@ -404,9 +455,15 @@ export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
             </div>
 
             {/* Pay Button */}
+            {payError && (
+              <p className="text-sm text-red-400 bg-red-500/10 border border-red-500/30 rounded-lg px-4 py-3 mb-4">
+                {payError}
+              </p>
+            )}
             <button
               onClick={handlePayNow}
-              className="w-full bg-red-600 hover:bg-red-700 text-white py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition-colors shadow-lg shadow-red-600/30"
+              disabled={isPaying}
+              className="w-full bg-red-600 hover:bg-red-700 disabled:opacity-60 disabled:cursor-not-allowed text-white py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition-colors shadow-lg shadow-red-600/30"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path
@@ -416,7 +473,7 @@ export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
                   d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
                 />
               </svg>
-              PAY NOW SECURELY
+              {isPaying ? "Redirecting to ICICI…" : "PAY NOW SECURELY"}
             </button>
 
             <p className="text-center text-xs text-gray-500 mt-4">
