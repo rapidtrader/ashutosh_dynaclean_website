@@ -4,6 +4,7 @@ import { useCart } from "@/context/CartContext";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import CheckoutModal from "@/components/cart/CheckoutModal";
+import { calculateGst, formatInr, GST_PERCENT_LABEL } from "@/lib/cartPricing";
 
 export default function CartPage() {
   const { cart, removeFromCart, updateQuantity, getCartTotal, clearCart } = useCart();
@@ -25,6 +26,7 @@ export default function CartPage() {
   }
 
   const cartTotal = getCartTotal();
+  const { subtotal, gstAmount, totalWithGst } = calculateGst(cartTotal);
   const totalItems = cart.reduce((count, item) => count + item.quantity, 0);
 
   return (
@@ -166,23 +168,27 @@ export default function CartPage() {
 
                 <div className="space-y-4 mb-6 pb-6 border-b border-gray-200">
                   <div className="flex justify-between text-gray-700">
-                    <span>Subtotal ({totalItems} items):</span>
-                    <span className="font-semibold">₹{cartTotal.toLocaleString()}</span>
+                    <span>Subtotal ({totalItems} items, excl. GST):</span>
+                    <span className="font-semibold">{formatInr(subtotal)}</span>
+                  </div>
+                  <div className="flex justify-between text-gray-700">
+                    <span>GST ({GST_PERCENT_LABEL}):</span>
+                    <span className="font-semibold">{formatInr(gstAmount)}</span>
+                  </div>
+                  <div className="flex justify-between text-gray-800">
+                    <span className="font-medium">Amount after GST:</span>
+                    <span className="font-semibold">{formatInr(totalWithGst)}</span>
                   </div>
                   <div className="flex justify-between text-gray-700">
                     <span>Shipping:</span>
-                    <span className="font-semibold">Contact us</span>
-                  </div>
-                  <div className="flex justify-between text-gray-700">
-                    <span>Tax:</span>
-                    <span className="font-semibold">Calculated at checkout</span>
+                    <span className="font-semibold text-green-600">FREE</span>
                   </div>
                 </div>
 
                 <div className="flex justify-between items-center mb-6">
-                  <span className="text-xl font-bold text-gray-800">Total:</span>
+                  <span className="text-xl font-bold text-gray-800">Total (incl. GST):</span>
                   <span className="text-3xl font-bold text-red-600">
-                    ₹{cartTotal.toLocaleString()}
+                    {formatInr(totalWithGst)}
                   </span>
                 </div>
 
@@ -211,7 +217,7 @@ export default function CartPage() {
         isOpen={isCheckoutOpen}
         onClose={() => setIsCheckoutOpen(false)}
         cart={cart}
-        cartTotal={cartTotal}
+        cartSubtotal={subtotal}
       />
     </main>
   );

@@ -2,16 +2,23 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { calculateGst, formatInr, GST_PERCENT_LABEL } from "@/lib/cartPricing";
 
-const SURFACE_SHIPPING = 165;
-const AIR_SHIPPING = 265;
+function isDeliveryComplete(details) {
+  return Boolean(
+    details.name?.trim() && details.phone?.trim() && details.address?.trim()
+  );
+}
 
-export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
-  const [shippingMode, setShippingMode] = useState("surface");
-  const [secureShipment, setSecureShipment] = useState(false);
+/** Set to true when Razorpay / ICICI online checkout is live */
+const ONLINE_PAYMENTS_LIVE = false;
+
+const ONLINE_PAYMENT_COMING_SOON_MSG =
+  "Online payment integration is coming soon. Please check back shortly or contact us to place your order.";
+
+export default function CheckoutModal({ isOpen, onClose, cart, cartSubtotal }) {
   const [paymentMode, setPaymentMode] = useState("prepaid");
   const [paymentGateway, setPaymentGateway] = useState("icici");
-  const [couponCode, setCouponCode] = useState("");
   const [pincode, setPincode] = useState("201201");
   const [isEditingAddress, setIsEditingAddress] = useState(false);
   const [isPaying, setIsPaying] = useState(false);
@@ -23,15 +30,16 @@ export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
     address: "",
   });
 
-  const shippingCost = shippingMode === "surface" ? SURFACE_SHIPPING : AIR_SHIPPING;
-  const codFee = paymentMode === "cod" ? Math.round(cartTotal * 0.05) : 0;
-  const insuranceCost = secureShipment ? 0 : 0;
-  const youPay = cartTotal + shippingCost + codFee + insuranceCost;
+  const { subtotal, gstAmount, totalWithGst } = calculateGst(cartSubtotal);
+  const shippingCost = 0;
+  const codFee = paymentMode === "cod" ? Math.round(subtotal * 0.05) : 0;
+  const youPay = totalWithGst + shippingCost + codFee;
 
   const totalItems = cart.reduce((count, item) => count + item.quantity, 0);
+  const deliveryComplete = isDeliveryComplete(deliveryDetails);
 
   const deliveryDate = new Date();
-  deliveryDate.setDate(deliveryDate.getDate() + (shippingMode === "surface" ? 3 : 1));
+  deliveryDate.setDate(deliveryDate.getDate() + 3);
   const formattedDate = deliveryDate.toLocaleDateString("en-IN", {
     month: "short",
     day: "numeric",
@@ -54,11 +62,32 @@ export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
     };
   }, [isOpen, onClose]);
 
+  useEffect(() => {
+    if (!isOpen) return;
+    setPayError("");
+    if (!deliveryComplete) {
+      setIsEditingAddress(true);
+    } else {
+      setIsEditingAddress(false);
+    }
+  }, [isOpen, deliveryComplete]);
+
   if (!isOpen) return null;
 
+  const handleToggleDeliveryForm = () => {
+    if (isEditingAddress) {
+      if (!isDeliveryComplete(deliveryDetails)) {
+        setPayError("Please enter your name, phone number, and full address.");
+        return;
+      }
+      setPayError("");
+    }
+    setIsEditingAddress(!isEditingAddress);
+  };
+
   const handlePayNow = async () => {
-    if (!deliveryDetails.name || !deliveryDetails.phone || !deliveryDetails.address) {
-      alert("Please fill in your delivery details before proceeding.");
+    if (!deliveryComplete) {
+      setPayError("Please add your delivery details before payment.");
       setIsEditingAddress(true);
       return;
     }
@@ -70,12 +99,21 @@ export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
       return;
     }
 
-    if (paymentGateway === "razorpay") {
-      alert("Razorpay integration is coming soon. Please use ICICI Bank for online payment.");
+    if (paymentMode === "prepaid") {
+      if (!ONLINE_PAYMENTS_LIVE) {
+        setPayError(ONLINE_PAYMENT_COMING_SOON_MSG);
+        return;
+      }
+
+      if (paymentGateway === "razorpay") {
+        setPayError(ONLINE_PAYMENT_COMING_SOON_MSG);
+        return;
+      }
+
+      if (paymentGateway !== "icici") return;
+    } else {
       return;
     }
-
-    if (paymentGateway !== "icici") return;
 
     setIsPaying(true);
     setPayError("");
@@ -86,9 +124,10 @@ export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           amount: youPay,
-          cartTotal,
+          cartSubtotal: subtotal,
+          gstAmount,
+          cartTotalWithGst: totalWithGst,
           shippingCost,
-          shippingMode,
           pincode,
           deliveryDetails,
           cart,
@@ -138,10 +177,30 @@ export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
                 </svg>
               </button>
               <div>
-                <p className="text-xs text-gray-500 uppercase tracking-widest">Step 2 of 2</p>
-                <h2 className="text-xl font-bold tracking-wide">Payment & Offers</h2>
+                <p className="text-xs text-gray-500 uppercase tracking-widest">
+                  {deliveryComplete ? "Step 2 of 2" : "Step 1 of 2"}
+                </p>
+                <h2 className="text-xl font-bold tracking-wide">
+                  {deliveryComplete ? "Payment" : "Delivery Details"}
+                </h2>
               </div>
             </div>
+
+            {!deliveryComplete && !isEditingAddress && (
+              <button
+                type="button"
+                onClick={() => setIsEditingAddress(true)}
+                className="w-full mb-6 flex items-center justify-between gap-3 rounded-xl border-2 border-red-500/60 bg-red-500/10 px-4 py-4 text-left hover:bg-red-500/15 transition-colors"
+              >
+                <div>
+                  <p className="font-semibold text-white text-sm">Add delivery details</p>
+                  <p className="text-xs text-gray-400 mt-1">
+                    Name, phone, and address required before payment
+                  </p>
+                </div>
+                <span className="text-red-400 text-sm font-semibold shrink-0">Add →</span>
+              </button>
+            )}
 
             {/* Delivery Details */}
             <div className="mb-6">
@@ -149,12 +208,14 @@ export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
                 <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider">
                   Delivery Details
                 </h3>
-                <button
-                  onClick={() => setIsEditingAddress(!isEditingAddress)}
-                  className="text-red-500 text-xs font-semibold hover:text-red-400"
-                >
-                  {isEditingAddress ? "SAVE" : "EDIT"}
-                </button>
+                {(deliveryComplete || isEditingAddress) && (
+                  <button
+                    onClick={handleToggleDeliveryForm}
+                    className="text-red-500 text-xs font-semibold hover:text-red-400"
+                  >
+                    {isEditingAddress ? "SAVE" : "EDIT"}
+                  </button>
+                )}
               </div>
 
               {isEditingAddress ? (
@@ -188,20 +249,14 @@ export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
                     className="w-full bg-[#2a2a2a] border border-gray-700 rounded-lg px-3 py-2 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-red-500 resize-none"
                   />
                 </div>
-              ) : (
+              ) : deliveryComplete ? (
                 <div className="bg-[#1e1e1e] rounded-xl p-4 border border-gray-800 text-sm text-gray-300 leading-relaxed">
-                  {deliveryDetails.name || deliveryDetails.phone || deliveryDetails.address ? (
-                    <>
-                      <p className="font-semibold text-white">{deliveryDetails.name}</p>
-                      {deliveryDetails.email && <p>{deliveryDetails.email}</p>}
-                      {deliveryDetails.phone && <p>{deliveryDetails.phone}</p>}
-                      {deliveryDetails.address && <p className="mt-1">{deliveryDetails.address}</p>}
-                    </>
-                  ) : (
-                    <p className="text-gray-500">Click EDIT to add your delivery details</p>
-                  )}
+                  <p className="font-semibold text-white">{deliveryDetails.name}</p>
+                  {deliveryDetails.email && <p>{deliveryDetails.email}</p>}
+                  <p>{deliveryDetails.phone}</p>
+                  <p className="mt-1">{deliveryDetails.address}</p>
                 </div>
-              )}
+              ) : null}
             </div>
 
             {/* Pincode */}
@@ -218,59 +273,6 @@ export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
               />
             </div>
 
-            {/* Shipping Mode */}
-            <div className="grid grid-cols-2 gap-3 mb-6">
-              <button
-                onClick={() => setShippingMode("surface")}
-                className={`rounded-xl p-4 border-2 text-left transition-all ${
-                  shippingMode === "surface"
-                    ? "border-red-500 bg-red-500/10"
-                    : "border-gray-700 bg-[#1e1e1e] hover:border-gray-600"
-                }`}
-              >
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="text-lg">🚚</span>
-                  <span className="font-bold text-sm">SURFACE</span>
-                </div>
-                <p className="text-xs text-gray-400">FROM ₹{SURFACE_SHIPPING}</p>
-              </button>
-              <button
-                onClick={() => setShippingMode("air")}
-                className={`rounded-xl p-4 border-2 text-left transition-all ${
-                  shippingMode === "air"
-                    ? "border-red-500 bg-red-500/10"
-                    : "border-gray-700 bg-[#1e1e1e] hover:border-gray-600"
-                }`}
-              >
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="text-lg">✈️</span>
-                  <span className="font-bold text-sm">AIR</span>
-                </div>
-                <p className="text-xs text-gray-400">FROM ₹{AIR_SHIPPING}</p>
-              </button>
-            </div>
-
-            {/* Secure Shipment */}
-            <div className="flex items-center justify-between bg-[#1e1e1e] rounded-xl p-4 border border-gray-800 mb-4">
-              <div>
-                <p className="font-semibold text-sm">Secure Shipment</p>
-                <p className="text-xs text-gray-400">100% In-transit Insured + ₹0</p>
-              </div>
-              <button
-                onClick={() => setSecureShipment(!secureShipment)}
-                className={`relative w-12 h-6 rounded-full transition-colors ${
-                  secureShipment ? "bg-green-500" : "bg-gray-600"
-                }`}
-                aria-label="Toggle secure shipment"
-              >
-                <span
-                  className={`absolute top-0.5 left-0.5 w-5 h-5 bg-white rounded-full transition-transform ${
-                    secureShipment ? "translate-x-6" : ""
-                  }`}
-                />
-              </button>
-            </div>
-
             {/* Carrier */}
             <div className="flex items-center justify-between bg-green-500/10 border border-green-500/30 rounded-xl p-4 mb-6">
               <div className="flex items-center gap-3">
@@ -280,7 +282,9 @@ export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
                   <p className="text-xs text-gray-400">{formattedDate}</p>
                 </div>
               </div>
-              <span className="font-bold text-green-400">₹{shippingCost}</span>
+              <span className="font-bold text-green-400">
+                {shippingCost === 0 ? "FREE" : `₹${shippingCost}`}
+              </span>
             </div>
 
             {/* Cart Items */}
@@ -382,6 +386,7 @@ export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
                 </h3>
                 <div className="grid grid-cols-2 gap-3">
                   <button
+                    type="button"
                     onClick={() => setPaymentGateway("razorpay")}
                     className={`p-4 rounded-xl border-2 text-center font-semibold text-sm transition-all ${
                       paymentGateway === "razorpay"
@@ -389,9 +394,15 @@ export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
                         : "border-gray-700 bg-[#1e1e1e] hover:border-gray-600"
                     }`}
                   >
-                    Razorpay
+                    <span className="block">Razorpay</span>
+                    {!ONLINE_PAYMENTS_LIVE && (
+                      <span className="block text-[10px] font-semibold uppercase tracking-wide text-yellow-500 mt-2">
+                        Coming soon
+                      </span>
+                    )}
                   </button>
                   <button
+                    type="button"
                     onClick={() => setPaymentGateway("icici")}
                     className={`p-4 rounded-xl border-2 text-center font-semibold text-sm transition-all ${
                       paymentGateway === "icici"
@@ -399,45 +410,39 @@ export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
                         : "border-gray-700 bg-[#1e1e1e] hover:border-gray-600"
                     }`}
                   >
-                    ICICI Bank
+                    <span className="block">ICICI Bank</span>
+                    {!ONLINE_PAYMENTS_LIVE && (
+                      <span className="block text-[10px] font-semibold uppercase tracking-wide text-yellow-500 mt-2">
+                        Coming soon
+                      </span>
+                    )}
                   </button>
                 </div>
+                {!ONLINE_PAYMENTS_LIVE && (
+                  <p className="text-xs text-gray-500 mt-3 leading-relaxed">
+                    {ONLINE_PAYMENT_COMING_SOON_MSG}
+                  </p>
+                )}
               </div>
             )}
-
-            {/* Offers */}
-            <div className="mb-6">
-              <div className="flex items-center justify-between mb-3">
-                <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wider flex items-center gap-2">
-                  <span>🏷️</span> Offers & Discounts
-                </h3>
-                <button className="text-red-500 text-xs font-semibold hover:text-red-400">
-                  VIEW ALL COUPONS
-                </button>
-              </div>
-              <div className="flex gap-2">
-                <input
-                  type="text"
-                  value={couponCode}
-                  onChange={(e) => setCouponCode(e.target.value)}
-                  placeholder="Enter Code"
-                  className="flex-1 bg-[#1e1e1e] border border-gray-700 rounded-xl px-4 py-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:border-red-500"
-                />
-                <button className="bg-[#2a2a2a] border border-gray-700 text-white px-5 py-3 rounded-xl text-sm font-semibold hover:bg-[#333] transition-colors">
-                  APPLY
-                </button>
-              </div>
-            </div>
 
             {/* Order Summary */}
             <div className="space-y-3 mb-6 pt-4 border-t border-gray-800">
               <div className="flex justify-between text-sm text-gray-400">
-                <span>Cart Total</span>
-                <span>₹{cartTotal.toLocaleString()}</span>
+                <span>Subtotal (excl. GST)</span>
+                <span>{formatInr(subtotal)}</span>
+              </div>
+              <div className="flex justify-between text-sm text-gray-400">
+                <span>GST ({GST_PERCENT_LABEL})</span>
+                <span>{formatInr(gstAmount)}</span>
+              </div>
+              <div className="flex justify-between text-sm text-gray-300">
+                <span>Cart total (incl. GST)</span>
+                <span>{formatInr(totalWithGst)}</span>
               </div>
               <div className="flex justify-between text-sm text-gray-400">
                 <span>Shipping (Delhivery)</span>
-                <span>₹{shippingCost}</span>
+                <span>{shippingCost === 0 ? "FREE" : formatInr(shippingCost)}</span>
               </div>
               {codFee > 0 && (
                 <div className="flex justify-between text-sm text-yellow-500">
@@ -463,7 +468,7 @@ export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
             )}
             <button
               onClick={handlePayNow}
-              disabled={isPaying}
+              disabled={isPaying || !deliveryComplete}
               className="w-full bg-red-600 hover:bg-red-700 disabled:opacity-60 disabled:cursor-not-allowed text-white py-4 rounded-full font-bold text-lg flex items-center justify-center gap-2 transition-colors shadow-lg shadow-red-600/30"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -474,7 +479,7 @@ export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
                   d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
                 />
               </svg>
-              {isPaying ? "Redirecting to ICICI…" : "PAY NOW SECURELY"}
+              {isPaying ? "Redirecting to payment…" : "PAY NOW SECURELY"}
             </button>
 
             <p className="text-center text-xs text-gray-500 mt-4">
