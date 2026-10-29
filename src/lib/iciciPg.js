@@ -2,10 +2,35 @@ import crypto from "crypto";
 
 /** ICICI live return / domain validation — always production (not localhost) */
 export const ICICI_PAYMENT_BASE_URL = "https://www.dynacleanindustries.com";
+export const ICICI_PAYMENT_ORIGINS = [
+  "https://www.dynacleanindustries.com",
+  "https://dynacleanindustries.com",
+];
 export const ICICI_RETURN_PATH = "/api/payments/icici/return";
 export const ICICI_WEBHOOK_PATH = "/api/payments/icici/webhook";
 export const ICICI_RETURN_URL = `${ICICI_PAYMENT_BASE_URL}${ICICI_RETURN_PATH}`;
 export const ICICI_WEBHOOK_URL = `${ICICI_PAYMENT_BASE_URL}${ICICI_WEBHOOK_PATH}`;
+
+/** Return URL sent in initiateSale — must match domain whitelisted in ICICI portal */
+export function resolveIciciReturnUrl(paymentOrigin) {
+  const enrolled = process.env.ICICI_PG_RETURN_URL?.trim();
+  if (enrolled) return enrolled;
+
+  const origin = paymentOrigin?.replace(/\/$/, "");
+  if (origin && ICICI_PAYMENT_ORIGINS.includes(origin)) {
+    return `${origin}${ICICI_RETURN_PATH}`;
+  }
+
+  return ICICI_RETURN_URL;
+}
+
+/**
+ * When true, omit returnURL from initiateSale so ICICI uses the URL configured at merchant enrollment.
+ * Set ICICI_PG_USE_ENROLLED_RETURN_URL=1 if DOMAIN VALIDATION FAIL persists (portal return URL must be set).
+ */
+export function shouldOmitReturnUrl() {
+  return process.env.ICICI_PG_USE_ENROLLED_RETURN_URL === "1";
+}
 
 export function getSiteUrl() {
   const url =
@@ -112,7 +137,9 @@ export async function initiateIciciSale(order) {
   const config = assertIciciConfigured();
 
   const merchantTxnNo = generateMerchantTxnNo();
-  const returnURL = ICICI_RETURN_URL;
+  const returnURL = shouldOmitReturnUrl()
+    ? undefined
+    : resolveIciciReturnUrl(order.paymentOrigin);
 
   const payload = {
     amount: formatAmount(order.amount),
@@ -124,11 +151,18 @@ export async function initiateIciciSale(order) {
     aggregatorID: config.aggregatorId,
     merchantTxnNo,
     payType: "0",
-    returnURL,
     transactionType: "SALE",
     txnDate: formatTxnDate(),
     txnChannel: "WEB",
   };
+
+  if (returnURL) {
+    payload.returnURL = returnURL;
+  }
+
+  if (process.env.ICICI_PG_DEBUG === "1") {
+    console.log("[ICICI PG] initiateSale returnURL:", returnURL ?? "(omitted — portal enrolled URL)");
+  }
 
   payload.secureHash = buildSecureHash(payload, config.secretKey);
 
@@ -172,6 +206,7 @@ export async function initiateIciciSale(order) {
     merchantTxnNo,
     redirectUrl,
     tranCtx: data.tranCtx,
+    returnURL: returnURL ?? null,
   };
 }
 

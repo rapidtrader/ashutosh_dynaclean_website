@@ -19,12 +19,26 @@ export async function POST(req) {
       );
     }
 
+    const originHeader = req.headers.get("origin");
+    const referer = req.headers.get("referer");
+    const refererOrigin = referer ? new URL(referer).origin : undefined;
+    const paymentOrigin =
+      body.paymentOrigin?.trim() || originHeader || refererOrigin;
+
     const result = await initiateIciciSale({
       amount,
       name: delivery.name.trim(),
       email: delivery.email?.trim(),
       phone: delivery.phone.trim(),
+      paymentOrigin,
     });
+
+    console.log(
+      "[ICICI PG] initiate OK",
+      result.merchantTxnNo,
+      "returnURL:",
+      result.returnURL ?? "(portal default)"
+    );
 
     return Response.json({
       message: "Redirecting to ICICI payment page…",

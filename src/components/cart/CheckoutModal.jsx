@@ -92,6 +92,7 @@ export default function CheckoutModal({ isOpen, onClose, cart, cartTotal }) {
           pincode,
           deliveryDetails,
           cart,
+          paymentOrigin: window.location.origin,
         }),
       });
 
